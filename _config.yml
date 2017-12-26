@@ -3,6 +3,5 @@ description: Thoughts, stories and ideas
 author: Silvia Botros
 author_email: silviamikhail@gmail.com
 paginate: 100
-paginate_path: "/blog/page:num/"
 
 theme: jekyll-theme-slate
