@@ -2,6 +2,7 @@ title: DBSmasher Corner
 description: Thoughts, stories and ideas
 author: Silvia Botros
 author_email: silviamikhail@gmail.com
+github_username: silviabotros
 gems:
   - jekyll-paginate-v2
 exclude:
