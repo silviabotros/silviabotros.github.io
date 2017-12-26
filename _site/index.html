@@ -1,13 +1,28 @@
-<ul>
+<!-- Just some nice to have styles for the pager buttons -->
+<style>
+  ul.pager { text-align: center; list-style: none; }
+  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+</style>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
   
-    <li><a href="/2017/12/2017-in-review.html">2017 in review</a></li>
   
-    <li><a href="/2017/09/on-leadership-vs-management.html">On leadership vs management</a></li>
+
+  <ul class="post-list">
+    <!-- 
+        Here is the main paginator logic called.
+        All calls to site.posts should be replaced by paginator.posts 
+    -->
+    
+  </ul>
   
-    <li><a href="/2017/05/untitled-chef-audit-mode.html">Chef audit mode</a></li>
+  <!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
   
-    <li><a href="/2016/12/on-being-on-call.html">On being on call</a></li>
-  
-    <li><a href="/2016/03/capacity-planning-databases.html">Capacity planning for databases</a></li>
-  
-</ul>
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>

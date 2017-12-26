@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Using Sensu for DBA tasks
 date: '2015-11-03 21:31:47'
 ---

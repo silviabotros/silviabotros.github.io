@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Scaling MySQL at SendGrid
 featured: true
 date: '2015-02-08 20:09:47'
@@ -19,7 +19,7 @@ At SendGrid, a large portion of our data is housed in 10 distinct MySQL datastor
 
 We collect a lot of statistics on the mail we send. How often email is opened, clicked, marked as spam....etc. These stats used to live in one of our busiest MySQL clusters, peaking at 17,000 transactions per second almost every day. While a lot of our daemons in SendGrid, including our stats writer, use local queues as a method of back pressure at peak traffic times, eventually, we reached a scale that broke known limits of MySQL performance and scalability.  
 
-A benchmark by Percona puts MySQL (with settings comparable to ours) using solid state drives peaking their throughput at 15,000 transactions per second (Benchmark by Percona). There was a very brief moment of pride for our ops team that we had a finely tuned database working as hard as it can be worked. But how do we continue scaling? 
+A benchmark by Percona puts MySQL (with settings comparable to ours) using solid state drives peaking their throughput at 15,000 transactions per second (Benchmark by Percona). There was a very brief moment of pride for our ops team that we had a finely tuned database working as hard as it can be worked. But how do we continue scaling?
 
 This is when we used a strategy known as “Functional Sharding.”  Functional sharding is when you separate parts of your data set to dedicated database clusters based on common functionality in order to split read heavy data (like user login information) from write heavy data (like statistics tables) and gives the ops team the chance to tune each database separately for their specific workload.
 
@@ -29,15 +29,14 @@ Another challenge we face at SendGrid is the sheer size of our data set. MySQL, 
 
 When creating the datastore that will hold information about every single link in a large portion of our email volume, data set size was immediately a concern. Not only the sheer volume of data, but also the fact that we will need to read it at an aggregated rate of 60 thousand IO operations per second and at peak times as millions of recipients open these emails and click links. We also have to keep this data for 8 weeks as people can and will click on links in emails that are that old. This brings the total data set size to 8.8 TBs of data including replicas.
 
-So what is the solution for this? Horizontal sharding. Breaking your data into individual instances of MySQL where each instance looks the same, but the rows contained are separate. This is especially easy to do when the rows can exist independently of each other and you will not do searches across clusters that have to be grouped later. 
+So what is the solution for this? Horizontal sharding. Breaking your data into individual instances of MySQL where each instance looks the same, but the rows contained are separate. This is especially easy to do when the rows can exist independently of each other and you will not do searches across clusters that have to be grouped later.
 
-In order to also maximize the I/O of our solid state drives and the CPU throughput of all those cores, we housed 5 instances of MySQL per box leading to a lot more parallel reads and writes per machine and more IOPS from a single machine. This data store amounts to 75 individual MySQL instances across 44 servers. 
+In order to also maximize the I/O of our solid state drives and the CPU throughput of all those cores, we housed 5 instances of MySQL per box leading to a lot more parallel reads and writes per machine and more IOPS from a single machine. This data store amounts to 75 individual MySQL instances across 44 servers.
 
 ### How to write apps for it all
 
 Whether it is functional or horizontal sharding, most open source object relational mappers do not support this kind of data distribution where the application has to have a context of where the information for different parts of its stack lives. At SendGrid we developed an application that does it all for us. When we started, solving problems of this scale was not common. However, now there are numerous open source projects that support this style of using MySQL. You can choose between jetpants (By Tumblr), Vitess (By YouTube), MySQL Fabric (By Oracle) and a few other open source and proprietary solutions.
 
 ## Things to come
- 
-Here at SendGrid, we always have a bunch of different new services in development at any given time and invariably most, if not all of them, need a datastore and a lot of times that means MySQL. What that means to the ops team is an imperative to keep our MySQL deployments automated and version controlled, and to always look ahead and design schemas and tune configurations for maximum performance and optimal use of resources. 
 
+Here at SendGrid, we always have a bunch of different new services in development at any given time and invariably most, if not all of them, need a datastore and a lot of times that means MySQL. What that means to the ops team is an imperative to keep our MySQL deployments automated and version controlled, and to always look ahead and design schemas and tune configurations for maximum performance and optimal use of resources.

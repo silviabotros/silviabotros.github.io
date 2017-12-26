@@ -1,4 +1,14 @@
-<h3 id="sensu-for-monitoring">Sensu for monitoring</h3>
+<!-- Just some nice to have styles for the pager buttons -->
+<style>
+  ul.pager { text-align: center; list-style: none; }
+  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+</style>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+  
+  <h3 id="sensu-for-monitoring">Sensu for monitoring</h3>
 <p>Here at Sendgrid we spent the last couple of years porting a lot of our service and host monitoring to <a href="https://sensuapp.org/">Sensu</a>. Its solid API support meant we could write all sorts of tooling around it. We also liked the idea of standalone, client side checks that push their status to the Sensu alerting queue asynchronously. If you are new to Sensu or haven’t ever read on it, <a href="https://sensuapp.org/docs/latest/overview">this is a good place to start</a>.</p>
 
 <h3 id="typical-usage-example">Typical usage example</h3>
@@ -103,3 +113,21 @@ end
   <li>Now that tasks like backups are running in a first class citizen tool in our stack, I can more easily add stats and get graphs for how long backups take, how big backups are to make capacity planning and MTTR tracking easier.</li>
 </ul>
 
+
+
+  <ul class="post-list">
+    <!-- 
+        Here is the main paginator logic called.
+        All calls to site.posts should be replaced by paginator.posts 
+    -->
+    
+  </ul>
+  
+  <!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>

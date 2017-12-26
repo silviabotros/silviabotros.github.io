@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Capacity planning for databases
 date: '2016-03-25 03:17:11'
 tags:

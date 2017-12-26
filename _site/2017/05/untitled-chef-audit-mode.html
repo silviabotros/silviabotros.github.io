@@ -1,4 +1,14 @@
-<p>I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.</p>
+<!-- Just some nice to have styles for the pager buttons -->
+<style>
+  ul.pager { text-align: center; list-style: none; }
+  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+</style>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+  
+  <p>I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.</p>
 
 <p>When i first learned chef, the way to test your chef cookbooks was <a href="https://github.com/chef/minitest-chef-handler">chef minitest</a>. But that is <a href="https://github.com/chef/minitest-chef-handler/blob/master/README.md#deprecation-notice">now deprecated</a> and is no longer the recommended test method of chef cookbooks. So what is a DBA who is not always in tune with chef land to do? learn from her teammates of course! 😀</p>
 
@@ -66,3 +76,21 @@ Under the provisioner section of your <code class="highlighter-rouge">.kitchen.y
 <p>So what are the advantages of audit_mode vs the old minitests? well besides the fact that minitest is deprecated, I find that having the test code as part of the recipe tree (and better yet, can even be <em>in</em> the recipe directly) gives a very nice single view of what every recipe should look like and what my view of the state of the host should be based on that. That should come even handier for anyone trying to look at a cookbook I wrote and understand what the cookbook is supposed to do.</p>
 
 <p>Aa I started a journey with chef <a href="https://dbsmasher.com/2015/02/12/-learning-configuration-management-as-a-dba/">a few years back</a>, converting my knowledge on how to build our databases into repeatable cookbooks, I will be spending the next months with the rest of our data ops team converting our resources into chef audit code.</p>
+
+
+  <ul class="post-list">
+    <!-- 
+        Here is the main paginator logic called.
+        All calls to site.posts should be replaced by paginator.posts 
+    -->
+    
+  </ul>
+  
+  <!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>

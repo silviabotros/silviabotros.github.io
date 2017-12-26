@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: On leadership vs management
 date: '2017-09-30 05:10:59'
 ---
