@@ -1,0 +1,41 @@
+---
+layout: post
+title: 2017 in review
+date: '2017-12-25 20:11:42'
+---
+
+In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even _me_ how many significant events have happened in these 12 months. I know one can say that about pretty much every year but it feels more pronounced this time. Without much ado, here is a recap of how this year has been.
+
+### Team of one no more
+
+By the beginning of 2017, we had secured an accepted offer from Bill who was to become Sendgrid's second in house DBA. While the larger tech ops org had always had my back during maternity leaves and vacations and we've always had a strong support team in the folks in Pythian, it was clear that we were overdue for the in house DB Ops team to no longer remain a one woman team.
+
+This was not just a great thing for the team and Sendgrid, but also tremendously useful for my career growth. I had been running on fumes for a while and started to chafe at my day to day tasks, itching to get more involved in large strategy planning rather than drowning in daily tactical tasks. But to do all that I needed to also learn to let go of some things I have had full control over for while. Now, almost a year later, I have realized that having a trusted partner on my team has led to serendipitous changes like letting engineering teams write the chef cookbooks for managing their new database clusters. This process of 'letting go' was a crucial first step to the next big career event in 2017 for me. I was told recently that in the past year I have become more pragmatic. And I think this was the single most unexpected but welcome result of not working in isolation anymore. 
+
+### New title...a whole new role
+
+It was clear to me in 2016 that i was hitting a ceiling in career growth if I remained a single person team doing tactical work all the time. Once the team grew by 100% (😃), I was able to focus more on higher level planning. Getting more involved in architecture blueprints, writing more blog posts, planning my first ever conference talk (more on all that later). 
+
+By late 2017, I earned my promotion to Principal DBA which, while the next step in the IC career track at Sendgrid, is also a role that is far more leadership than 'heads down on code'. Since this promotion, my role has now shifted from working on code to lots and lots of planning and reading or architecture blueprints. Yes, it means more meetings..but it also means having a broader impact on how we build or rebuild pieces of our architecture and supporting entire teams. If being a 'senior engineer' requires one to be a force multiplier within their team, it feels that principal engineer demands that ten times as much and with a much larger impact across the organisation. 
+
+I am still working on accepting changes that have come with this role change, my calendar is certainly a testament and my standup updates are almost always a mix of 'Talked to Person X about project Foo and Person Y about project Bar'. Getting my head as an engineer out of classifying these conversations as 'non work' and instead recognising them as critical collaboration as part of a distributed engineering organisation is now part of my job. As my dear friend Sean Kilgore said in a  tweet:  "My specialty is random conversations. And all of the gdocs suggestions." He meant it in jest but I think this is not a bad goal to have in 2018 😃
+
+### Blog posts
+
+While technical posts such as [How we encrypted our backups](https://sendgrid.com/blog/encrypting-our-backups-making-it-to-that-finish-line/) are always fun and rewarding once a project is complete, it seems like the most popular post I wrote this past year was a more personal one on [management vs leaderhsip](https://dbsmasher.com/2017/09/30/on-leadership-vs-management/). I will not rehash here my thoughts on the subject but I will note that, for all the focus many people in tech put on the code and the tools. It is definitely of note that blog posts on the human interactions side of the job that seem to get a lot more attention and spark more discussion. It is a good thing. It is about time we stopped pretending this field doesn't have human vs human responsibilities. 
+
+### Second tech conference, first talk
+
+One of the highlights of 2017 was being able to attend and speak at LISA. LISA is one of the oldest tech conferences around and through its selections of chairs and talk chairs, has done a great job at being inclusive to attendees and first time speakers, myself included.
+
+My talk was about [working with DBAs in a Devops world](https://www.youtube.com/watch?v=Ym408YX2zTA) which was in part what I talked about, but also the title was more of a hook to talk about "how to architect products by talking to people". I wrote a [preview blog post](https://opensource.com/article/17/10/working-dbas-devops-world) which was very helpful in shaping exactly what I was going to cover besides the outline of the proposal. I also got lots of help and support from wonderful people like [Alice Goldfuss](http://blog.alicegoldfuss.com) and [Connie-Lynne Villani](https://twitter.com/clynnexx) in both enouraging me to submit to LISA and at the conference as a a ball of nervous energy until I was done presenting. 
+
+LISA was also my second ever tech conference to attend and I realized that i now much prefer conferences with really diverse attendance. I got to meet so many fellow women in tech and had plenty of awesome conversations that I will cherish for a long time and it was all because of a planning committee that put real work in making sure the conference had a friendly and inclusive environment.
+
+### IPO!
+
+January 2018 will mark six years working for Sendgrid. When I joined I had no idea that the business of delivering emails was....a business...and possibly a lucrative one. It was a highlight of this year and possibly the rest of my career being in NYC and, in person, watching the company I have poured years of hard work in go public and have its day in the sun. While this is only a milestone and not a destination, it is definitely a milestone many companies strive to accomplish and it felt good being a part of it. 
+
+### Wrap-up
+
+It has been a *very* busy year indeed. I have not yet thought about any personal goals in 2018 but I sure have plenty of them professionally. If it turns out to be half as awesome as 2017 has been, it won't be too bad. 😉
