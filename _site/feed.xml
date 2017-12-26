@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-25T21:45:35-08:00</updated><id>http://localhost:4000//</id><title type="html">DBSmasher Corner</title><subtitle>Thoughts, stories and ideas</subtitle><author><name>Silvia Botros</name></author><entry><title type="html">2017 in review</title><link href="http://localhost:4000/2017/12/2017-in-review.html" rel="alternate" type="text/html" title="2017 in review" /><published>2017-12-25T20:11:42-08:00</published><updated>2017-12-25T20:11:42-08:00</updated><id>http://localhost:4000/2017/12/2017-in-review</id><content type="html" xml:base="http://localhost:4000/2017/12/2017-in-review.html">&lt;p&gt;In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even &lt;em&gt;me&lt;/em&gt; how many significant events have happened in these 12 months. I know one can say that about pretty much every year but it feels more pronounced this time. Without much ado, here is a recap of how this year has been.&lt;/p&gt;
+
+&lt;h3 id=&quot;team-of-one-no-more&quot;&gt;Team of one no more&lt;/h3&gt;
+
+&lt;p&gt;By the beginning of 2017, we had secured an accepted offer from Bill who was to become Sendgrid’s second in house DBA. While the larger tech ops org had always had my back during maternity leaves and vacations and we’ve always had a strong support team in the folks in Pythian, it was clear that we were overdue for the in house DB Ops team to no longer remain a one woman team.&lt;/p&gt;
+
+&lt;p&gt;This was not just a great thing for the team and Sendgrid, but also tremendously useful for my career growth. I had been running on fumes for a while and started to chafe at my day to day tasks, itching to get more involved in large strategy planning rather than drowning in daily tactical tasks. But to do all that I needed to also learn to let go of some things I have had full control over for while. Now, almost a year later, I have realized that having a trusted partner on my team has led to serendipitous changes like letting engineering teams write the chef cookbooks for managing their new database clusters. This process of ‘letting go’ was a crucial first step to the next big career event in 2017 for me. I was told recently that in the past year I have become more pragmatic. And I think this was the single most unexpected but welcome result of not working in isolation anymore.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-titlea-whole-new-role&quot;&gt;New title…a whole new role&lt;/h3&gt;
+
+&lt;p&gt;It was clear to me in 2016 that i was hitting a ceiling in career growth if I remained a single person team doing tactical work all the time. Once the team grew by 100% (😃), I was able to focus more on higher level planning. Getting more involved in architecture blueprints, writing more blog posts, planning my first ever conference talk (more on all that later).&lt;/p&gt;
+
+&lt;p&gt;By late 2017, I earned my promotion to Principal DBA which, while the next step in the IC career track at Sendgrid, is also a role that is far more leadership than ‘heads down on code’. Since this promotion, my role has now shifted from working on code to lots and lots of planning and reading or architecture blueprints. Yes, it means more meetings..but it also means having a broader impact on how we build or rebuild pieces of our architecture and supporting entire teams. If being a ‘senior engineer’ requires one to be a force multiplier within their team, it feels that principal engineer demands that ten times as much and with a much larger impact across the organisation.&lt;/p&gt;
+
+&lt;p&gt;I am still working on accepting changes that have come with this role change, my calendar is certainly a testament and my standup updates are almost always a mix of ‘Talked to Person X about project Foo and Person Y about project Bar’. Getting my head as an engineer out of classifying these conversations as ‘non work’ and instead recognising them as critical collaboration as part of a distributed engineering organisation is now part of my job. As my dear friend Sean Kilgore said in a  tweet:  “My specialty is random conversations. And all of the gdocs suggestions.” He meant it in jest but I think this is not a bad goal to have in 2018 😃&lt;/p&gt;
+
+&lt;h3 id=&quot;blog-posts&quot;&gt;Blog posts&lt;/h3&gt;
+
+&lt;p&gt;While technical posts such as &lt;a href=&quot;https://sendgrid.com/blog/encrypting-our-backups-making-it-to-that-finish-line/&quot;&gt;How we encrypted our backups&lt;/a&gt; are always fun and rewarding once a project is complete, it seems like the most popular post I wrote this past year was a more personal one on &lt;a href=&quot;https://dbsmasher.com/2017/09/30/on-leadership-vs-management/&quot;&gt;management vs leaderhsip&lt;/a&gt;. I will not rehash here my thoughts on the subject but I will note that, for all the focus many people in tech put on the code and the tools. It is definitely of note that blog posts on the human interactions side of the job that seem to get a lot more attention and spark more discussion. It is a good thing. It is about time we stopped pretending this field doesn’t have human vs human responsibilities.&lt;/p&gt;
+
+&lt;h3 id=&quot;second-tech-conference-first-talk&quot;&gt;Second tech conference, first talk&lt;/h3&gt;
+
+&lt;p&gt;One of the highlights of 2017 was being able to attend and speak at LISA. LISA is one of the oldest tech conferences around and through its selections of chairs and talk chairs, has done a great job at being inclusive to attendees and first time speakers, myself included.&lt;/p&gt;
+
+&lt;p&gt;My talk was about &lt;a href=&quot;https://www.youtube.com/watch?v=Ym408YX2zTA&quot;&gt;working with DBAs in a Devops world&lt;/a&gt; which was in part what I talked about, but also the title was more of a hook to talk about “how to architect products by talking to people”. I wrote a &lt;a href=&quot;https://opensource.com/article/17/10/working-dbas-devops-world&quot;&gt;preview blog post&lt;/a&gt; which was very helpful in shaping exactly what I was going to cover besides the outline of the proposal. I also got lots of help and support from wonderful people like &lt;a href=&quot;http://blog.alicegoldfuss.com&quot;&gt;Alice Goldfuss&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/clynnexx&quot;&gt;Connie-Lynne Villani&lt;/a&gt; in both enouraging me to submit to LISA and at the conference as a a ball of nervous energy until I was done presenting.&lt;/p&gt;
+
+&lt;p&gt;LISA was also my second ever tech conference to attend and I realized that i now much prefer conferences with really diverse attendance. I got to meet so many fellow women in tech and had plenty of awesome conversations that I will cherish for a long time and it was all because of a planning committee that put real work in making sure the conference had a friendly and inclusive environment.&lt;/p&gt;
+
+&lt;h3 id=&quot;ipo&quot;&gt;IPO!&lt;/h3&gt;
+
+&lt;p&gt;January 2018 will mark six years working for Sendgrid. When I joined I had no idea that the business of delivering emails was….a business…and possibly a lucrative one. It was a highlight of this year and possibly the rest of my career being in NYC and, in person, watching the company I have poured years of hard work in go public and have its day in the sun. While this is only a milestone and not a destination, it is definitely a milestone many companies strive to accomplish and it felt good being a part of it.&lt;/p&gt;
+
+&lt;h3 id=&quot;wrap-up&quot;&gt;Wrap-up&lt;/h3&gt;
+
+&lt;p&gt;It has been a &lt;em&gt;very&lt;/em&gt; busy year indeed. I have not yet thought about any personal goals in 2018 but I sure have plenty of them professionally. If it turns out to be half as awesome as 2017 has been, it won’t be too bad. 😉&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even me how many significant events have happened in these 12 months. I know one can say that about pretty much every year but it feels more pronounced this time. Without much ado, here is a recap of how this year has been.</summary></entry><entry><title type="html">On leadership vs management</title><link href="http://localhost:4000/2017/09/on-leadership-vs-management.html" rel="alternate" type="text/html" title="On leadership vs management" /><published>2017-09-30T05:10:59-07:00</published><updated>2017-09-30T05:10:59-07:00</updated><id>http://localhost:4000/2017/09/on-leadership-vs-management</id><content type="html" xml:base="http://localhost:4000/2017/09/on-leadership-vs-management.html">&lt;p&gt;&lt;em&gt;This post is a flight of ideas. Blame Charity getting my brain going&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This morning, I came to twitter to find &lt;a href=&quot;https://storify.com/dbsmasher/conversation-with-mipsytipsy-and-jaysoifer&quot;&gt;this thread of tweets&lt;/a&gt; from the always awesome Charity majors.&lt;/p&gt;
+
+&lt;p&gt;This got me thinking about how it seems many poeple in our field, and so many companies by consequence, have adopted the attitude that leadership comes from above. That you must have a certain title to be able to lead in your organization.&lt;/p&gt;
+
+&lt;p&gt;In individual contributors, this can be a sign of lack of maturity. An engineer should not be considered ‘senior’ unless they exhibit a sense of ownership towards the business and a sensibility towards what’s best for the customers. Not only that, but a senior engineer should also be capable of influencing engineers around her to ‘do it right’. That sometimes means the longer way and sometimes even means the less ‘cool’ tech. A senior engineer, even if not a ‘team lead’, should be able to argue, with data, for solutions that provide the most business value with the least amount of risk.&lt;/p&gt;
+
+&lt;p&gt;Similarly, if Junior/associate engineers are to grow in their careers, they should be encouraged to find their passion and translate that into business value. As engineers, we may be insulated from the customer facing work by having support teams and customer sueccess reps but that should not mean we cannot be aware of how the quality of our work impacts the customers and our co workers who have to talk to the customers.&lt;/p&gt;
+
+&lt;p&gt;Sadly we do not learn enough of that in our fancy CS degrees. Too much emphasis is put on algorithms and software and not enough in understanding how to talk to the business side of the company, how to have empathy for the customer facing team members and how to behave and think as one team that is ultimately providing a service to paying customers. I was guilty of this as a fresh grad. I was looking to write code, to play with software that was new to me and handling customers’ issues was a ‘nuisance’ that I just had to deal with. It took the fall of my first company to learn that code and elegant design are nothing if they are not providing a business value and solving a problem for a paying customer.&lt;/p&gt;
+
+&lt;p&gt;This is also a problem of managers. Micro managers, among many other harms, reinforce the idea that only managers can decide how things are done and make decisions. Select all managers who do not advocate for their team and know how to say no during critical organizational planning imply to the team that they cannot drive excellence themselves but have to be told, by some laid out plan devised by executives, what to do.&lt;/p&gt;
+
+&lt;p&gt;Now, that is not to say that the executive perspective is not of value. Far from it, an executive has the position of knowing the market landscape a company is competing in, and owns the strategy of the organization to develop an edge in that marklet. But the executive is not to be expected to know the details and severity of tech debt the company has accumelated and what parts of said tech debt can closely endanger meeting this needed business edge. Without individual contributors understaning their company strategy and making these connections between “this service is old and needs a refactor” and “we need this to make that new product scalable and an easier sell”, the executive team may never see their lofty plans to fruition and ultimately the business will lose customers.&lt;/p&gt;
+
+&lt;p&gt;So what can be done to make this better?&lt;/p&gt;
+
+&lt;p&gt;Yes it involves everyone…&lt;/p&gt;
+
+&lt;p&gt;It is important to make ‘sense of ownership’ a part of performance review for everyone, not just for team leads and line managers. It should be something junior individual contributors strive to internalize in order to grow in their careers and it needs to be something senior team members have to exhibit and are scored on. Remember, it is what goes in the performance review that shows what the company &lt;em&gt;really&lt;/em&gt; values. Since it is literally ‘putting money where your mouth is’. One thing that is &lt;em&gt;very&lt;/em&gt; dangerous, is mistaking when an individual contributor is sounding the alarm about an architectural problem as them being “a cynic” or a “pessimist”. That is especially a problem that women in tech face as we are expected to just be merry and happy all the time and when we point out issues during design reviews, it tends to be seen as being ‘brash’ or ‘harsh’. Actively burying concerns from team members and chalking them off to ‘personality’ or the ever non inclusive phrase ‘team fit’ will only spell long term dysfunction for your organization. Ignore at your own risk.&lt;/p&gt;
+
+&lt;p&gt;Line managers, those whose direct reports are all individual contributors, need to constantly let their reports bubble up pain points in the company tech stack. Involve them in the roadmap planning process. Make sure to communicate to them the strategy and not just ‘here is what we will be doing’. For many people, knowing the why goes a very long way in being invested to do the best possible job. Line managers should encourage the quiet ones to still participate in this discussion even if not in front of the whole team. Sometimes the best feedback on ‘what needs to be fixed’ can come out of 1:1 conversations. Not everyone is comfortable sounding these concerns in a group.&lt;/p&gt;
+
+&lt;p&gt;Finally, directors and executives should be open to feedback from all levels of the organization. Do not wait for this to come to you. At my current company we do a biannual survey that is deliberately anonymous but allows everyone to provide the executive team with feedback from all levels of the company. It is &lt;em&gt;super&lt;/em&gt; important to not just solicit this feedback but to transparently also create action items based on that feedback and report back to the company on the progress of these action items.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Charity and Nicole for sparking this post and to &lt;a href=&quot;https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?ie=UTF8&amp;amp;qid=1506747712&amp;amp;sr=8-1&amp;amp;keywords=the+manager%27s+path&quot;&gt;Camille Fournier’s book&lt;/a&gt; that has given me a great perspective into management.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">This post is a flight of ideas. Blame Charity getting my brain going</summary></entry><entry><title type="html">Chef audit mode</title><link href="http://localhost:4000/2017/05/untitled-chef-audit-mode.html" rel="alternate" type="text/html" title="Chef audit mode" /><published>2017-05-07T20:49:11-07:00</published><updated>2017-05-07T20:49:11-07:00</updated><id>http://localhost:4000/2017/05/untitled-chef-audit-mode</id><content type="html" xml:base="http://localhost:4000/2017/05/untitled-chef-audit-mode.html">&lt;p&gt;I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.&lt;/p&gt;
+
+&lt;p&gt;When i first learned chef, the way to test your chef cookbooks was &lt;a href=&quot;https://github.com/chef/minitest-chef-handler&quot;&gt;chef minitest&lt;/a&gt;. But that is &lt;a href=&quot;https://github.com/chef/minitest-chef-handler/blob/master/README.md#deprecation-notice&quot;&gt;now deprecated&lt;/a&gt; and is no longer the recommended test method of chef cookbooks. So what is a DBA who is not always in tune with chef land to do? learn from her teammates of course! 😀&lt;/p&gt;
+
+&lt;p&gt;With the help of our ops engineering team members, I was directed at some examples in newer cookbooks we have and to the resources supported by InSpec which is what chef-audit is based on.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;So how does chef audit mode work?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Chef audit works exactly like recipe code. In fact, you can write the audit code right inside the recipe it is auditing. It is very natural in its language which makes it very easy to write &lt;em&gt;before&lt;/em&gt; the actual chef code (hint hint: TDD FTW!) and it has lots of &lt;a href=&quot;http://serverspec.org/resource_types.html&quot;&gt;resource types&lt;/a&gt; which make for simple, easy to read and maintain, tests.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;So if I have a cookbook that was using minitest, how can I make it move to chef audit?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to decide where your audit code will live. Your options are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;One gigantic audit recipe that is included in your runlist however you normally include recipes in the cookbook. This option will put all the code in one file but can get unwieldy and large as a cookbook gets more complex&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An &lt;code class=&quot;highlighter-rouge&quot;&gt;_audit_foo.rb&lt;/code&gt; recipe for every &lt;code class=&quot;highlighter-rouge&quot;&gt;foo.rb&lt;/code&gt; recipe you already have. The audit ones have to be separately included as well. This is arguably the most organized manner to do this and can work very well for books with lots of internal recipes where one large audit file can get very large. But it can also feel like recipe sprawl.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add the audit code directly inside each recipe. This is nice because you can then see in the same file both the code that makes the changes and the audits that run to validate the policies around these changes. But again, this can get harder to use if the individual recipe is long or complex&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each of these, as you can see, have pros and cons. The good thing about this flexibility is that you can pick what works best for your cookbook or organization :D&lt;/p&gt;
+
+&lt;p&gt;Now onto an example…or two…&lt;/p&gt;
+
+&lt;p&gt;Say you have this code block in a recipe to drop a script file in a specific spot and make it executable.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby
+cookbook_file '/usr/local/bin/test_backup.sh' do
+  source 'test_backup.sh'
+  owner 'mysql'
+  group 'mysql'
+  mode 0o755
+  action :create
+end
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The code to audit this block would look like this
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby
+control_group 'MySQL BackupTests : Archive access' do
+  control 'test_backup.sh' do
+      describe file('/usr/local/bin/test_backup.sh') do
+        it { should exist }
+        it { should be_file }
+        it { should be_executable }
+        it { should be_owned_by 'mysql' }
+      end
+    end
+end
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, the audit part is very natural in its language, and the resources are quite simple to use. So how do we tell chef to run this audit code in our test environment?&lt;/p&gt;
+
+&lt;p&gt;Presuming you use test kitchen, you need to edit that config to enable audit mode.
+Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quot;&gt;.kitchen.yml&lt;/code&gt; config file, add these 2 lines:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;client_rb:
+  audit_mode: :enabled
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So what are the advantages of audit_mode vs the old minitests? well besides the fact that minitest is deprecated, I find that having the test code as part of the recipe tree (and better yet, can even be &lt;em&gt;in&lt;/em&gt; the recipe directly) gives a very nice single view of what every recipe should look like and what my view of the state of the host should be based on that. That should come even handier for anyone trying to look at a cookbook I wrote and understand what the cookbook is supposed to do.&lt;/p&gt;
+
+&lt;p&gt;Aa I started a journey with chef &lt;a href=&quot;https://dbsmasher.com/2015/02/12/-learning-configuration-management-as-a-dba/&quot;&gt;a few years back&lt;/a&gt;, converting my knowledge on how to build our databases into repeatable cookbooks, I will be spending the next months with the rest of our data ops team converting our resources into chef audit code.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.</summary></entry><entry><title type="html">On being on call</title><link href="http://localhost:4000/2016/12/on-being-on-call.html" rel="alternate" type="text/html" title="On being on call" /><published>2016-12-07T18:38:21-08:00</published><updated>2016-12-07T18:38:21-08:00</updated><id>http://localhost:4000/2016/12/on-being-on-call</id><content type="html" xml:base="http://localhost:4000/2016/12/on-being-on-call.html">&lt;p&gt;In case you don’t follow &lt;a href=&quot;https://sysadvent.blogspot.com/&quot;&gt;SysAdvent&lt;/a&gt; (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by &lt;a href=&quot;https://sysadvent.blogspot.com/2016/12/day-6-no-more-on-call-martyrs.html&quot;&gt;Alice Goldfuss&lt;/a&gt;. I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing ‘conversation’ has been eyeopening.&lt;/p&gt;
+
+&lt;p&gt;A lot of the response has been anger that an operations engineer is advocating for putting developers on call. A lot were quick to suggest that this is a quick way to lose engineers, that it advocates a terrible quality of life, that it stomps on work/life balance and that it ultimately doesn’t serve to improve code quality.&lt;/p&gt;
+
+&lt;p&gt;The most surprising response was suggesting that this call comes from the privilege of not having family/kids responsibilities which I suppose implies only the single people are in ops and carrying pagers.&lt;/p&gt;
+
+&lt;p&gt;I can go on and on about how little empathy I have seen from people who are supposed to be fellow engineers towards their fellow human ops people&lt;/p&gt;
+
+&lt;p&gt;I can go on and on about how many naively suggested that testing and ‘QA’ are sufficient to not need the people who wrote the code to own their work in the real world environment of a system of scale&lt;/p&gt;
+
+&lt;p&gt;I can go on and on about what it says about people who presumes Alice meant “give the developer a pager and send off into the night”…I suppose that’s fine when you do it to the ops gal instead.&lt;/p&gt;
+
+&lt;p&gt;There is a lot to unpack in these responses, many of which disappointing from engineers I respect, but I want to pinpoint 2 things&lt;/p&gt;
+
+&lt;p&gt;What does it mean to put engineers on call&lt;/p&gt;
+
+&lt;p&gt;NO it does not mean spite and no it is not punishment for bugs and no it is not a call for dissolving the lines between life and work. I have written about my experience with burnout before and I wish that on no one.&lt;/p&gt;
+
+&lt;p&gt;What it means to put engineers who write the code on call is that they are the subject matter experts on what is running in production. They know when error foo happens it means the cache layer failed, DNS is taking too long or maybe that the other microservice in that product comprised of about a dozen of them is the one silently failing. You may think an architecture diagram can make stuff like this clear as day but when YOU, the person on the team who has been building this thing for 2 quarters has to look at your own architecture diagram one quarter later to grok which microservice has failed you will realize why you should be paged first.&lt;/p&gt;
+
+&lt;p&gt;This does not mean at all that Ops wants nothing to do with your application paging out at 3 AM. We put our delivery engineering teams (the term ‘delivery’ here is deliberate and very appropriate) on call but they always have an escalation path to ops that is not gated by a timer. Ops still has your back. If you think this is a network problem you are not familiar with, you can immediately page the on call ops engineer and she will help verify where the broken zeros and ones are.&lt;/p&gt;
+
+&lt;p&gt;This is not an effort to spite those who dare push a bug to production. Anyone who has been responsible for production environments knows that will happen. Hell, you don’t even HAVE to introduce bugs through a deploy, really. Unforeseen changes in your environment will cause presumptions to stop being valid and take both those who wrote the code and those with less knowledge of it (Ops) by surprise.&lt;/p&gt;
+
+&lt;p&gt;What this does mean is that we are explicitly saying that the code is useless unless it provides the customers the value they paid for. And when a C level executive has to explain to customers why an outage took X time to resolve, “we couldn’t get the engineering team involved for some time” is not an acceptable answer.&lt;/p&gt;
+
+&lt;p&gt;Your code and my servers and databases are a risk center unless we are both invested in making them run. It is as simple as that.&lt;/p&gt;
+
+&lt;p&gt;What does it mean to be a senior engineer&lt;/p&gt;
+
+&lt;p&gt;It honestly frightened me that people who are senior engineers are balking so hard at giving developers pagers. Maybe they fell for the hyperbole of “we now don’t want developers to sleep either”, maybe they’ve been on call in difficult environments before and that’s the PTSD talking. But I do not believe that any engineer should be called ‘senior’, by title or by implication if they refuse to be reachable in a team rotation in case their own work caused a customer facing issue.&lt;/p&gt;
+
+&lt;p&gt;Note my words because I am trying my best to choose them carefully. ‘customer facing issue’. You can’t give people pagers without making sure you are not paging on bullshit signals that aren’t actually affecting the customers and the business. And surprise, ops engineers are people too.&lt;/p&gt;
+
+&lt;p&gt;So what does this mean? If you fail to see how your code is more than the sum of its functions and test. That it needs to provide real value. If you insist that someone else be the first line of defense when it breaks, then you are failing to acknowledge that as a senior engineer, your job is more than producing code. You are setting a terrible example for junior engineers on your team. They will now learn the lesson of “I don’t have to own that my code provides value once it’s in production”. The damage that mentality will do to an engineering organization is lasting and will take a long time before anyone realizes it is the root for a LOT of tech debt and it takes years to also reverse.&lt;/p&gt;
+
+&lt;p&gt;If you are a manager promoting engineers to senior titles and an emphasis on ownership, including stability, is not a non-negotiable criterion of that promotion then you are damaging your organization. And if you think that a sense of ownership and truly understanding what it takes to create stable systems of scale can happen without ever being paged by a service in production then I am not sure why you are in charge of engineers supposedly building such systems of scale.&lt;/p&gt;
+
+&lt;p&gt;Finally, no one is saying this all ignores our lives outside work. In fact, the opposite. Ops engineers have lives too. We are men and women with spouses and babies who get sick and sometimes are solo parenting. Mature teams have each others’ backs. Mature teams will override set on call shifts when life strikes and that is applauded.&lt;/p&gt;
+
+&lt;p&gt;What I (and I think Alice) are saying is “do not systematically make it acceptable to throw code at the production wall”….not let’s page developers at 3 AM out of spite.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">In case you don’t follow SysAdvent (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by Alice Goldfuss. I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing ‘conversation’ has been eyeopening.</summary></entry><entry><title type="html">Capacity planning for databases</title><link href="http://localhost:4000/2016/03/capacity-planning-databases.html" rel="alternate" type="text/html" title="Capacity planning for databases" /><published>2016-03-25T03:17:11-07:00</published><updated>2016-03-25T03:17:11-07:00</updated><id>http://localhost:4000/2016/03/capacity-planning-databases</id><content type="html" xml:base="http://localhost:4000/2016/03/capacity-planning-databases.html">&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; This is inspired by Julia Evans’ recent post about ….&lt;a href=&quot;http://jvns.ca/blog/2016/03/20/how-do-you-do-capacity-planning/&quot;&gt;capacity planning&lt;/a&gt; 😌&lt;/p&gt;
+
+&lt;h3 id=&quot;ground-rules&quot;&gt;Ground rules&lt;/h3&gt;
+
+&lt;h4 id=&quot;rdbms&quot;&gt;RDBMS&lt;/h4&gt;
+&lt;p&gt;Yes..this post is geared for those of us who use MySQL with a single writer at a time and 2 or more read replicas. A lot of what I will talk about here applies differently, or not at all, to multi writer clustered datastores, although those also come with their own set of compromises and caveats. So…your milage will definitely vary.&lt;/p&gt;
+
+&lt;h4 id=&quot;sharding&quot;&gt;Sharding&lt;/h4&gt;
+
+&lt;p&gt;I have already covered large strokes of this in one of my &lt;a href=&quot;https://blog.dbsmasher.com/2015/02/08/scaling-mysql-at-sendgrid/&quot;&gt;earlier posts&lt;/a&gt;, I mostly focused there on the benefits of functional or horizontal sharding. Yes that is a prerequisite, since what you use to access the database layer WILL decide how much flexibility you have to scale.&lt;/p&gt;
+
+&lt;p&gt;If you are a company that experiences large differences between peak and average traffic, you should be prepared to leave the paradigm of ‘the database’ as a single physical entity behind.&lt;/p&gt;
+
+&lt;h4 id=&quot;ability-to-split-reads-and-writes&quot;&gt;Ability to split reads and writes&lt;/h4&gt;
+
+&lt;p&gt;This is something you will need to be able to do, but not necessarily enforce as a set in stone rule. There will be use cases where a write needs to be read very soon after and where tolerance for things like lag/eventual consistency is low. Those are ok to have, but in the same applications, you will also have scenarios for reads that &lt;em&gt;can&lt;/em&gt; tolerate some longer time span of eventual consistency. When such reads are in high volume, do you really want that volume going to your single writer if it doesn’t really have to? Do yourself a favor, and make sure soon in your growth days that you can control the use of a read or write IP in your code.&lt;/p&gt;
+
+&lt;p&gt;Now onto the thought process of actual capacity planning…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A database cluster is not keeping up. what do I do?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;determine-the-system-bottleneck&quot;&gt;Determine the system bottleneck&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Is the issue high CPU?&lt;/li&gt;
+  &lt;li&gt;Is it IO capacity?&lt;/li&gt;
+  &lt;li&gt;Is it growing lag without a clear query culprit?&lt;/li&gt;
+  &lt;li&gt;Is is locks?&lt;/li&gt;
+  &lt;li&gt;How do I know which it is?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;you-need-a-baseline&quot;&gt;You need a baseline&lt;/h4&gt;
+&lt;p&gt;Once you know what system metric you are mostly bound to, you need to establish baseline and peak values. Otherwise, determining whether your current issue is a bug vs real growth is going to be a lot more error prone than you’d like.&lt;/p&gt;
+
+&lt;p&gt;Basic server metrics can only go so far but at some point you will find you also need context based metrics. Query performance and app side perceived performance will tell you what the application sees as a response time to queries.&lt;/p&gt;
+
+&lt;h4 id=&quot;learn-your-business-traffic-patterns&quot;&gt;Learn your business traffic patterns&lt;/h4&gt;
+&lt;p&gt;Are you a business that is susceptible to peaks in specific weekdays (marketing)? do you have regular launches that triple or quadruple your traffic like gaming? These sorts of questions will drive how much of reserved headroom you should keep or whether you need to invest in elastic growth.&lt;/p&gt;
+
+&lt;h4 id=&quot;determine-the-ratio-of-raw-traffic-numbers-in-relation-to-capacity-in-use&quot;&gt;Determine the ratio of raw traffic numbers in relation to capacity in use&lt;/h4&gt;
+&lt;p&gt;This is simply the answer to “If we made no code optimizations, how many emails/sales/whatever” can we serve with the database instance we have right now?&lt;/p&gt;
+
+&lt;p&gt;Ideally, this a specific value that makes the math towards planning a year’s growth a simple math equation. But life is never ideal and this value will vary depending on season or completely external happy factors like signing up a new major customer. In early startups this number is a faster moving target but it should stabilize as the company transitions from early days to more established business with more predictable business growth patterns.&lt;/p&gt;
+
+&lt;h4 id=&quot;do-i-really-need-to-buy-more-machines&quot;&gt;Do I really need to buy more machines?&lt;/h4&gt;
+&lt;p&gt;You need to find a way to determine if this is truly capacity (I need to split the writes to support more concurrent write load or add more read replicas) vs code based performance bottleneck (this new query can really have its results cached in something cheaper and not beat the database as much).&lt;/p&gt;
+
+&lt;p&gt;How do you do that? You need to get familiar with your queries. The baby step for that is a combination of &lt;a href=&quot;http://innotop.googlecode.com/svn/html/manual.html&quot;&gt;innotop&lt;/a&gt;, slow log and the &lt;a href=&quot;https://www.percona.com/software/mysql-tools/percona-toolkit&quot;&gt;percona toolkit&lt;/a&gt;’s pt-query-digest. You can automate this by shipping the DB logs to a central location and automating the digest portion.&lt;/p&gt;
+
+&lt;p&gt;But that is also not the entire picture, slow logs are performance intensive if you lower their threshold too much. If you need less selective sampling you will need to detect the entire conversations between the application and the datastore. In open source land you can go as basic as tcpdump or you can use hosted products like datadog, newrelic or vivid cortex.&lt;/p&gt;
+
+&lt;h4 id=&quot;make-a-call&quot;&gt;Make a call&lt;/h4&gt;
+&lt;p&gt;Capacity planning can be 90% science and 10% art but that 10% shouldn’t mean that we shouldn’t strive for as much of the picture as we can. As engineers we can sometimes fixate on the missing 10% and not realize that if we did the work, that 90% can get us v far into a better idea of our stack’s health, a more efficient use of our time optimizing performance and planning capacity increases carefully which eventually results in much better return on investment for our products.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><category term="dba101" /><category term="capacity" /><category term="planning" /><summary type="html">Note: This is inspired by Julia Evans’ recent post about ….capacity planning 😌</summary></entry><entry><title type="html">2015 in review…2016 here I come</title><link href="http://localhost:4000/2016/01/2015-review.html" rel="alternate" type="text/html" title="2015 in review...2016 here I come" /><published>2016-01-04T18:22:21-08:00</published><updated>2016-01-04T18:22:21-08:00</updated><id>http://localhost:4000/2016/01/2015-review</id><content type="html" xml:base="http://localhost:4000/2016/01/2015-review.html">&lt;p&gt;&lt;em&gt;This post is inspired by quite a few great posts like this one by &lt;a href=&quot;http://beero.ps/2016/01/01/on-to-2016/&quot;&gt;Ryn Daniels&lt;/a&gt; and &lt;a href=&quot;http://larahogan.me/blog/2014-2015/&quot;&gt;Lara Hogan&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;2015 was a year of lots of changes and lots of growing for me, both professionally and personally. It also had a lot of firsts for me.&lt;/p&gt;
+
+&lt;h3 id=&quot;going-remote&quot;&gt;Going remote&lt;/h3&gt;
+
+&lt;p&gt;Late in 2014, I announced to Sendgrid that I am about to move to South Florida where my husband has been working for months. Sendgrid, while distributed in multiple offices, always had all its employees in one of these offices, no truly remote employees. So this was new territory and it was a new challenge given how I am usually collaborating with more than just the Operations team.&lt;/p&gt;
+
+&lt;p&gt;After a year, while I do not declare it an absolute success, i feel that I would not still be working at Sendgrid if it weren’t for my team’s and managers’ support. It is easy to declare someone a ‘good employee’, with all the different meanings different companies embue that term with. But the support I got from the team was absolutely crucial to my ability to continue providing value to the company.&lt;/p&gt;
+
+&lt;h3 id=&quot;first-tech-conference&quot;&gt;First Tech conference&lt;/h3&gt;
+
+&lt;p&gt;People still get surprised when they hear this but until June of 2015, I had not been to a single tech conference. A combination of being permanently busy, being a mom, moving across country more than a couple of times
+have led to having no time to properly plan any tech conference attendance. Finally I took the plunge and I picked &lt;a href=&quot;http://monitorama.com/&quot;&gt;Monitorama&lt;/a&gt; as my first one.&lt;/p&gt;
+
+&lt;p&gt;The talks were great. One talk I couldn’t stop referring to since returning was &lt;a href=&quot;https://vimeo.com/131484322&quot;&gt;“Engineering happiness”&lt;/a&gt; By Laura Thompson of Mozilla. I could see myself, post and present co workers in the examples she provided on how a happy engineer slowly becomes less happy with the status quo. One of the first things I did once I returned to work, was share that video with my team lead and engineering leader at the time. I felt it was important to share her advice and to internalize it.&lt;/p&gt;
+
+&lt;p&gt;However, conferences are not just about the talks. While I learned a lot in those, I found the hallway track the real gem of that trip and the reason that conference has left lasting memories with me.&lt;/p&gt;
+
+&lt;p&gt;I got to meet lots of people I had been following on twitter for a while that I already learned a lot from, and looked up to. I had a LOT of fun talking about being a woman in the ops community with &lt;a href=&quot;https://twitter.com/beerops&quot;&gt;Katherine Daniels&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/sigje&quot;&gt;Jennifer Davis&lt;/a&gt;. Who are about to publish a &lt;a href=&quot;http://shop.oreilly.com/product/0636920039846.do&quot;&gt;book&lt;/a&gt; I am looking forward to. Another set of conversations that were very educational and have pushed some of my 2016 plans was talking about team leadership and management challenges with Roy Rapaport of Netflix.&lt;/p&gt;
+
+&lt;p&gt;There are too many people to list here that I enjoyed meeting and talking to at Monitorama. And a lot of those conversations shaped and guided things I have done the rest of the year and things I have planned for 2016. 
+I cannot recommend enough how great this conference was. Hat tip to &lt;a href=&quot;https://twitter.com/obfuscurity&quot;&gt;Jason Dixon&lt;/a&gt; for creating that great environment and all the #hugops&lt;/p&gt;
+
+&lt;h3 id=&quot;blog-and-blog-posts&quot;&gt;Blog and blog posts&lt;/h3&gt;
+
+&lt;p&gt;I started this blog early in 2015. It was not the first time I start a blog and I was not sure if I was gonna keep it up. But then I wrote a blog post for my company and I decided that maybe I will want to write more.&lt;/p&gt;
+
+&lt;p&gt;Yes part of that is building personal brand but I was also sometimes frustrated by talking about important things in Devops or in database architecture in 140 character pieces. Yes I did start the blog early in 2015 but it was a blog post by Lara Hogan about &lt;a href=&quot;http://larahogan.me/blog/celebrate-achievements/&quot;&gt;celebrating our achievements&lt;/a&gt;, conversations with my boss in late 2014 and a personal conversation with Jennifer Davis that convinced me that I do have things to say and that my experience so far at Sendgrid could be beneficial to others who are just starting as DBAs.&lt;/p&gt;
+
+&lt;p&gt;Most of what I wrote this year was technical or ‘lessons learned’ in the roller coaster of managing databases at a fast growing company. But I also wrote one post that is near and dear to my heard about &lt;a href=&quot;https://blog.dbsmasher.com/2015/07/29/on-burnout/&quot;&gt;burnout&lt;/a&gt; that got me to face how much I needed to take care of me at the same level of commitment I was taking care of servers and databases.&lt;/p&gt;
+
+&lt;h3 id=&quot;plans&quot;&gt;2016 Plans&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Give a tech conference talk. I submitted my &lt;a href=&quot;https://www.percona.com/live/data-performance-conference-2016/sessions/bringing-devops-dbas-chef&quot;&gt;first ever abstract &lt;/a&gt;. Don’t know yet if it will be accepted but I am excited to go to PLCME for the first time nonetheless&lt;/li&gt;
+  &lt;li&gt;Take better care of me. We hired our second DBA at Sendgrid late 2015. The signs of burnout on me were clear. Nothing is clearer when one performance review says “I fear that Silvia works too hard. She needs to take care of herself” 😊. With onboarding the new member, I hope to be able to split the never ending list of things we need to get done in 2016&lt;/li&gt;
+  &lt;li&gt;A deeper focus on architecture and automation. I have spent a huge portion of the last few years working with engineers on schema design and bringing the first step of database configuration management to fruition. But a mature infrastructure is more than just configuration management and I hope to be able to grow more skills in larger system design, making the database layer more robust and a true PaaS layer&lt;/li&gt;
+  &lt;li&gt;Write more technical blog posts. We do so much at Sendgrid. I think we can share lots of lessons learned and I hope I can help with that.&lt;/li&gt;
+  &lt;li&gt;Get closer to becoming Staff Engineer.&lt;/li&gt;
+  &lt;li&gt;Much more…&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Silvia Botros</name></author><summary type="html">This post is inspired by quite a few great posts like this one by Ryn Daniels and Lara Hogan</summary></entry><entry><title type="html">Using Sensu for DBA tasks</title><link href="http://localhost:4000/2015/11/using-sensu-for-dba-tasks.html" rel="alternate" type="text/html" title="Using Sensu for DBA tasks" /><published>2015-11-03T21:31:47-08:00</published><updated>2015-11-03T21:31:47-08:00</updated><id>http://localhost:4000/2015/11/using-sensu-for-dba-tasks</id><content type="html" xml:base="http://localhost:4000/2015/11/using-sensu-for-dba-tasks.html">&lt;h3 id=&quot;sensu-for-monitoring&quot;&gt;Sensu for monitoring&lt;/h3&gt;
+&lt;p&gt;Here at Sendgrid we spent the last couple of years porting a lot of our service and host monitoring to &lt;a href=&quot;https://sensuapp.org/&quot;&gt;Sensu&lt;/a&gt;. Its solid API support meant we could write all sorts of tooling around it. We also liked the idea of standalone, client side checks that push their status to the Sensu alerting queue asynchronously. If you are new to Sensu or haven’t ever read on it, &lt;a href=&quot;https://sensuapp.org/docs/latest/overview&quot;&gt;this is a good place to start&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;typical-usage-example&quot;&gt;Typical usage example&lt;/h3&gt;
+
+&lt;p&gt;The typical use I have for such standalone checks is health checks, a simple example looks like this in Sensu’s client config&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;checks&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;mysql_alive&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;command&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mysql-alive.rb -h &amp;lt;IP&amp;gt; -d mysql -u :::mysql.user|sensu::: -p :::mysql.password:::&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;handlers&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;default&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;standalone&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;interval&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;notification&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;OMG MySQL is dead!&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But if you look closer, all you really do is tell Sensu to run a command. So this can be…any command. This will be useful in a just a moment.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-i-am-solving&quot;&gt;What I am solving&lt;/h3&gt;
+
+&lt;p&gt;I have been traditionally using the crond service for running local management tasks on databases like rotating partitions and triggering backups. Along with that, we have a report that would check the logs of these jobs, on each backup replica, and make sure they ended in success messages. This is fragile due to a number of reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CronD doesn’t have any built in monitoring. It does not have a concept of ‘stale’&lt;/li&gt;
+  &lt;li&gt;Those reports - I will call them ‘watchers’ - are one more moving part adding complexity to the question ‘when was the last successful backup of my DB?’&lt;/li&gt;
+  &lt;li&gt;This setup is prone to race conditions. You must time the task and its watcher in cron exactly or else the watcher can preemptively trigger an alert or signal failure when the backup is not done yet. Any drift in duration of the task will eventually make this happen (like a backup taking longer as a database grows).&lt;/li&gt;
+  &lt;li&gt;What if the watcher script didn’t run? It is also in CronD - either on the same host or on another host, right? Either you find yourself in a rabbit hole of who watches the watchers, or a human has to notice that a report didn’t come out…humans aren’t good at remembering things.&lt;/li&gt;
+  &lt;li&gt;Changing the designation of a server means you must change it in a number of places or the watcher will watch the wrong host.&lt;/li&gt;
+  &lt;li&gt;We are striving to &lt;a href=&quot;http://mcfunley.com/choose-boring-technology&quot;&gt;keep our stack boring&lt;/a&gt;. While newer technologies like chronos and rundeck provide more enhanced scheduling, they also need a service discovery layer to do this right. That was a bigger undertaking and too much scope creep for what I was solving.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I decided to make Sensu work to my advantage, with the help of chef roles.&lt;/p&gt;
+
+&lt;h3 id=&quot;partition-rotation-in-sensu&quot;&gt;Partition rotation in Sensu&lt;/h3&gt;
+
+&lt;p&gt;I started off by moving any credentials I need for my partition rotation script into Sensu’s redacted configuration. This is good practice for &lt;em&gt;anything&lt;/em&gt; you put into sensu that uses secrets. The credentials are added in &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/sensu/client.json&lt;/code&gt; then are just referenced in check configurations using &lt;code class=&quot;highlighter-rouge&quot;&gt;:::secret_thingie:::&lt;/code&gt; notation.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;_Protip_&lt;/em&gt;: Sensu doesn’t know what to redact in client.json. You must also define the name of the keys you want redacted. like this..&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;redact&quot;: [
+  &quot;other_password&quot;,
+  &quot;password&quot;
+]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This is also not a deep merged list. As you can see I had to explicitly include ‘password’ once I needed to add another key in that list.&lt;/p&gt;
+
+&lt;p&gt;Then I needed to define the new Sensu check that rotates the partitions. I am using a chef resource as the code example.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sensu_check 'add_table_partitions' do
+  command &quot;/usr/local/pdb/bin/pdb-parted --add --interval d +7d.startof h=localhost,u=specialdbuser,p=:::redacted_partition_password:::,D=mydb,t=special_table &amp;gt;&amp;gt; /var/log/partition_rotation.log 2&amp;gt;&amp;amp;1&quot;
+  handlers %w(default_handler special_dba_handler)
+  interval 86400
+  standalone true
+  additional(:occurrences =&amp;gt; 3, :notification =&amp;gt; &quot;#{node['hostname']} failed adding partitions to important table. See log file in /var/log/mail_send_cancel_pause.log&quot;)
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let’s inspect what just happened here…&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;command&lt;/code&gt;:  &lt;a href=&quot;https://github.com/palominodb/PalominoDB-Public-Code-Repository/blob/master/tools/data_mgmt/t/pdb-parted/pdb-parted.t&quot;&gt;pdb-parted&lt;/a&gt; is a very useful perl script by the folks from Palominodb (now at &lt;a href=&quot;http://www.pythian.com/&quot;&gt;Pythian&lt;/a&gt;) for rotating partitions in a MySQL DB. This is the same line I used to maintain in a crontab file configuration.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;interval&lt;/code&gt;: how often this Sensu check runs. In this example these are daily partitions so running the script daily was sufficient. &lt;em&gt;The important part here is that your script is idempotent&lt;/em&gt;. pdb-parted is. If it finds that the needed partitions already exists, it just outputs a message to that effect and exits nicely.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;occurrences&lt;/code&gt;: This is the number of allowed failures before alerting. It is nice to have a buffer especially when I already configure the command to make partitions days/weeks in advance.&lt;/p&gt;
+
+&lt;p&gt;For those who use tools other than chef and want to see what the final check configuration looks like, here it is, important bits redacted:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;checks&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;add_table_partitions&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;command&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/usr/local/pdb/bin/pdb-parted --add --interval m +7m.startof h=localhost,u=specialdbuser,p=:::redacted_partition_password:::,D=mydb,t=special_table &amp;gt;&amp;gt; /var/log/partition_rotation.log 2&amp;gt;&amp;amp;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;handlers&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;default_handler&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;special_dba_handler&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;standalone&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;interval&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;86400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;occurrences&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;notification&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hostname failed adding partitions to special table. See log file in /var/log/partition_rotation.log&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Partition rotation now has built in monitoring. If this script exits with a non zero code, the Sensu handlers take care of getting this knowledge to the predefined group of people using the method we want. We already have multiple on-call team rotations set up and escalation paths and all the other stuff that comes along with monitoring at scale. So we got to just leverage all of that rather than reinventing the wheel.&lt;/p&gt;
+
+&lt;h3 id=&quot;planned-future-improvements&quot;&gt;Planned future improvements&lt;/h3&gt;
+
+&lt;p&gt;No solution is perfect. Neither is this one.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We still run the risk of more than one machine in a cluster holding the primary role. Until service discovery is in place, this is something we can build a check for leveraging chef search.&lt;/li&gt;
+  &lt;li&gt;Now that tasks like backups are running in a first class citizen tool in our stack, I can more easily add stats and get graphs for how long backups take, how big backups are to make capacity planning and MTTR tracking easier.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Silvia Botros</name></author><summary type="html">Sensu for monitoring
+Here at Sendgrid we spent the last couple of years porting a lot of our service and host monitoring to Sensu. Its solid API support meant we could write all sorts of tooling around it. We also liked the idea of standalone, client side checks that push their status to the Sensu alerting queue asynchronously. If you are new to Sensu or haven’t ever read on it, this is a good place to start.</summary></entry><entry><title type="html">On Burnout</title><link href="http://localhost:4000/2015/07/on-burnout.html" rel="alternate" type="text/html" title="On Burnout" /><published>2015-07-29T20:23:02-07:00</published><updated>2015-07-29T20:23:02-07:00</updated><id>http://localhost:4000/2015/07/on-burnout</id><content type="html" xml:base="http://localhost:4000/2015/07/on-burnout.html">&lt;h3 id=&quot;the-not-so-merry-go-round&quot;&gt;The not-so-merry go round&lt;/h3&gt;
+
+&lt;p&gt;There is a lot of talk these days about burnout in our field. A lot of &lt;a href=&quot;http://burnout.io&quot;&gt;great&lt;/a&gt; &lt;a href=&quot;http://mhprompt.org&quot;&gt;initiatives&lt;/a&gt; to get us tech people to not hide it, not sweep it under the rug.&lt;/p&gt;
+
+&lt;p&gt;This is a great start for a more honest conversation about the stresses we all deal with in this industry and yet, a lot of the examples I see of people trying to deal with it is through quitting their current gig, taking a long vacation, then working on finding the next gig.&lt;/p&gt;
+
+&lt;p&gt;In the long run, this is not great for companies’ overall health and more importantly for a team’s health and morale. There are already statistics about how &lt;a href=&quot;http://www.techrepublic.com/blog/career-management/tech-companies-have-highest-turnover-rate/&quot;&gt;churn in IT is the highest compared to other fields&lt;/a&gt; and if you are at all familiar with all the effort that goes into recruiting, hiring and on boarding in our field, you probably already know that it is an expensive process with a lead time in the months. A lot of what i ruminated over the last few weeks wasn’t just my words but also the words of a &lt;a href=&quot;http://logikal.is/blog/2013/04/30/a-month-to-myself/&quot;&gt;dear colleague&lt;/a&gt; who had to do this exact thing a few years back.&lt;/p&gt;
+
+&lt;h3 id=&quot;seeing-it&quot;&gt;Seeing it&lt;/h3&gt;
+
+&lt;p&gt;It may be irrelevant whether our industry makes us wanna appear invincible or if this industry just attracts those of us who want to always appear strong and have it all figured out. But I know &lt;em&gt;I&lt;/em&gt; always try to do that. Family, kid, plus managing a database layer that has expanded twenty-fold in my three and a half years with my current job.&lt;/p&gt;
+
+&lt;p&gt;Let me start with saying that I do not do it alone. Early on we hired consultants to help off load a lot of the DBA tasks. But in the end of the day, I’ve always felt that I am the in house DBA, I own the performance, management, and health of these systems.&lt;/p&gt;
+
+&lt;p&gt;This sense of ownership, while lauded, led me to unrealistic expectations of myself. I was checking work chat all the time, checking email all the time. I had slipped into a pattern of coupling being online/available all the time with doing a good job.&lt;/p&gt;
+
+&lt;p&gt;As the months and quarters rolled by, cracks started to appear.&lt;/p&gt;
+
+&lt;p&gt;I was having less fun with spending time with developers, talking distributed system architecture. Suddenly, I was having the ‘Sunday evening dread’…something I didn’t really think would happen working on so many exciting things and interesting problems for so long.  I could see the snark levels increase in my conversations..&lt;/p&gt;
+
+&lt;p&gt;“yeah I will test this new shiny thing in maybe a few years”&lt;/p&gt;
+
+&lt;p&gt;“Sure…we will someday deprecate this old thing!”&lt;/p&gt;
+
+&lt;h3 id=&quot;corroborating-evidence&quot;&gt;Corroborating evidence&lt;/h3&gt;
+
+&lt;p&gt;Sometimes even though we know something, we need an external source with more experience to confirm to us that it is true, that we aren’t just ‘not good enough’. For me, a lot of that was talks by &lt;a href=&quot;https://twitter.com/lxt&quot;&gt;Laura Thompson&lt;/a&gt; of Mozilla. The &lt;a href=&quot;http://original.livestream.com/etsycodeascraft/video?clipId=pla_b7da40fe-ac51-4a87-ac0b-6002899457eb&amp;amp;utm_source=lslibrary&amp;amp;utm_medium=ui-thumb&quot;&gt;first&lt;/a&gt; is more directed at managers but it absolutely helped me. The &lt;a href=&quot;https://vimeo.com/131484322&quot;&gt;second&lt;/a&gt; was at this year’s Monitorama. All the signs were there. The decrease in my github activity, the constant feeling that I was fighting emergencies all the time, physical and emotional exhaustion, sense of ineffectiveness and lack of accomplishment (Yes, I am now directly quoting the slides)&lt;/p&gt;
+
+&lt;h3 id=&quot;what-to-do&quot;&gt;What to do&lt;/h3&gt;
+
+&lt;h4 id=&quot;own-your-boundaries&quot;&gt;Own your boundaries&lt;/h4&gt;
+
+&lt;p&gt;Being able to separate the time you are working from the time you are not is paramount. In the end, no one owns my well being more than me. I work remote in a different timezone than my team so boundaries were extra important to establish.&lt;/p&gt;
+
+&lt;p&gt;I started off by disallowing any push notifications for work hipchat on my phone. Not accepting meetings past 5 PM. Removing work email from the phone and most importantly, the laptop doesn’t leave the office room during the week.&lt;/p&gt;
+
+&lt;p&gt;What helped me the most was turning off work email on my phone. I needed to accept that email is an asynchronous method of communication and that I shouldn’t feel guilty about not checking it every hour including right before going to sleep. I know this may sound incredibly obvious to some but for me the checking work email and work chat from the phone constantly was like an itch and it took me a while to accept that it was an expectation I was setting for myself and that in the long run it was not making me a more productive employee or a better engineer in any way.&lt;/p&gt;
+
+&lt;h4 id=&quot;talk-to-your-team&quot;&gt;Talk to your team&lt;/h4&gt;
+
+&lt;p&gt;The roles here differ depending on whether you are a manager, or individual contributor. None of this could work without support from my team, including management.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Managers, this is how you avoid churn&lt;/em&gt;.  You need to make sure your team feels safe saying they need a break and to feel safe taking it. None of this ‘unlimited vacation time’ nonsense if no one is actually going on vacation. 1:1s are supremely important here. I am not ignoring that a busy team also means an overwhelmed manager sometimes but this is the time where you as a leader must prioritize keeping in touch with the team than anything else.&lt;/p&gt;
+
+&lt;p&gt;/soapbox&lt;/p&gt;
+
+&lt;p&gt;I am an Individual contributor but I am also one of the more senior team members (in tenure) so accepting that I carry some of the responsibility of setting the tone was necessary. Besides being honest with myself, I needed to be honest with my team. I started letting my project manager and my lead know that I would be staying off chat in the evening. Making sure they have a way to get a hold of me and trusting &lt;em&gt;them&lt;/em&gt; that they will truly only use it sparingly and in emergencies. Without that framework and their support, I may know what I need but I would not feel empowered to act on it and I am very grateful that they let me do that and do the same for themselves so we can all continue working together.&lt;/p&gt;
+
+&lt;h4 id=&quot;talk-to-someone&quot;&gt;Talk to someone&lt;/h4&gt;
+
+&lt;p&gt;This doesn’t have to be a mental health professional although that is also a good thing to do. But in the simpler sense it helps a lot to talk to people who have been or are still going through the same thing, even with a few minor details altered. There is a lot of us in &lt;a href=&quot;http://signup.hangops.com&quot;&gt;hangops.slack.com&lt;/a&gt; who have stories and scars from this. So much so that we have a dedicated mental health channel.&lt;/p&gt;
+
+&lt;h4 id=&quot;work-in-progress&quot;&gt;Work in progress&lt;/h4&gt;
+
+&lt;p&gt;I mentioned in the beginning how I see most people deal with this situation. And there many of us. Does this mean I am looking for a new gig? No. This is not a quitting post :) I like my team. A lot. And I don’t just want to continue working with them but to continue to enjoy it and I want to see them also have a good time working with me. This work in progress has to always start with me recognising what I need and communicating it but I also have a team that has supported the steps I took to ease the stress.&lt;/p&gt;
+
+&lt;p&gt;I can’t stress this enough. I am still learning how to deal with this. I know now I always will be. It is a fine line between being someone who is honest about their work, always caring to go the extra mile and do right by their employer without sacrificing their sanity and inner peace.&lt;/p&gt;
+
+&lt;p&gt;I don’t want to eventually feel contempt and resentment towards that work. I am also not arguing for slacking off in the name of life work balance. Too many companies don’t put a lot of value in keeping their employees healthy in mind as well as body and that is a very good reason to look for another gig, and there are companies that are aware of these pressures and challenges but are only beginning to truly acknowledge them and begin a conversation about them.&lt;/p&gt;
+
+&lt;p&gt;It is on all of us to not try to be individual heroes/ninjas/rockstars and instead promote teams of healthy, rested, smart engineers with well balanced lives.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Many thanks to Sean Kilgore, Jennifer Davis and Charity Majors for helping put these thoughts to words&lt;/em&gt;&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">The not-so-merry go round</summary></entry><entry><title type="html">Alfred, csshx and terminalception</title><link href="http://localhost:4000/2015/03/alfred-csshx-and-terminalception.html" rel="alternate" type="text/html" title="Alfred, csshx and terminalception" /><published>2015-03-06T14:47:41-08:00</published><updated>2015-03-06T14:47:41-08:00</updated><id>http://localhost:4000/2015/03/alfred-csshx-and-terminalception</id><content type="html" xml:base="http://localhost:4000/2015/03/alfred-csshx-and-terminalception.html">&lt;h3 id=&quot;alfred-csshx-and-terminalception&quot;&gt;Alfred, csshx and terminalception&lt;/h3&gt;
+
+&lt;p&gt;I use Tmux usually but Tmux on the mac has not been playing nice with csshx for me. Something in the dark magic of perl broke with an error that looks like this&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mar  5 08:58:42 silvias-MacBookPro.local perl[10828] &lt;Error&gt;: ImageIO: CGImageDestinationFinalize image destination must have at least one image
+2015-03-05 08:58:42.473 perl5.18[10828:2436454] CGImageDestinationFinalize failed for output type 'public.tiff'
+**** ERROR **** PerlObjCBridge:: convertPerlToObjC(): Referenced thingy not blessed
+**** ERROR **** PerlObjCBridge:: convertArg() for index 2: convertPerlToObjC() failed
+**** ERROR **** PerlObjCBridge:: sendObjcMessage: Error converting argument 1 for message &quot;setObject:forKey:&quot;
+**** ERROR **** PerlObjCBridge: error [1] sending message [__NSDictionaryM setObject:forKey:] at /System/Library/Perl/Extras/5.18/darwin-thread-multi-2level/PerlObjCBridge.pm line 248.&lt;/Error&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But I wasn’t about to let that take away my terminalception magic :)&lt;/p&gt;
+
+&lt;p&gt;Note: This is for a mac environment but you may emulate it in your favourite distro by replacing Alfred with whatever launcher you may use.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-you-need&quot;&gt;What you need&lt;/h4&gt;
+&lt;p&gt;Alfred app is my favorite launcher in mac but I suspect Quicksilver (if you are the quaint type) can also run commands directly to the terminal.&lt;/p&gt;
+
+&lt;p&gt;Next install Homebrew. You need this to install csshx easily. Also because GNU tools :)
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Install csshx&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew install csshx&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are chef shop like mine, a lot of times what you are looking for is to ssh to all the machines of a certain type. In chef, we call those roles. This step will change depending on the configuration management/service discovery framework of choice in your infrastructure.&lt;/p&gt;
+
+&lt;p&gt;First, set the terminal app your alfred will use. I set it to Terminal because I wanted this to be separate from my usual workspace in iTerm 2&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/735/22396914786_e46c0ed4cd_b.jpg&quot; alt=&quot;Alfred settings&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, when I want to fire up csshX to a bunch of our our servers all at once, it usually looks like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Protip&lt;/em&gt;: knife ssh can take cssh as an argument, so no awk and bash pipes required.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5793/22433815321_7b1f1fced2_b.jpg&quot; alt=&quot;alfred term&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This fires up Terminal, which runs the chef search, and opens separate windows.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5805/22422959375_891c2f313a_k.jpg&quot; alt=&quot;csshx cap&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Your cursor will be in the bottom red window by default and input will appear in all the windows at the same time. When done, CMD+Q will bring this window&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/744/22422971645_735d9473b9_b.jpg&quot; alt=&quot;quit window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And done :)&lt;/p&gt;</content><author><name>Silvia Botros</name></author><category term="tips" /><category term="tricks" /><category term="workflow" /><summary type="html">Alfred, csshx and terminalception</summary></entry><entry><title type="html">Learning configuration management as a DBA</title><link href="http://localhost:4000/2015/02/learning-configuration-management-as-a-dba.html" rel="alternate" type="text/html" title="Learning configuration management as a DBA" /><published>2015-02-13T01:49:42-08:00</published><updated>2015-02-13T01:49:42-08:00</updated><id>http://localhost:4000/2015/02/-learning-configuration-management-as-a-dba</id><content type="html" xml:base="http://localhost:4000/2015/02/learning-configuration-management-as-a-dba.html">&lt;h3 id=&quot;how-its-been&quot;&gt;How it’s been&lt;/h3&gt;
+&lt;p&gt;Before SendGrid, I used to deploy all my databases by hand. I’d have a documentation page (a google doc, internal wiki page…whatever). And it would be a long bulleted list of “Install this, then install this”. If you have ever maintained ‘How to’ documents like that, This picture will eventually ring true.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://s4.postimg.org/44kc215hp/code_comment.png&quot; alt=&quot;code comments&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was not a good approach, obviously. Especially when small details start changing but the ‘documentation’ lags behind. Now you have a situation that enables tribal knowledge which means 3 am ops person who is not the DBA has even less of an ability to know what should be running on a database and how it should look like under normal operations.&lt;/p&gt;
+
+&lt;h3 id=&quot;multiply-bya-lot&quot;&gt;Multiply by…a lot&lt;/h3&gt;
+&lt;p&gt;Then came my largest deployment to date at Sendgrid. We needed a data store for storing the click and open tracking for our short URLs and we decided to use MySQL as the place for this. This was going to be a ton of rows with a high demand on fast writes and supporting a &lt;em&gt;lot&lt;/em&gt; of reads. So a single instance was not going to cut it.&lt;/p&gt;
+
+&lt;p&gt;Because MySQL 5.5 was the standard GA version at the time, we were still limited to a MySQL that didn’t very efficiently use all the cores newer server configuraitons could offer. So to squeeze out the most performance out of our not so cheap hardware, we also decided to house 5 MySQL instances per box. The way to do that was add a Virtual IP per instance on the box, use distinct data directories and config files per instance while still making sure that all 5 instances are ‘equal’ so as not to let one starve the others of system resources.&lt;/p&gt;
+
+&lt;h3 id=&quot;enter-chef&quot;&gt;Enter chef&lt;/h3&gt;
+&lt;p&gt;As you can see where I am going with this, it became very clear to me that I could not successfully deploy this new cluster (the biggest I had done yet) using the same old method. I needed a way to automate the building of these clusters and I needed that to also be an easy method of maintaining the state of these clusters (configuration or MySQL and teh system underneath) in code.&lt;/p&gt;
+
+&lt;p&gt;So why chef? Simply put, it was what Sendgrid had already been using for configuration management and what is now often called ‘Infrastructure as code’. I wanted this datastore to begin the effort of not making what I do seem like black magic…because it really isn’t. I work with a team of great operations engineers and when trying to scale traffic to double or more annually with a not very big team, consistency of tools is of extreme importance.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-i-learned&quot;&gt;What I learned&lt;/h3&gt;
+&lt;p&gt;Learning chef as a DBA was an interesting experience. I will preface this section by saying that 2 years later, I am rewriting not just the cookbook for this data cluster but all of my chef code at Sendgrid. There are many things I learned the hard way in that first major iteration and I can imagine the same pitfalls happening to others in a DBA or similar roles in other companies.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Write your own cookbook&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I am not going to go into code samples. There are a few community cookbooks for installing MySQL/Percone Server and I consider them all a great place to find examples. Yes, you can absolutely grab them and deploy MySQL with them and I imagine for many budding teams this may be a very fine path to take. But know the debt you take on when grabbing someone else’s code to deploy your infrastructure. I chose from the very beginning to write my own cookbook because by the time I started, Sendgrid was already doing a huge throughput and that comes with a number of tweaks.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When things are similar but not the same&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When I started on this cookbook writing adventure, I thought my different database clusters were similar enough to use one cookbook with just some attribute differences. And maybe when I strated 2+ years ago that was true. Very quickly though, as we sharded more tables into their own clusters, plus added a few more brand new projects using MySQL, that stopped being true. I found myself maintaining the monorail of database cookbooks. Making its testing strategy truly comprehensive meant 3 test kitchen suites &lt;em&gt;per database kind&lt;/em&gt;. Build times grew exponentially.&lt;/p&gt;
+
+&lt;p&gt;This is why in this rewrite I am heavily using what is basically a wrapper style. Yes, most of my MySQL deployments use what is more or less the same pattern, but usually in the post server install time, things diverge. And there are few things as frustrating as watching a multi hour jenkins build because I changed a config file for a specific database type.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Embrace your organisation’s cookbook hierarchy&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Besides automation, making my life easier…etc. First and foremost, I decided to learn chef and write cookbooks for our databases because &lt;em&gt;database land should not be an island&lt;/em&gt;. This is why in my rewrites I made sure the operations engineering team reviewed my code. Not only is peer review from them, being immersed in chef the most, so useful. They also know what parts of system management we decided to turn into internal lightweight resources, making my code even simpler and no reinventing my mostly the same but not quite wheel. This has made the rewritten cookbooks much easier to follow and maintain.&lt;/p&gt;
+
+&lt;p&gt;This rewrite is not done. I only have a few clusters left with cookbooks in progress for them already. I have learned quite a lot about being a operations engineer working on this project.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">How it’s been
+Before SendGrid, I used to deploy all my databases by hand. I’d have a documentation page (a google doc, internal wiki page…whatever). And it would be a long bulleted list of “Install this, then install this”. If you have ever maintained ‘How to’ documents like that, This picture will eventually ring true.</summary></entry></feed>
