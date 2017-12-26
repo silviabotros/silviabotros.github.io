@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: On being on call
 date: '2016-12-07 18:38:21'
 ---

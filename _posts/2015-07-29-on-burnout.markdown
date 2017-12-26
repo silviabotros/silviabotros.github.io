@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: On Burnout
 date: '2015-07-29 20:23:02'
 ---

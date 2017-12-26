@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Scaling MySQL at SendGrid
 featured: true
 date: '2015-02-08 20:09:47'

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 2015 in review...2016 here I come
 date: '2016-01-04 18:22:21'
 ---
