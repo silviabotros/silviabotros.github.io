@@ -1,4 +1,4 @@
-name: DBSmasher Corner
+title: DBSmasher Corner
 description: Thoughts, stories and ideas
 author: Silvia Botros
 author_email: silviamikhail@gmail.com
@@ -18,7 +18,7 @@ permalink: /:year/:month/:title.html
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 3
+  per_page: 20
   permalink: '/page/:num/'
   title: ':title - page :num of :max'
   limit: 0
