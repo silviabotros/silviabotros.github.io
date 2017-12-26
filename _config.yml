@@ -1,4 +1,4 @@
-title: DBSmasher Corner
+title: dbsmasher corner
 description: Thoughts, stories and ideas
 author: Silvia Botros
 author_email: silviamikhail@gmail.com
@@ -17,13 +17,19 @@ permalink: /:year/:month/:title.html
 # paginate_path: nil
 
 # Pagination Settings
-pagination:
-  enabled: true
-  per_page: 20
-  permalink: '/page/:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+# pagination:
+#   enabled: true
+#   per_page: 20
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+
+# Old jekyll-paginate pagination logic
+#   Uncomment thew two entries below to demonstrate how this new gem
+#   retains backwards compatibility with the old pagination logic
+paginate: 50
+paginate_path: "/legacy/page:num/"
 
 theme: jekyll-theme-midnight
