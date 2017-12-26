@@ -1,14 +1,4 @@
-<!-- Just some nice to have styles for the pager buttons -->
-<style>
-  ul.pager { text-align: center; list-style: none; }
-  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
-</style>
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-  
-  <h3 id="how-its-been">How it’s been</h3>
+<h3 id="how-its-been">How it’s been</h3>
 <p>Before SendGrid, I used to deploy all my databases by hand. I’d have a documentation page (a google doc, internal wiki page…whatever). And it would be a long bulleted list of “Install this, then install this”. If you have ever maintained ‘How to’ documents like that, This picture will eventually ring true.</p>
 
 <p><img src="http://s4.postimg.org/44kc215hp/code_comment.png" alt="code comments" /></p>
@@ -43,21 +33,3 @@
 <p>Besides automation, making my life easier…etc. First and foremost, I decided to learn chef and write cookbooks for our databases because <em>database land should not be an island</em>. This is why in my rewrites I made sure the operations engineering team reviewed my code. Not only is peer review from them, being immersed in chef the most, so useful. They also know what parts of system management we decided to turn into internal lightweight resources, making my code even simpler and no reinventing my mostly the same but not quite wheel. This has made the rewritten cookbooks much easier to follow and maintain.</p>
 
 <p>This rewrite is not done. I only have a few clusters left with cookbooks in progress for them already. I have learned quite a lot about being a operations engineer working on this project.</p>
-
-
-  <ul class="post-list">
-    <!-- 
-        Here is the main paginator logic called.
-        All calls to site.posts should be replaced by paginator.posts 
-    -->
-    
-  </ul>
-  
-  <!-- 
-    Showing buttons to move to the next and to the previous list of posts (pager buttons).
-  -->
-  
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>

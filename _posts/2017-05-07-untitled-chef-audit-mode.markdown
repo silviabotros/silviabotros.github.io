@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Chef audit mode
 date: '2017-05-07 20:49:11'
 ---

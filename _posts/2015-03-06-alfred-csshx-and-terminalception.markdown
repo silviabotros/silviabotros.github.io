@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Alfred, csshx and terminalception
 date: '2015-03-06 14:47:41'
 tags:

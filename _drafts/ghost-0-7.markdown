@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: You've been upgraded to the latest version of Ghost
 ---
 
