@@ -25,4 +25,4 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
