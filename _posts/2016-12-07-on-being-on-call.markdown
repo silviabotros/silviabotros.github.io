@@ -2,6 +2,9 @@
 layout: dark-post
 title: On being on call
 date: '2016-12-07 18:38:21'
+tags:
+- careers
+- teams
 ---
 
 In case you don't follow [SysAdvent](https://sysadvent.blogspot.com/) (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by [Alice Goldfuss](https://sysadvent.blogspot.com/2016/12/day-6-no-more-on-call-martyrs.html). I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing 'conversation' has been eyeopening.

@@ -11,7 +11,7 @@
     {
       "title"    : "On leadership vs management",
       "category" : "",
-      "tags"     : "teams",
+      "tags"     : "teams, careers",
       "url"      : "http://localhost:4000/on-leadership-vs-management/",
       "date"     : "2017-09-30 05:10:59 -0700"
     } ,
@@ -27,7 +27,7 @@
     {
       "title"    : "On being on call",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "careers, teams",
       "url"      : "http://localhost:4000/on-being-on-call/",
       "date"     : "2016-12-07 18:38:21 -0800"
     } ,
@@ -51,7 +51,7 @@
     {
       "title"    : "Using Sensu for DBA tasks",
       "category" : "",
-      "tags"     : "infra_as_code",
+      "tags"     : "infra_as_code, workflow",
       "url"      : "http://localhost:4000/using-sensu-for-dba-tasks/",
       "date"     : "2015-11-03 21:31:47 -0800"
     } ,
@@ -59,7 +59,7 @@
     {
       "title"    : "On Burnout",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "careers",
       "url"      : "http://localhost:4000/on-burnout/",
       "date"     : "2015-07-29 20:23:02 -0700"
     } ,

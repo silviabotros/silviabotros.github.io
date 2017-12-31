@@ -4,6 +4,7 @@ title: Using Sensu for DBA tasks
 date: '2015-11-03 21:31:47'
 tags:
 - infra_as_code
+- workflow
 ---
 
 ### Sensu for monitoring

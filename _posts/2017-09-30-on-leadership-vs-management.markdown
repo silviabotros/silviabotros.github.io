@@ -4,6 +4,7 @@ title: On leadership vs management
 date: '2017-09-30 05:10:59'
 tags:
 - teams
+- careers
 ---
 
 _This post is a flight of ideas. Blame Charity getting my brain going_
