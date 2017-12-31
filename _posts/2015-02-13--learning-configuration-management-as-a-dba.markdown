@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: dark-post
 title: Learning configuration management as a DBA
 date: '2015-02-13 01:49:42'
 ---

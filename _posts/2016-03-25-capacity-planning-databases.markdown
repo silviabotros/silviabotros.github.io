@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: dark-post
 title: Capacity planning for databases
 date: '2016-03-25 03:17:11'
 tags:
@@ -59,4 +59,4 @@ How do you do that? You need to get familiar with your queries. The baby step fo
 But that is also not the entire picture, slow logs are performance intensive if you lower their threshold too much. If you need less selective sampling you will need to detect the entire conversations between the application and the datastore. In open source land you can go as basic as tcpdump or you can use hosted products like datadog, newrelic or vivid cortex.
 
 #### Make a call
-Capacity planning can be 90% science and 10% art but that 10% shouldn't mean that we shouldn't strive for as much of the picture as we can. As engineers we can sometimes fixate on the missing 10% and not realize that if we did the work, that 90% can get us v far into a better idea of our stack's health, a more efficient use of our time optimizing performance and planning capacity increases carefully which eventually results in much better return on investment for our products. 
+Capacity planning can be 90% science and 10% art but that 10% shouldn't mean that we shouldn't strive for as much of the picture as we can. As engineers we can sometimes fixate on the missing 10% and not realize that if we did the work, that 90% can get us v far into a better idea of our stack's health, a more efficient use of our time optimizing performance and planning capacity increases carefully which eventually results in much better return on investment for our products.

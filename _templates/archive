@@ -1,0 +1,6 @@
+---
+layout: dark-post-index
+title: {{ title }}
+permalink:
+description:
+---

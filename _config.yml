@@ -1,36 +1,90 @@
-title: dbsmasher corner
-description: Thoughts, stories and ideas
-author: Silvia Botros
-author_email: silviamikhail@gmail.com
-github_username: silviabotros
-gems:
-  - jekyll-paginate-v2
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+title:            dbsmasher corner
+description:      Thoughts, stories and ideas
 
-# Produces a cleaner folder structure when using categories
-permalink: /:year/:month/:title.html
+# put your disqus here
+disqus_shortname:
+reading_time:     true # if true, shows the estimated reading time for a post
+words_per_minute: 200
+logo:             images/logo.png # logo visible in the topbar
+excerpt_separator: <!--more-->
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
 
-# Explicitly turn off the old code
-# paginate: nil
-# paginate_path: nil
+url: https://dbsmasher.com
 
-# Pagination Settings
-# pagination:
-#   enabled: true
-#   per_page: 20
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+# draw your top menu here
+# each item must have a title and a url.
+#   To list post categories. use type: 'categories'
+#   To create sub categories. add a submenu item
+# See the example
+menu:
+  - title: 'Home'
+    url: '/'
+  - title: 'Tags'
+    url: '/tags'
 
-# Old jekyll-paginate pagination logic
-#   Uncomment thew two entries below to demonstrate how this new gem
-#   retains backwards compatibility with the old pagination logic
-paginate: 50
-paginate_path: "/legacy/page:num/"
+# Owner/author information
+owner:
+  name:           Silvia Botros
+  site:           https://dbsmasher.com
+  avatar:         images/avatar.jpg
+  bio:            "Silvia is a Principal DBA at SendGrid and a mother of three active junior DBAs."
+  email:          silviamikhail@gmail.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: dbsmasher # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: silviabotros
 
-theme: jekyll-theme-midnight
+# Twitter account associated with the site if different from owner/author twitter account.
+# Used in Twitter cards.
+twitter: dbsmasher
+
+# Social networking links used in author block underneath posts. Update and remove as you like.
+social:
+  - title: "github"
+    url: "https://github.com/silviabotros"
+  - title: "linkedin"
+    url: "http://www.linkedin.com/in/silviabotros"
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Los_Angeles
+locale:      en_US
+future:      true
+highlighter: rouge
+markdown:    kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+# if true, shows the floatting share buttons
+float_share: true
+
+# Octopress
+# Default extensions
+post_ext: md
+page_ext: md
+# Found in _templates/
+post_layout: dark-post
+page_layout: page
+# Format titles with titlecase?
+titlecase: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+gems: [jekyll-paginate]
+theme: neo-hpstr-jekyll-theme

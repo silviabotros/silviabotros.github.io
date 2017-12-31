@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: dark-post
 title: On leadership vs management
 date: '2017-09-30 05:10:59'
+tags:
+- teams
 ---
 
 _This post is a flight of ideas. Blame Charity getting my brain going_
@@ -10,7 +12,7 @@ This morning, I came to twitter to find [this thread of tweets]( https://storify
 
 This got me thinking about how it seems many poeple in our field, and so many companies by consequence, have adopted the attitude that leadership comes from above. That you must have a certain title to be able to lead in your organization.
 
-In individual contributors, this can be a sign of lack of maturity. An engineer should not be considered 'senior' unless they exhibit a sense of ownership towards the business and a sensibility towards what's best for the customers. Not only that, but a senior engineer should also be capable of influencing engineers around her to 'do it right'. That sometimes means the longer way and sometimes even means the less 'cool' tech. A senior engineer, even if not a 'team lead', should be able to argue, with data, for solutions that provide the most business value with the least amount of risk. 
+In individual contributors, this can be a sign of lack of maturity. An engineer should not be considered 'senior' unless they exhibit a sense of ownership towards the business and a sensibility towards what's best for the customers. Not only that, but a senior engineer should also be capable of influencing engineers around her to 'do it right'. That sometimes means the longer way and sometimes even means the less 'cool' tech. A senior engineer, even if not a 'team lead', should be able to argue, with data, for solutions that provide the most business value with the least amount of risk.
 
 Similarly, if Junior/associate engineers are to grow in their careers, they should be encouraged to find their passion and translate that into business value. As engineers, we may be insulated from the customer facing work by having support teams and customer sueccess reps but that should not mean we cannot be aware of how the quality of our work impacts the customers and our co workers who have to talk to the customers.
 

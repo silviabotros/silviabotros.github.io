@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: dark-post
 title: Using Sensu for DBA tasks
 date: '2015-11-03 21:31:47'
+tags:
+- infra_as_code
 ---
 
 ### Sensu for monitoring
@@ -104,5 +106,3 @@ No solution is perfect. Neither is this one.
 
 * We still run the risk of more than one machine in a cluster holding the primary role. Until service discovery is in place, this is something we can build a check for leveraging chef search.
 * Now that tasks like backups are running in a first class citizen tool in our stack, I can more easily add stats and get graphs for how long backups take, how big backups are to make capacity planning and MTTR tracking easier.
-
-

@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: dark-post
 title: Chef audit mode
 date: '2017-05-07 20:49:11'
+tags:
+- infra_as_code
 ---
 
 I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.

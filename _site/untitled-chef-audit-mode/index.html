@@ -1,0 +1,314 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Chef audit mode &#8211; dbsmasher corner</title>
+<meta name="description" content="Thoughts, stories and ideas">
+<meta name="keywords" content="infra_as_code">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dbsmasher">
+<meta name="twitter:creator" content="@dbsmasher">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chef audit mode">
+<meta property="og:description" content="Thoughts, stories and ideas">
+<meta property="og:url" content="http://localhost:4000/untitled-chef-audit-mode/">
+<meta property="og:site_name" content="dbsmasher corner">
+<meta property="og:image" content="http://localhost:4000/images/images/logo.png">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/untitled-chef-audit-mode/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="dbsmasher corner Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.floating-social-share.min.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<div class="header-menu header-menu-top">
+    <ul class="header-item-container">
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="http://localhost:4000/">
+          
+            <img class="logo" src="http://localhost:4000/images/logo.png" alt="dbsmasher corner">
+          
+          <a href="http://localhost:4000/" class="title"> dbsmasher corner</a>
+        </a>
+      </li>
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/tags"><h3>Tags</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/"><h3>Home</h3></a></li>
+            
+        
+      
+      <li class="header-item"><a href="http://localhost:4000/search"><h3><i class="fa fa-search"></i></h3></a></li>
+    </ul>
+  </div>
+<div class="entry-header">
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>Chef audit mode</h1>
+      
+        <h2><span class="entry-date date published updated"><time datetime="2017-05-07T20:49:11-07:00">May 07, 2017</time></span></h2>
+      
+
+      
+          <p class="entry-reading-time">
+            &nbsp;
+          </p><!-- /.entry-reading-time -->
+      
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    
+      
+        <li><a href="http://localhost:4000/"><h3>Home</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/tags"><h3>Tags</h3></a></li>
+      
+    
+  </ul>
+</nav>
+
+
+  <a href="https://twitter.com/dbsmasher" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @dbsmasher</span></a>
+
+
+
+<div id="main" role="main">
+  <article class="hentry hentry-dark">
+    <div class="entry-content">
+      
+      <h1 class="post-title entry-title">Chef audit mode</h1>
+      <p>I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.</p>
+
+<p>When i first learned chef, the way to test your chef cookbooks was <a href="https://github.com/chef/minitest-chef-handler">chef minitest</a>. But that is <a href="https://github.com/chef/minitest-chef-handler/blob/master/README.md#deprecation-notice">now deprecated</a> and is no longer the recommended test method of chef cookbooks. So what is a DBA who is not always in tune with chef land to do? learn from her teammates of course! 😀</p>
+
+<p>With the help of our ops engineering team members, I was directed at some examples in newer cookbooks we have and to the resources supported by InSpec which is what chef-audit is based on.</p>
+
+<p><em>So how does chef audit mode work?</em></p>
+
+<p>Chef audit works exactly like recipe code. In fact, you can write the audit code right inside the recipe it is auditing. It is very natural in its language which makes it very easy to write <em>before</em> the actual chef code (hint hint: TDD FTW!) and it has lots of <a href="http://serverspec.org/resource_types.html">resource types</a> which make for simple, easy to read and maintain, tests.</p>
+
+<p><em>So if I have a cookbook that was using minitest, how can I make it move to chef audit?</em></p>
+
+<p>You need to decide where your audit code will live. Your options are:</p>
+
+<ul>
+  <li>
+    <p>One gigantic audit recipe that is included in your runlist however you normally include recipes in the cookbook. This option will put all the code in one file but can get unwieldy and large as a cookbook gets more complex</p>
+  </li>
+  <li>
+    <p>An <code class="highlighter-rouge">_audit_foo.rb</code> recipe for every <code class="highlighter-rouge">foo.rb</code> recipe you already have. The audit ones have to be separately included as well. This is arguably the most organized manner to do this and can work very well for books with lots of internal recipes where one large audit file can get very large. But it can also feel like recipe sprawl.</p>
+  </li>
+  <li>
+    <p>Add the audit code directly inside each recipe. This is nice because you can then see in the same file both the code that makes the changes and the audits that run to validate the policies around these changes. But again, this can get harder to use if the individual recipe is long or complex</p>
+  </li>
+</ul>
+
+<p>Each of these, as you can see, have pros and cons. The good thing about this flexibility is that you can pick what works best for your cookbook or organization :D</p>
+
+<p>Now onto an example…or two…</p>
+
+<p>Say you have this code block in a recipe to drop a script file in a specific spot and make it executable.</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cookbook_file</span> <span class="s1">'/usr/local/bin/test_backup.sh'</span> <span class="k">do</span>
+  <span class="n">source</span> <span class="s1">'test_backup.sh'</span>
+  <span class="n">owner</span> <span class="s1">'mysql'</span>
+  <span class="n">group</span> <span class="s1">'mysql'</span>
+  <span class="n">mode</span> <span class="mi">0</span><span class="n">o755</span>
+  <span class="n">action</span> <span class="ss">:create</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>The code to audit this block would look like this</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">control_group</span> <span class="s1">'MySQL BackupTests : Archive access'</span> <span class="k">do</span>
+  <span class="n">control</span> <span class="s1">'test_backup.sh'</span> <span class="k">do</span>
+      <span class="n">describe</span> <span class="n">file</span><span class="p">(</span><span class="s1">'/usr/local/bin/test_backup.sh'</span><span class="p">)</span> <span class="k">do</span>
+        <span class="n">it</span> <span class="p">{</span> <span class="n">should</span> <span class="n">exist</span> <span class="p">}</span>
+        <span class="n">it</span> <span class="p">{</span> <span class="n">should</span> <span class="n">be_file</span> <span class="p">}</span>
+        <span class="n">it</span> <span class="p">{</span> <span class="n">should</span> <span class="n">be_executable</span> <span class="p">}</span>
+        <span class="n">it</span> <span class="p">{</span> <span class="n">should</span> <span class="n">be_owned_by</span> <span class="s1">'mysql'</span> <span class="p">}</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>As you can see, the audit part is very natural in its language, and the resources are quite simple to use. So how do we tell chef to run this audit code in our test environment?</p>
+
+<p>Presuming you use test kitchen, you need to edit that config to enable audit mode.
+Under the provisioner section of your <code class="highlighter-rouge">.kitchen.yml</code> config file, add these 2 lines:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>client_rb:
+  audit_mode: :enabled
+</code></pre></div></div>
+
+<p>So what are the advantages of audit_mode vs the old minitests? well besides the fact that minitest is deprecated, I find that having the test code as part of the recipe tree (and better yet, can even be <em>in</em> the recipe directly) gives a very nice single view of what every recipe should look like and what my view of the state of the host should be based on that. That should come even handier for anyone trying to look at a cookbook I wrote and understand what the cookbook is supposed to do.</p>
+
+<p>Aa I started a journey with chef <a href="https://dbsmasher.com/2015/02/12/-learning-configuration-management-as-a-dba/">a few years back</a>, converting my knowledge on how to build our databases into repeatable cookbooks, I will be spending the next months with the rest of our data ops team converting our resources into chef audit code.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#infra_as_code" title="Pages tagged infra_as_code" class="tag"><span class="term">infra_as_code</span></a></span>
+        
+        <span class="author vcard"><span class="fn">Silvia Botros</span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/untitled-chef-audit-mode/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/untitled-chef-audit-mode/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/untitled-chef-audit-mode/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="https://dbsmasher.com/about.html" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>Silvia Botros</h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/images/avatar.jpg" alt="Silvia Botros" />
+      <div class="author-bio">Silvia is a Principal DBA at SendGrid and a mother of three active junior DBAs.</div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://github.com/silviabotros" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+        
+          <li><a href="http://www.linkedin.com/in/silviabotros" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        
+      </ul>
+      
+        <a aria-label="Follow @silviabotros on GitHub" data-style="mega" href="https://github.com/silviabotros" class="github-button">Follow @silviabotros</a>
+      
+      <br>
+      
+        <a href="https://twitter.com/dbsmasher" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @dbsmasher</a>
+      
+    </div>
+  </div>
+</div>
+
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/on-being-on-call/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://localhost:4000/2017-in-review/" title="2017 in review">2017 in review</a></h3>
+      <p>In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even _m...&hellip; <a href="http://localhost:4000/2017-in-review/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/on-leadership-vs-management/" title="On leadership vs management">On leadership vs management</a></h4>
+        <span>Published on September 30, 2017</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/on-being-on-call/" title="On being on call">On being on call</a></h4>
+        <span>Published on December 07, 2016</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    sharing();
+</script>
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2017 Silvia Botros. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://github.com/aron-bordin/neo-hpstr-jekyll-theme" rel="nofollow">Neo-HPSTR Theme</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>

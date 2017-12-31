@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-27T09:42:05-08:00</updated><id>http://localhost:4000//</id><title type="html">dbsmasher corner</title><subtitle>Thoughts, stories and ideas</subtitle><author><name>Silvia Botros</name></author><entry><title type="html">2017 in review</title><link href="http://localhost:4000/2017/12/2017-in-review.html" rel="alternate" type="text/html" title="2017 in review" /><published>2017-12-25T20:11:42-08:00</published><updated>2017-12-25T20:11:42-08:00</updated><id>http://localhost:4000/2017/12/2017-in-review</id><content type="html" xml:base="http://localhost:4000/2017/12/2017-in-review.html">&lt;p&gt;In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even &lt;em&gt;me&lt;/em&gt; how many significant events have happened in these 12 months. I know one can say that about pretty much every year but it feels more pronounced this time. Without much ado, here is a recap of how this year has been.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">dbsmasher corner</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2017-12-30T22:12:31-08:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Silvia Botros</name>
+  <uri>http://localhost:4000/</uri>
+  <email>silviamikhail@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[2017 in review]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017-in-review/" />
+  <id>http://localhost:4000/2017-in-review</id>
+  <published>2017-12-25T20:11:42-08:00</published>
+  <updated>2017-12-25T20:11:42-08:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even &lt;em&gt;me&lt;/em&gt; how many significant events have happened in these 12 months. I know one can say that about pretty much every year but it feels more pronounced this time. Without much ado, here is a recap of how this year has been.&lt;/p&gt;
 
 &lt;h3 id=&quot;team-of-one-no-more&quot;&gt;Team of one no more&lt;/h3&gt;
 
@@ -32,7 +59,26 @@
 
 &lt;h3 id=&quot;wrap-up&quot;&gt;Wrap-up&lt;/h3&gt;
 
-&lt;p&gt;It has been a &lt;em&gt;very&lt;/em&gt; busy year indeed. I have not yet thought about any personal goals in 2018 but I sure have plenty of them professionally. If it turns out to be half as awesome as 2017 has been, it won’t be too bad. 😉&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even me how many significant events have happened in these 12 months. I know one can say that about pretty much every year but it feels more pronounced this time. Without much ado, here is a recap of how this year has been.</summary></entry><entry><title type="html">On leadership vs management</title><link href="http://localhost:4000/2017/09/on-leadership-vs-management.html" rel="alternate" type="text/html" title="On leadership vs management" /><published>2017-09-30T05:10:59-07:00</published><updated>2017-09-30T05:10:59-07:00</updated><id>http://localhost:4000/2017/09/on-leadership-vs-management</id><content type="html" xml:base="http://localhost:4000/2017/09/on-leadership-vs-management.html">&lt;p&gt;&lt;em&gt;This post is a flight of ideas. Blame Charity getting my brain going&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It has been a &lt;em&gt;very&lt;/em&gt; busy year indeed. I have not yet thought about any personal goals in 2018 but I sure have plenty of them professionally. If it turns out to be half as awesome as 2017 has been, it won’t be too bad. 😉&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017-in-review/&quot;&gt;2017 in review&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on December 25, 2017.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[On leadership vs management]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/on-leadership-vs-management/" />
+  <id>http://localhost:4000/on-leadership-vs-management</id>
+  <published>2017-09-30T05:10:59-07:00</published>
+  <updated>2017-09-30T05:10:59-07:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;em&gt;This post is a flight of ideas. Blame Charity getting my brain going&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This morning, I came to twitter to find &lt;a href=&quot;https://storify.com/dbsmasher/conversation-with-mipsytipsy-and-jaysoifer&quot;&gt;this thread of tweets&lt;/a&gt; from the always awesome Charity majors.&lt;/p&gt;
 
@@ -58,7 +104,26 @@
 
 &lt;p&gt;Finally, directors and executives should be open to feedback from all levels of the organization. Do not wait for this to come to you. At my current company we do a biannual survey that is deliberately anonymous but allows everyone to provide the executive team with feedback from all levels of the company. It is &lt;em&gt;super&lt;/em&gt; important to not just solicit this feedback but to transparently also create action items based on that feedback and report back to the company on the progress of these action items.&lt;/p&gt;
 
-&lt;p&gt;Thanks to Charity and Nicole for sparking this post and to &lt;a href=&quot;https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?ie=UTF8&amp;amp;qid=1506747712&amp;amp;sr=8-1&amp;amp;keywords=the+manager%27s+path&quot;&gt;Camille Fournier’s book&lt;/a&gt; that has given me a great perspective into management.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">This post is a flight of ideas. Blame Charity getting my brain going</summary></entry><entry><title type="html">Chef audit mode</title><link href="http://localhost:4000/2017/05/untitled-chef-audit-mode.html" rel="alternate" type="text/html" title="Chef audit mode" /><published>2017-05-07T20:49:11-07:00</published><updated>2017-05-07T20:49:11-07:00</updated><id>http://localhost:4000/2017/05/untitled-chef-audit-mode</id><content type="html" xml:base="http://localhost:4000/2017/05/untitled-chef-audit-mode.html">&lt;p&gt;I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.&lt;/p&gt;
+&lt;p&gt;Thanks to Charity and Nicole for sparking this post and to &lt;a href=&quot;https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?ie=UTF8&amp;amp;qid=1506747712&amp;amp;sr=8-1&amp;amp;keywords=the+manager%27s+path&quot;&gt;Camille Fournier’s book&lt;/a&gt; that has given me a great perspective into management.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/on-leadership-vs-management/&quot;&gt;On leadership vs management&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on September 30, 2017.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Chef audit mode]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/untitled-chef-audit-mode/" />
+  <id>http://localhost:4000/untitled-chef-audit-mode</id>
+  <published>2017-05-07T20:49:11-07:00</published>
+  <updated>2017-05-07T20:49:11-07:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.&lt;/p&gt;
 
 &lt;p&gt;When i first learned chef, the way to test your chef cookbooks was &lt;a href=&quot;https://github.com/chef/minitest-chef-handler&quot;&gt;chef minitest&lt;/a&gt;. But that is &lt;a href=&quot;https://github.com/chef/minitest-chef-handler/blob/master/README.md#deprecation-notice&quot;&gt;now deprecated&lt;/a&gt; and is no longer the recommended test method of chef cookbooks. So what is a DBA who is not always in tune with chef land to do? learn from her teammates of course! 😀&lt;/p&gt;
 
@@ -88,44 +153,60 @@
 
 &lt;p&gt;Now onto an example…or two…&lt;/p&gt;
 
-&lt;p&gt;Say you have this code block in a recipe to drop a script file in a specific spot and make it executable.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby
-cookbook_file '/usr/local/bin/test_backup.sh' do
-  source 'test_backup.sh'
-  owner 'mysql'
-  group 'mysql'
-  mode 0o755
-  action :create
-end
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Say you have this code block in a recipe to drop a script file in a specific spot and make it executable.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cookbook_file&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/usr/local/bin/test_backup.sh'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'test_backup.sh'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;owner&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mysql'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mysql'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;o755&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:create&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The code to audit this block would look like this
-&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby
-control_group 'MySQL BackupTests : Archive access' do
-  control 'test_backup.sh' do
-      describe file('/usr/local/bin/test_backup.sh') do
-        it { should exist }
-        it { should be_file }
-        it { should be_executable }
-        it { should be_owned_by 'mysql' }
-      end
-    end
-end
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The code to audit this block would look like this&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;control_group&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'MySQL BackupTests : Archive access'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;control&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'test_backup.sh'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/usr/local/bin/test_backup.sh'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exist&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be_file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be_executable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be_owned_by&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mysql'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;As you can see, the audit part is very natural in its language, and the resources are quite simple to use. So how do we tell chef to run this audit code in our test environment?&lt;/p&gt;
 
 &lt;p&gt;Presuming you use test kitchen, you need to edit that config to enable audit mode.
 Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quot;&gt;.kitchen.yml&lt;/code&gt; config file, add these 2 lines:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;client_rb:
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;client_rb:
   audit_mode: :enabled
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;So what are the advantages of audit_mode vs the old minitests? well besides the fact that minitest is deprecated, I find that having the test code as part of the recipe tree (and better yet, can even be &lt;em&gt;in&lt;/em&gt; the recipe directly) gives a very nice single view of what every recipe should look like and what my view of the state of the host should be based on that. That should come even handier for anyone trying to look at a cookbook I wrote and understand what the cookbook is supposed to do.&lt;/p&gt;
 
-&lt;p&gt;Aa I started a journey with chef &lt;a href=&quot;https://dbsmasher.com/2015/02/12/-learning-configuration-management-as-a-dba/&quot;&gt;a few years back&lt;/a&gt;, converting my knowledge on how to build our databases into repeatable cookbooks, I will be spending the next months with the rest of our data ops team converting our resources into chef audit code.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.</summary></entry><entry><title type="html">On being on call</title><link href="http://localhost:4000/2016/12/on-being-on-call.html" rel="alternate" type="text/html" title="On being on call" /><published>2016-12-07T18:38:21-08:00</published><updated>2016-12-07T18:38:21-08:00</updated><id>http://localhost:4000/2016/12/on-being-on-call</id><content type="html" xml:base="http://localhost:4000/2016/12/on-being-on-call.html">&lt;p&gt;In case you don’t follow &lt;a href=&quot;https://sysadvent.blogspot.com/&quot;&gt;SysAdvent&lt;/a&gt; (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by &lt;a href=&quot;https://sysadvent.blogspot.com/2016/12/day-6-no-more-on-call-martyrs.html&quot;&gt;Alice Goldfuss&lt;/a&gt;. I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing ‘conversation’ has been eyeopening.&lt;/p&gt;
+&lt;p&gt;Aa I started a journey with chef &lt;a href=&quot;https://dbsmasher.com/2015/02/12/-learning-configuration-management-as-a-dba/&quot;&gt;a few years back&lt;/a&gt;, converting my knowledge on how to build our databases into repeatable cookbooks, I will be spending the next months with the rest of our data ops team converting our resources into chef audit code.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/untitled-chef-audit-mode/&quot;&gt;Chef audit mode&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on May 07, 2017.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[On being on call]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/on-being-on-call/" />
+  <id>http://localhost:4000/on-being-on-call</id>
+  <published>2016-12-07T18:38:21-08:00</published>
+  <updated>2016-12-07T18:38:21-08:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;In case you don’t follow &lt;a href=&quot;https://sysadvent.blogspot.com/&quot;&gt;SysAdvent&lt;/a&gt; (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by &lt;a href=&quot;https://sysadvent.blogspot.com/2016/12/day-6-no-more-on-call-martyrs.html&quot;&gt;Alice Goldfuss&lt;/a&gt;. I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing ‘conversation’ has been eyeopening.&lt;/p&gt;
 
 &lt;p&gt;A lot of the response has been anger that an operations engineer is advocating for putting developers on call. A lot were quick to suggest that this is a quick way to lose engineers, that it advocates a terrible quality of life, that it stomps on work/life balance and that it ultimately doesn’t serve to improve code quality.&lt;/p&gt;
 
@@ -165,7 +246,26 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 
 &lt;p&gt;Finally, no one is saying this all ignores our lives outside work. In fact, the opposite. Ops engineers have lives too. We are men and women with spouses and babies who get sick and sometimes are solo parenting. Mature teams have each others’ backs. Mature teams will override set on call shifts when life strikes and that is applauded.&lt;/p&gt;
 
-&lt;p&gt;What I (and I think Alice) are saying is “do not systematically make it acceptable to throw code at the production wall”….not let’s page developers at 3 AM out of spite.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">In case you don’t follow SysAdvent (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by Alice Goldfuss. I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing ‘conversation’ has been eyeopening.</summary></entry><entry><title type="html">Capacity planning for databases</title><link href="http://localhost:4000/2016/03/capacity-planning-databases.html" rel="alternate" type="text/html" title="Capacity planning for databases" /><published>2016-03-25T03:17:11-07:00</published><updated>2016-03-25T03:17:11-07:00</updated><id>http://localhost:4000/2016/03/capacity-planning-databases</id><content type="html" xml:base="http://localhost:4000/2016/03/capacity-planning-databases.html">&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; This is inspired by Julia Evans’ recent post about ….&lt;a href=&quot;http://jvns.ca/blog/2016/03/20/how-do-you-do-capacity-planning/&quot;&gt;capacity planning&lt;/a&gt; 😌&lt;/p&gt;
+&lt;p&gt;What I (and I think Alice) are saying is “do not systematically make it acceptable to throw code at the production wall”….not let’s page developers at 3 AM out of spite.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/on-being-on-call/&quot;&gt;On being on call&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on December 07, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Capacity planning for databases]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/capacity-planning-databases/" />
+  <id>http://localhost:4000/capacity-planning-databases</id>
+  <published>2016-03-25T03:17:11-07:00</published>
+  <updated>2016-03-25T03:17:11-07:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; This is inspired by Julia Evans’ recent post about ….&lt;a href=&quot;http://jvns.ca/blog/2016/03/20/how-do-you-do-capacity-planning/&quot;&gt;capacity planning&lt;/a&gt; 😌&lt;/p&gt;
 
 &lt;h3 id=&quot;ground-rules&quot;&gt;Ground rules&lt;/h3&gt;
 
@@ -217,7 +317,26 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 &lt;p&gt;But that is also not the entire picture, slow logs are performance intensive if you lower their threshold too much. If you need less selective sampling you will need to detect the entire conversations between the application and the datastore. In open source land you can go as basic as tcpdump or you can use hosted products like datadog, newrelic or vivid cortex.&lt;/p&gt;
 
 &lt;h4 id=&quot;make-a-call&quot;&gt;Make a call&lt;/h4&gt;
-&lt;p&gt;Capacity planning can be 90% science and 10% art but that 10% shouldn’t mean that we shouldn’t strive for as much of the picture as we can. As engineers we can sometimes fixate on the missing 10% and not realize that if we did the work, that 90% can get us v far into a better idea of our stack’s health, a more efficient use of our time optimizing performance and planning capacity increases carefully which eventually results in much better return on investment for our products.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><category term="dba101" /><category term="capacity" /><category term="planning" /><summary type="html">Note: This is inspired by Julia Evans’ recent post about ….capacity planning 😌</summary></entry><entry><title type="html">2015 in review…2016 here I come</title><link href="http://localhost:4000/2016/01/2015-review.html" rel="alternate" type="text/html" title="2015 in review...2016 here I come" /><published>2016-01-04T18:22:21-08:00</published><updated>2016-01-04T18:22:21-08:00</updated><id>http://localhost:4000/2016/01/2015-review</id><content type="html" xml:base="http://localhost:4000/2016/01/2015-review.html">&lt;p&gt;&lt;em&gt;This post is inspired by quite a few great posts like this one by &lt;a href=&quot;http://beero.ps/2016/01/01/on-to-2016/&quot;&gt;Ryn Daniels&lt;/a&gt; and &lt;a href=&quot;http://larahogan.me/blog/2014-2015/&quot;&gt;Lara Hogan&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Capacity planning can be 90% science and 10% art but that 10% shouldn’t mean that we shouldn’t strive for as much of the picture as we can. As engineers we can sometimes fixate on the missing 10% and not realize that if we did the work, that 90% can get us v far into a better idea of our stack’s health, a more efficient use of our time optimizing performance and planning capacity increases carefully which eventually results in much better return on investment for our products.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/capacity-planning-databases/&quot;&gt;Capacity planning for databases&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on March 25, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[2015 in review...2016 here I come]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015-review/" />
+  <id>http://localhost:4000/2015-review</id>
+  <published>2016-01-04T18:22:21-08:00</published>
+  <updated>2016-01-04T18:22:21-08:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;em&gt;This post is inspired by quite a few great posts like this one by &lt;a href=&quot;http://beero.ps/2016/01/01/on-to-2016/&quot;&gt;Ryn Daniels&lt;/a&gt; and &lt;a href=&quot;http://larahogan.me/blog/2014-2015/&quot;&gt;Lara Hogan&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;2015 was a year of lots of changes and lots of growing for me, both professionally and personally. It also had a lot of firsts for me.&lt;/p&gt;
 
@@ -238,7 +357,7 @@ have led to having no time to properly plan any tech conference attendance. Fina
 
 &lt;p&gt;I got to meet lots of people I had been following on twitter for a while that I already learned a lot from, and looked up to. I had a LOT of fun talking about being a woman in the ops community with &lt;a href=&quot;https://twitter.com/beerops&quot;&gt;Katherine Daniels&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/sigje&quot;&gt;Jennifer Davis&lt;/a&gt;. Who are about to publish a &lt;a href=&quot;http://shop.oreilly.com/product/0636920039846.do&quot;&gt;book&lt;/a&gt; I am looking forward to. Another set of conversations that were very educational and have pushed some of my 2016 plans was talking about team leadership and management challenges with Roy Rapaport of Netflix.&lt;/p&gt;
 
-&lt;p&gt;There are too many people to list here that I enjoyed meeting and talking to at Monitorama. And a lot of those conversations shaped and guided things I have done the rest of the year and things I have planned for 2016. 
+&lt;p&gt;There are too many people to list here that I enjoyed meeting and talking to at Monitorama. And a lot of those conversations shaped and guided things I have done the rest of the year and things I have planned for 2016.
 I cannot recommend enough how great this conference was. Hat tip to &lt;a href=&quot;https://twitter.com/obfuscurity&quot;&gt;Jason Dixon&lt;/a&gt; for creating that great environment and all the #hugops&lt;/p&gt;
 
 &lt;h3 id=&quot;blog-and-blog-posts&quot;&gt;Blog and blog posts&lt;/h3&gt;
@@ -249,7 +368,7 @@ I cannot recommend enough how great this conference was. Hat tip to &lt;a href=&
 
 &lt;p&gt;Most of what I wrote this year was technical or ‘lessons learned’ in the roller coaster of managing databases at a fast growing company. But I also wrote one post that is near and dear to my heard about &lt;a href=&quot;https://blog.dbsmasher.com/2015/07/29/on-burnout/&quot;&gt;burnout&lt;/a&gt; that got me to face how much I needed to take care of me at the same level of commitment I was taking care of servers and databases.&lt;/p&gt;
 
-&lt;h3 id=&quot;plans&quot;&gt;2016 Plans&lt;/h3&gt;
+&lt;h3 id=&quot;2016-plans&quot;&gt;2016 Plans&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Give a tech conference talk. I submitted my &lt;a href=&quot;https://www.percona.com/live/data-performance-conference-2016/sessions/bringing-devops-dbas-chef&quot;&gt;first ever abstract &lt;/a&gt;. Don’t know yet if it will be accepted but I am excited to go to PLCME for the first time nonetheless&lt;/li&gt;
   &lt;li&gt;Take better care of me. We hired our second DBA at Sendgrid late 2015. The signs of burnout on me were clear. Nothing is clearer when one performance review says “I fear that Silvia works too hard. She needs to take care of herself” 😊. With onboarding the new member, I hope to be able to split the never ending list of things we need to get done in 2016&lt;/li&gt;
@@ -257,28 +376,46 @@ I cannot recommend enough how great this conference was. Hat tip to &lt;a href=&
   &lt;li&gt;Write more technical blog posts. We do so much at Sendgrid. I think we can share lots of lessons learned and I hope I can help with that.&lt;/li&gt;
   &lt;li&gt;Get closer to becoming Staff Engineer.&lt;/li&gt;
   &lt;li&gt;Much more…&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Silvia Botros</name></author><summary type="html">This post is inspired by quite a few great posts like this one by Ryn Daniels and Lara Hogan</summary></entry><entry><title type="html">Using Sensu for DBA tasks</title><link href="http://localhost:4000/2015/11/using-sensu-for-dba-tasks.html" rel="alternate" type="text/html" title="Using Sensu for DBA tasks" /><published>2015-11-03T21:31:47-08:00</published><updated>2015-11-03T21:31:47-08:00</updated><id>http://localhost:4000/2015/11/using-sensu-for-dba-tasks</id><content type="html" xml:base="http://localhost:4000/2015/11/using-sensu-for-dba-tasks.html">&lt;h3 id=&quot;sensu-for-monitoring&quot;&gt;Sensu for monitoring&lt;/h3&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015-review/&quot;&gt;2015 in review...2016 here I come&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Using Sensu for DBA tasks]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/using-sensu-for-dba-tasks/" />
+  <id>http://localhost:4000/using-sensu-for-dba-tasks</id>
+  <published>2015-11-03T21:31:47-08:00</published>
+  <updated>2015-11-03T21:31:47-08:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;sensu-for-monitoring&quot;&gt;Sensu for monitoring&lt;/h3&gt;
 &lt;p&gt;Here at Sendgrid we spent the last couple of years porting a lot of our service and host monitoring to &lt;a href=&quot;https://sensuapp.org/&quot;&gt;Sensu&lt;/a&gt;. Its solid API support meant we could write all sorts of tooling around it. We also liked the idea of standalone, client side checks that push their status to the Sensu alerting queue asynchronously. If you are new to Sensu or haven’t ever read on it, &lt;a href=&quot;https://sensuapp.org/docs/latest/overview&quot;&gt;this is a good place to start&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;typical-usage-example&quot;&gt;Typical usage example&lt;/h3&gt;
 
 &lt;p&gt;The typical use I have for such standalone checks is health checks, a simple example looks like this in Sensu’s client config&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;checks&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;mysql_alive&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;command&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mysql-alive.rb -h &amp;lt;IP&amp;gt; -d mysql -u :::mysql.user|sensu::: -p :::mysql.password:::&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;handlers&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;default&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;standalone&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;interval&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;notification&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;OMG MySQL is dead!&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+  &quot;checks&quot;: {
+    &quot;mysql_alive&quot;: {
+      &quot;command&quot;: &quot;mysql-alive.rb -h &amp;lt;IP&amp;gt; -d mysql -u :::mysql.user|sensu::: -p :::mysql.password:::&quot;,
+      &quot;handlers&quot;: [
+        &quot;default&quot;
+      ],
+      &quot;standalone&quot;: true,
+      &quot;interval&quot;: 10,
+      &quot;notification&quot;: &quot;OMG MySQL is dead!&quot;
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;But if you look closer, all you really do is tell Sensu to run a command. So this can be…any command. This will be useful in a just a moment.&lt;/p&gt;
 
@@ -303,25 +440,23 @@ I cannot recommend enough how great this conference was. Hat tip to &lt;a href=&
 
 &lt;p&gt;&lt;em&gt;_Protip_&lt;/em&gt;: Sensu doesn’t know what to redact in client.json. You must also define the name of the keys you want redacted. like this..&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;redact&quot;: [
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;redact&quot;: [
   &quot;other_password&quot;,
   &quot;password&quot;
 ]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;This is also not a deep merged list. As you can see I had to explicitly include ‘password’ once I needed to add another key in that list.&lt;/p&gt;
 
 &lt;p&gt;Then I needed to define the new Sensu check that rotates the partitions. I am using a chef resource as the code example.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sensu_check 'add_table_partitions' do
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sensu_check 'add_table_partitions' do
   command &quot;/usr/local/pdb/bin/pdb-parted --add --interval d +7d.startof h=localhost,u=specialdbuser,p=:::redacted_partition_password:::,D=mydb,t=special_table &amp;gt;&amp;gt; /var/log/partition_rotation.log 2&amp;gt;&amp;amp;1&quot;
   handlers %w(default_handler special_dba_handler)
   interval 86400
   standalone true
   additional(:occurrences =&amp;gt; 3, :notification =&amp;gt; &quot;#{node['hostname']} failed adding partitions to important table. See log file in /var/log/mail_send_cancel_pause.log&quot;)
 end
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Let’s inspect what just happened here…&lt;/p&gt;
 
@@ -333,23 +468,22 @@ end
 
 &lt;p&gt;For those who use tools other than chef and want to see what the final check configuration looks like, here it is, important bits redacted:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;checks&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;add_table_partitions&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;command&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/usr/local/pdb/bin/pdb-parted --add --interval m +7m.startof h=localhost,u=specialdbuser,p=:::redacted_partition_password:::,D=mydb,t=special_table &amp;gt;&amp;gt; /var/log/partition_rotation.log 2&amp;gt;&amp;amp;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;handlers&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;default_handler&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;special_dba_handler&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;standalone&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;interval&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;86400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;occurrences&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;notification&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hostname failed adding partitions to special table. See log file in /var/log/partition_rotation.log&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+  &quot;checks&quot;: {
+    &quot;add_table_partitions&quot;: {
+      &quot;command&quot;: &quot;/usr/local/pdb/bin/pdb-parted --add --interval m +7m.startof h=localhost,u=specialdbuser,p=:::redacted_partition_password:::,D=mydb,t=special_table &amp;gt;&amp;gt; /var/log/partition_rotation.log 2&amp;gt;&amp;amp;1&quot;,
+      &quot;handlers&quot;: [
+        &quot;default_handler&quot;,
+        &quot;special_dba_handler&quot;
+      ],
+      &quot;standalone&quot;: true,
+      &quot;interval&quot;: 86400,
+      &quot;occurrences&quot;: 3,
+      &quot;notification&quot;: &quot;hostname failed adding partitions to special table. See log file in /var/log/partition_rotation.log&quot;
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Partition rotation now has built in monitoring. If this script exits with a non zero code, the Sensu handlers take care of getting this knowledge to the predefined group of people using the method we want. We already have multiple on-call team rotations set up and escalation paths and all the other stuff that comes along with monitoring at scale. So we got to just leverage all of that rather than reinventing the wheel.&lt;/p&gt;
 
@@ -360,8 +494,26 @@ end
 &lt;ul&gt;
   &lt;li&gt;We still run the risk of more than one machine in a cluster holding the primary role. Until service discovery is in place, this is something we can build a check for leveraging chef search.&lt;/li&gt;
   &lt;li&gt;Now that tasks like backups are running in a first class citizen tool in our stack, I can more easily add stats and get graphs for how long backups take, how big backups are to make capacity planning and MTTR tracking easier.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Silvia Botros</name></author><summary type="html">Sensu for monitoring
-Here at Sendgrid we spent the last couple of years porting a lot of our service and host monitoring to Sensu. Its solid API support meant we could write all sorts of tooling around it. We also liked the idea of standalone, client side checks that push their status to the Sensu alerting queue asynchronously. If you are new to Sensu or haven’t ever read on it, this is a good place to start.</summary></entry><entry><title type="html">On Burnout</title><link href="http://localhost:4000/2015/07/on-burnout.html" rel="alternate" type="text/html" title="On Burnout" /><published>2015-07-29T20:23:02-07:00</published><updated>2015-07-29T20:23:02-07:00</updated><id>http://localhost:4000/2015/07/on-burnout</id><content type="html" xml:base="http://localhost:4000/2015/07/on-burnout.html">&lt;h3 id=&quot;the-not-so-merry-go-round&quot;&gt;The not-so-merry go round&lt;/h3&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/using-sensu-for-dba-tasks/&quot;&gt;Using Sensu for DBA tasks&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on November 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[On Burnout]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/on-burnout/" />
+  <id>http://localhost:4000/on-burnout</id>
+  <published>2015-07-29T20:23:02-07:00</published>
+  <updated>2015-07-29T20:23:02-07:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;the-not-so-merry-go-round&quot;&gt;The not-so-merry go round&lt;/h3&gt;
 
 &lt;p&gt;There is a lot of talk these days about burnout in our field. A lot of &lt;a href=&quot;http://burnout.io&quot;&gt;great&lt;/a&gt; &lt;a href=&quot;http://mhprompt.org&quot;&gt;initiatives&lt;/a&gt; to get us tech people to not hide it, not sweep it under the rug.&lt;/p&gt;
 
@@ -423,7 +575,27 @@ Here at Sendgrid we spent the last couple of years porting a lot of our service 
 
 &lt;p&gt;It is on all of us to not try to be individual heroes/ninjas/rockstars and instead promote teams of healthy, rested, smart engineers with well balanced lives.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Many thanks to Sean Kilgore, Jennifer Davis and Charity Majors for helping put these thoughts to words&lt;/em&gt;&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">The not-so-merry go round</summary></entry><entry><title type="html">Alfred, csshx and terminalception</title><link href="http://localhost:4000/2015/03/alfred-csshx-and-terminalception.html" rel="alternate" type="text/html" title="Alfred, csshx and terminalception" /><published>2015-03-06T14:47:41-08:00</published><updated>2015-03-06T14:47:41-08:00</updated><id>http://localhost:4000/2015/03/alfred-csshx-and-terminalception</id><content type="html" xml:base="http://localhost:4000/2015/03/alfred-csshx-and-terminalception.html">&lt;h3 id=&quot;alfred-csshx-and-terminalception&quot;&gt;Alfred, csshx and terminalception&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Many thanks to Sean Kilgore, Jennifer Davis and Charity Majors for helping put these thoughts to words&lt;/em&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/on-burnout/&quot;&gt;On Burnout&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Alfred, csshx and terminalception]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/alfred-csshx-and-terminalception/" />
+  <id>http://localhost:4000/alfred-csshx-and-terminalception</id>
+  <published>2015-03-06T14:47:41-08:00</published>
+  <updated>2015-03-06T14:47:41-08:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;alfred-csshx-and-terminalception&quot;&gt;Alfred, csshx and terminalception&lt;/h3&gt;
 
 &lt;p&gt;I use Tmux usually but Tmux on the mac has not been playing nice with csshx for me. Something in the dark magic of perl broke with an error that looks like this&lt;/p&gt;
 
@@ -470,7 +642,26 @@ Here at Sendgrid we spent the last couple of years porting a lot of our service 
 
 &lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/744/22422971645_735d9473b9_b.jpg&quot; alt=&quot;quit window&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;And done :)&lt;/p&gt;</content><author><name>Silvia Botros</name></author><category term="tips" /><category term="tricks" /><category term="workflow" /><summary type="html">Alfred, csshx and terminalception</summary></entry><entry><title type="html">Learning configuration management as a DBA</title><link href="http://localhost:4000/2015/02/learning-configuration-management-as-a-dba.html" rel="alternate" type="text/html" title="Learning configuration management as a DBA" /><published>2015-02-13T01:49:42-08:00</published><updated>2015-02-13T01:49:42-08:00</updated><id>http://localhost:4000/2015/02/-learning-configuration-management-as-a-dba</id><content type="html" xml:base="http://localhost:4000/2015/02/learning-configuration-management-as-a-dba.html">&lt;h3 id=&quot;how-its-been&quot;&gt;How it’s been&lt;/h3&gt;
+&lt;p&gt;And done :)&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/alfred-csshx-and-terminalception/&quot;&gt;Alfred, csshx and terminalception&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on March 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Learning configuration management as a DBA]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/learning-configuration-management-as-a-dba/" />
+  <id>http://localhost:4000/-learning-configuration-management-as-a-dba</id>
+  <published>2015-02-13T01:49:42-08:00</published>
+  <updated>2015-02-13T01:49:42-08:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;how-its-been&quot;&gt;How it’s been&lt;/h3&gt;
 &lt;p&gt;Before SendGrid, I used to deploy all my databases by hand. I’d have a documentation page (a google doc, internal wiki page…whatever). And it would be a long bulleted list of “Install this, then install this”. If you have ever maintained ‘How to’ documents like that, This picture will eventually ring true.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://s4.postimg.org/44kc215hp/code_comment.png&quot; alt=&quot;code comments&quot; /&gt;&lt;/p&gt;
@@ -504,5 +695,59 @@ Here at Sendgrid we spent the last couple of years porting a lot of our service 
 
 &lt;p&gt;Besides automation, making my life easier…etc. First and foremost, I decided to learn chef and write cookbooks for our databases because &lt;em&gt;database land should not be an island&lt;/em&gt;. This is why in my rewrites I made sure the operations engineering team reviewed my code. Not only is peer review from them, being immersed in chef the most, so useful. They also know what parts of system management we decided to turn into internal lightweight resources, making my code even simpler and no reinventing my mostly the same but not quite wheel. This has made the rewritten cookbooks much easier to follow and maintain.&lt;/p&gt;
 
-&lt;p&gt;This rewrite is not done. I only have a few clusters left with cookbooks in progress for them already. I have learned quite a lot about being a operations engineer working on this project.&lt;/p&gt;</content><author><name>Silvia Botros</name></author><summary type="html">How it’s been
-Before SendGrid, I used to deploy all my databases by hand. I’d have a documentation page (a google doc, internal wiki page…whatever). And it would be a long bulleted list of “Install this, then install this”. If you have ever maintained ‘How to’ documents like that, This picture will eventually ring true.</summary></entry></feed>
+&lt;p&gt;This rewrite is not done. I only have a few clusters left with cookbooks in progress for them already. I have learned quite a lot about being a operations engineer working on this project.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/learning-configuration-management-as-a-dba/&quot;&gt;Learning configuration management as a DBA&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on February 13, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Scaling MySQL at SendGrid]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/scaling-mysql-at-sendgrid/" />
+  <id>http://localhost:4000/scaling-mysql-at-sendgrid</id>
+  <published>2015-02-08T20:09:47-08:00</published>
+  <updated>2015-02-08T20:09:47-08:00</updated>
+  <author>
+    <name>Silvia Botros</name>
+    <uri>http://localhost:4000</uri>
+    <email>silviamikhail@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;*Note: This post first appeared at &lt;a href=&quot;https://sendgrid.com/blog/scaling-mysql-at-sendgrid/&quot;&gt;Sendgrid’s official blog&lt;/a&gt; *&lt;/p&gt;
+
+&lt;p&gt;SendGrid is the epitome of catching a tiger by the tail. Our systems were not originally designed to handle the massive scale we deal with today. Adding new features at this scale also presents challenges budding companies don’t yet need to design for. With our growth and overall traffic, we have had to come up with solutions to handle challenges related to simply scaling our datastores.&lt;/p&gt;
+
+&lt;p&gt;At SendGrid, a large portion of our data is housed in 10 distinct MySQL datastores with a total of 87 physical machines and 255 MySQL instances. We also have a varying combination of challenges that tend to be specific to our clusters. Let’s walk through some of these challenges and how we’ve tackled them.&lt;/p&gt;
+
+&lt;h3 id=&quot;high-transaction-rate&quot;&gt;High transaction rate&lt;/h3&gt;
+
+&lt;p&gt;We collect a lot of statistics on the mail we send. How often email is opened, clicked, marked as spam….etc. These stats used to live in one of our busiest MySQL clusters, peaking at 17,000 transactions per second almost every day. While a lot of our daemons in SendGrid, including our stats writer, use local queues as a method of back pressure at peak traffic times, eventually, we reached a scale that broke known limits of MySQL performance and scalability.&lt;/p&gt;
+
+&lt;p&gt;A benchmark by Percona puts MySQL (with settings comparable to ours) using solid state drives peaking their throughput at 15,000 transactions per second (Benchmark by Percona). There was a very brief moment of pride for our ops team that we had a finely tuned database working as hard as it can be worked. But how do we continue scaling?&lt;/p&gt;
+
+&lt;p&gt;This is when we used a strategy known as “Functional Sharding.”  Functional sharding is when you separate parts of your data set to dedicated database clusters based on common functionality in order to split read heavy data (like user login information) from write heavy data (like statistics tables) and gives the ops team the chance to tune each database separately for their specific workload.&lt;/p&gt;
+
+&lt;h3 id=&quot;insane-dataset-sizes&quot;&gt;Insane dataset sizes&lt;/h3&gt;
+
+&lt;p&gt;Another challenge we face at SendGrid is the sheer size of our data set. MySQL, being the go-to relational database for many startups, is typically deployed in sizes that don’t exceed a few hundred gigabytes per instance. Ideally row counts are 500M or less, or in rare occasions on special hardware, 1B rows. Here at SendGrid, our largest single instance is a whopping 21 billion rows, living on 7.3 TB of disk space.&lt;/p&gt;
+
+&lt;p&gt;When creating the datastore that will hold information about every single link in a large portion of our email volume, data set size was immediately a concern. Not only the sheer volume of data, but also the fact that we will need to read it at an aggregated rate of 60 thousand IO operations per second and at peak times as millions of recipients open these emails and click links. We also have to keep this data for 8 weeks as people can and will click on links in emails that are that old. This brings the total data set size to 8.8 TBs of data including replicas.&lt;/p&gt;
+
+&lt;p&gt;So what is the solution for this? Horizontal sharding. Breaking your data into individual instances of MySQL where each instance looks the same, but the rows contained are separate. This is especially easy to do when the rows can exist independently of each other and you will not do searches across clusters that have to be grouped later.&lt;/p&gt;
+
+&lt;p&gt;In order to also maximize the I/O of our solid state drives and the CPU throughput of all those cores, we housed 5 instances of MySQL per box leading to a lot more parallel reads and writes per machine and more IOPS from a single machine. This data store amounts to 75 individual MySQL instances across 44 servers.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-write-apps-for-it-all&quot;&gt;How to write apps for it all&lt;/h3&gt;
+
+&lt;p&gt;Whether it is functional or horizontal sharding, most open source object relational mappers do not support this kind of data distribution where the application has to have a context of where the information for different parts of its stack lives. At SendGrid we developed an application that does it all for us. When we started, solving problems of this scale was not common. However, now there are numerous open source projects that support this style of using MySQL. You can choose between jetpants (By Tumblr), Vitess (By YouTube), MySQL Fabric (By Oracle) and a few other open source and proprietary solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;things-to-come&quot;&gt;Things to come&lt;/h2&gt;
+
+&lt;p&gt;Here at SendGrid, we always have a bunch of different new services in development at any given time and invariably most, if not all of them, need a datastore and a lot of times that means MySQL. What that means to the ops team is an imperative to keep our MySQL deployments automated and version controlled, and to always look ahead and design schemas and tune configurations for maximum performance and optimal use of resources.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/scaling-mysql-at-sendgrid/&quot;&gt;Scaling MySQL at SendGrid&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on February 08, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>

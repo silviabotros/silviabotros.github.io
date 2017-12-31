@@ -1,0 +1,91 @@
+[
+  
+    {
+      "title"    : "2017 in review",
+      "category" : "",
+      "tags"     : "year_review",
+      "url"      : "http://localhost:4000/2017-in-review/",
+      "date"     : "2017-12-25 20:11:42 -0800"
+    } ,
+  
+    {
+      "title"    : "On leadership vs management",
+      "category" : "",
+      "tags"     : "teams",
+      "url"      : "http://localhost:4000/on-leadership-vs-management/",
+      "date"     : "2017-09-30 05:10:59 -0700"
+    } ,
+  
+    {
+      "title"    : "Chef audit mode",
+      "category" : "",
+      "tags"     : "infra_as_code",
+      "url"      : "http://localhost:4000/untitled-chef-audit-mode/",
+      "date"     : "2017-05-07 20:49:11 -0700"
+    } ,
+  
+    {
+      "title"    : "On being on call",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "http://localhost:4000/on-being-on-call/",
+      "date"     : "2016-12-07 18:38:21 -0800"
+    } ,
+  
+    {
+      "title"    : "Capacity planning for databases",
+      "category" : "",
+      "tags"     : "dba101, capacity, planning",
+      "url"      : "http://localhost:4000/capacity-planning-databases/",
+      "date"     : "2016-03-25 03:17:11 -0700"
+    } ,
+  
+    {
+      "title"    : "2015 in review...2016 here I come",
+      "category" : "",
+      "tags"     : "year_review",
+      "url"      : "http://localhost:4000/2015-review/",
+      "date"     : "2016-01-04 18:22:21 -0800"
+    } ,
+  
+    {
+      "title"    : "Using Sensu for DBA tasks",
+      "category" : "",
+      "tags"     : "infra_as_code",
+      "url"      : "http://localhost:4000/using-sensu-for-dba-tasks/",
+      "date"     : "2015-11-03 21:31:47 -0800"
+    } ,
+  
+    {
+      "title"    : "On Burnout",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "http://localhost:4000/on-burnout/",
+      "date"     : "2015-07-29 20:23:02 -0700"
+    } ,
+  
+    {
+      "title"    : "Alfred, csshx and terminalception",
+      "category" : "",
+      "tags"     : "tips, tricks, workflow",
+      "url"      : "http://localhost:4000/alfred-csshx-and-terminalception/",
+      "date"     : "2015-03-06 14:47:41 -0800"
+    } ,
+  
+    {
+      "title"    : "Learning configuration management as a DBA",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "http://localhost:4000/learning-configuration-management-as-a-dba/",
+      "date"     : "2015-02-13 01:49:42 -0800"
+    } ,
+  
+    {
+      "title"    : "Scaling MySQL at SendGrid",
+      "category" : "",
+      "tags"     : "sendgrid, scale, sharding",
+      "url"      : "http://localhost:4000/scaling-mysql-at-sendgrid/",
+      "date"     : "2015-02-08 20:09:47 -0800"
+    } 
+  
+]
