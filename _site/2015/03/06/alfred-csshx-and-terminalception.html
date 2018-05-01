@@ -1,0 +1,194 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Alfred, csshx and terminalception</title>
+  <meta name="description" content="Alfred, csshx and terminalception" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@dirkfabisch" />
+    <meta name="twitter:title" content="Alfred, csshx and terminalception" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/unicorn_av.png" />
+    
+    <meta name="twitter:description"  content="Alfred, csshx and terminalception" />
+    
+  
+  
+  <meta property="og:site_name" content="Mediator" />
+  <meta property="og:title" content="Alfred, csshx and terminalception"/>
+  
+  <meta property="og:description" content="Alfred, csshx and terminalception" />
+  
+  <meta property="og:image" content="http://localhost:4000/assets/images/unicorn_av.png" />
+  <meta property="og:url" content="http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2015-03-06T14:47:41-08:00">
+
+  <link rel="canonical" href="http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<!-- header start -->
+
+
+  <a href="http://localhost:4000" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/unicorn_av.png)"></span></a>
+
+<!-- header end -->
+
+
+<div id="main" role="main">
+  <article class="hentry hentry-dark">
+    <div class="entry-content">
+      
+      <h1 class="post-title entry-title">Alfred, csshx and terminalception</h1>
+      <h3 id="alfred-csshx-and-terminalception">Alfred, csshx and terminalception</h3>
+
+<p>I use Tmux usually but Tmux on the mac has not been playing nice with csshx for me. Something in the dark magic of perl broke with an error that looks like this</p>
+
+<blockquote>
+  <p>Mar  5 08:58:42 silvias-MacBookPro.local perl[10828] <Error>: ImageIO: CGImageDestinationFinalize image destination must have at least one image
+2015-03-05 08:58:42.473 perl5.18[10828:2436454] CGImageDestinationFinalize failed for output type 'public.tiff'
+**** ERROR **** PerlObjCBridge:: convertPerlToObjC(): Referenced thingy not blessed
+**** ERROR **** PerlObjCBridge:: convertArg() for index 2: convertPerlToObjC() failed
+**** ERROR **** PerlObjCBridge:: sendObjcMessage: Error converting argument 1 for message "setObject:forKey:"
+**** ERROR **** PerlObjCBridge: error [1] sending message [__NSDictionaryM setObject:forKey:] at /System/Library/Perl/Extras/5.18/darwin-thread-multi-2level/PerlObjCBridge.pm line 248.</Error></p>
+</blockquote>
+
+<p>But I wasn’t about to let that take away my terminalception magic :)</p>
+
+<p>Note: This is for a mac environment but you may emulate it in your favourite distro by replacing Alfred with whatever launcher you may use.</p>
+
+<h4 id="what-you-need">What you need</h4>
+<p>Alfred app is my favorite launcher in mac but I suspect Quicksilver (if you are the quaint type) can also run commands directly to the terminal.</p>
+
+<p>Next install Homebrew. You need this to install csshx easily. Also because GNU tools :)
+<code class="highlighter-rouge">ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></p>
+
+<p>Install csshx</p>
+
+<p><code class="highlighter-rouge">brew install csshx</code></p>
+
+<p>If you are chef shop like mine, a lot of times what you are looking for is to ssh to all the machines of a certain type. In chef, we call those roles. This step will change depending on the configuration management/service discovery framework of choice in your infrastructure.</p>
+
+<p>First, set the terminal app your alfred will use. I set it to Terminal because I wanted this to be separate from my usual workspace in iTerm 2</p>
+
+<p><img src="https://farm1.staticflickr.com/735/22396914786_e46c0ed4cd_b.jpg" alt="Alfred settings" /></p>
+
+<p>Then, when I want to fire up csshX to a bunch of our our servers all at once, it usually looks like this.</p>
+
+<p><em>Protip</em>: knife ssh can take cssh as an argument, so no awk and bash pipes required.</p>
+
+<p><img src="https://farm6.staticflickr.com/5793/22433815321_7b1f1fced2_b.jpg" alt="alfred term" /></p>
+
+<p>This fires up Terminal, which runs the chef search, and opens separate windows.</p>
+
+<p><img src="https://farm6.staticflickr.com/5805/22422959375_891c2f313a_k.jpg" alt="csshx cap" /></p>
+
+<p>Your cursor will be in the bottom red window by default and input will appear in all the windows at the same time. When done, CMD+Q will bring this window</p>
+
+<p><img src="https://farm1.staticflickr.com/744/22422971645_735d9473b9_b.jpg" alt="quit window" /></p>
+
+<p>And done :)</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#tips" title="Pages tagged tips" class="tag"><span class="term">tips</span></a><a href="http://localhost:4000/tags#tricks" title="Pages tagged tricks" class="tag"><span class="term">tricks</span></a><a href="http://localhost:4000/tags#workflow" title="Pages tagged workflow" class="tag"><span class="term">workflow</span></a></span>
+        
+        <span class="author vcard"><span class="fn"></span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3></h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/" alt="" />
+      <div class="author-bio"></div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://twitter.com/dbsmasher" target="_blank"><i class="fa fa- fa-fw"></i></a></li>
+        
+          <li><a href="https://github.com/silviabotros" target="_blank"><i class="fa fa- fa-fw"></i></a></li>
+        
+      </ul>
+      
+      <br>
+      
+    </div>
+  </div>
+</div>
+
+    
+    
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <!-- footer start -->
+
+<footer class="site-footer">
+  <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="mailto:a-mail@mail.mail">Dirk Fabisch</a> &copy; 2018 &bull; All rights reserved.</section>
+         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+    </div>
+</footer>
+
+<!-- footer end -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>

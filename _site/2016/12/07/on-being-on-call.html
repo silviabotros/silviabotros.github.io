@@ -1,0 +1,187 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>On being on call</title>
+  <meta name="description" content="In case you don’t follow SysAdvent (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by Alice Goldfuss. I have tweeted a link to that p..." />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@dirkfabisch" />
+    <meta name="twitter:title" content="On being on call" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/unicorn_av.png" />
+    
+    <meta name="twitter:description"  content="In case you don’t follow SysAdvent (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by Alice Goldfuss. I have tweeted a link to that p..." />
+    
+  
+  
+  <meta property="og:site_name" content="Mediator" />
+  <meta property="og:title" content="On being on call"/>
+  
+  <meta property="og:description" content="In case you don’t follow SysAdvent (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by Alice Goldfuss. I have tweeted a link to that p..." />
+  
+  <meta property="og:image" content="http://localhost:4000/assets/images/unicorn_av.png" />
+  <meta property="og:url" content="http://localhost:4000/2016/12/07/on-being-on-call.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2016-12-07T18:38:21-08:00">
+
+  <link rel="canonical" href="http://localhost:4000/2016/12/07/on-being-on-call.html"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<!-- header start -->
+
+
+  <a href="http://localhost:4000" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/unicorn_av.png)"></span></a>
+
+<!-- header end -->
+
+
+<div id="main" role="main">
+  <article class="hentry hentry-dark">
+    <div class="entry-content">
+      
+      <h1 class="post-title entry-title">On being on call</h1>
+      <p>In case you don’t follow <a href="https://sysadvent.blogspot.com/">SysAdvent</a> (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by <a href="https://sysadvent.blogspot.com/2016/12/day-6-no-more-on-call-martyrs.html">Alice Goldfuss</a>. I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing ‘conversation’ has been eyeopening.</p>
+
+<p>A lot of the response has been anger that an operations engineer is advocating for putting developers on call. A lot were quick to suggest that this is a quick way to lose engineers, that it advocates a terrible quality of life, that it stomps on work/life balance and that it ultimately doesn’t serve to improve code quality.</p>
+
+<p>The most surprising response was suggesting that this call comes from the privilege of not having family/kids responsibilities which I suppose implies only the single people are in ops and carrying pagers.</p>
+
+<p>I can go on and on about how little empathy I have seen from people who are supposed to be fellow engineers towards their fellow human ops people</p>
+
+<p>I can go on and on about how many naively suggested that testing and ‘QA’ are sufficient to not need the people who wrote the code to own their work in the real world environment of a system of scale</p>
+
+<p>I can go on and on about what it says about people who presumes Alice meant “give the developer a pager and send off into the night”…I suppose that’s fine when you do it to the ops gal instead.</p>
+
+<p>There is a lot to unpack in these responses, many of which disappointing from engineers I respect, but I want to pinpoint 2 things</p>
+
+<p>What does it mean to put engineers on call</p>
+
+<p>NO it does not mean spite and no it is not punishment for bugs and no it is not a call for dissolving the lines between life and work. I have written about my experience with burnout before and I wish that on no one.</p>
+
+<p>What it means to put engineers who write the code on call is that they are the subject matter experts on what is running in production. They know when error foo happens it means the cache layer failed, DNS is taking too long or maybe that the other microservice in that product comprised of about a dozen of them is the one silently failing. You may think an architecture diagram can make stuff like this clear as day but when YOU, the person on the team who has been building this thing for 2 quarters has to look at your own architecture diagram one quarter later to grok which microservice has failed you will realize why you should be paged first.</p>
+
+<p>This does not mean at all that Ops wants nothing to do with your application paging out at 3 AM. We put our delivery engineering teams (the term ‘delivery’ here is deliberate and very appropriate) on call but they always have an escalation path to ops that is not gated by a timer. Ops still has your back. If you think this is a network problem you are not familiar with, you can immediately page the on call ops engineer and she will help verify where the broken zeros and ones are.</p>
+
+<p>This is not an effort to spite those who dare push a bug to production. Anyone who has been responsible for production environments knows that will happen. Hell, you don’t even HAVE to introduce bugs through a deploy, really. Unforeseen changes in your environment will cause presumptions to stop being valid and take both those who wrote the code and those with less knowledge of it (Ops) by surprise.</p>
+
+<p>What this does mean is that we are explicitly saying that the code is useless unless it provides the customers the value they paid for. And when a C level executive has to explain to customers why an outage took X time to resolve, “we couldn’t get the engineering team involved for some time” is not an acceptable answer.</p>
+
+<p>Your code and my servers and databases are a risk center unless we are both invested in making them run. It is as simple as that.</p>
+
+<p>What does it mean to be a senior engineer</p>
+
+<p>It honestly frightened me that people who are senior engineers are balking so hard at giving developers pagers. Maybe they fell for the hyperbole of “we now don’t want developers to sleep either”, maybe they’ve been on call in difficult environments before and that’s the PTSD talking. But I do not believe that any engineer should be called ‘senior’, by title or by implication if they refuse to be reachable in a team rotation in case their own work caused a customer facing issue.</p>
+
+<p>Note my words because I am trying my best to choose them carefully. ‘customer facing issue’. You can’t give people pagers without making sure you are not paging on bullshit signals that aren’t actually affecting the customers and the business. And surprise, ops engineers are people too.</p>
+
+<p>So what does this mean? If you fail to see how your code is more than the sum of its functions and test. That it needs to provide real value. If you insist that someone else be the first line of defense when it breaks, then you are failing to acknowledge that as a senior engineer, your job is more than producing code. You are setting a terrible example for junior engineers on your team. They will now learn the lesson of “I don’t have to own that my code provides value once it’s in production”. The damage that mentality will do to an engineering organization is lasting and will take a long time before anyone realizes it is the root for a LOT of tech debt and it takes years to also reverse.</p>
+
+<p>If you are a manager promoting engineers to senior titles and an emphasis on ownership, including stability, is not a non-negotiable criterion of that promotion then you are damaging your organization. And if you think that a sense of ownership and truly understanding what it takes to create stable systems of scale can happen without ever being paged by a service in production then I am not sure why you are in charge of engineers supposedly building such systems of scale.</p>
+
+<p>Finally, no one is saying this all ignores our lives outside work. In fact, the opposite. Ops engineers have lives too. We are men and women with spouses and babies who get sick and sometimes are solo parenting. Mature teams have each others’ backs. Mature teams will override set on call shifts when life strikes and that is applauded.</p>
+
+<p>What I (and I think Alice) are saying is “do not systematically make it acceptable to throw code at the production wall”….not let’s page developers at 3 AM out of spite.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#careers" title="Pages tagged careers" class="tag"><span class="term">careers</span></a><a href="http://localhost:4000/tags#teams" title="Pages tagged teams" class="tag"><span class="term">teams</span></a></span>
+        
+        <span class="author vcard"><span class="fn"></span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2016/12/07/on-being-on-call.html" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2016/12/07/on-being-on-call.html" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2016/12/07/on-being-on-call.html" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3></h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/" alt="" />
+      <div class="author-bio"></div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://twitter.com/dbsmasher" target="_blank"><i class="fa fa- fa-fw"></i></a></li>
+        
+          <li><a href="https://github.com/silviabotros" target="_blank"><i class="fa fa- fa-fw"></i></a></li>
+        
+      </ul>
+      
+      <br>
+      
+    </div>
+  </div>
+</div>
+
+    
+    
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <!-- footer start -->
+
+<footer class="site-footer">
+  <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="mailto:a-mail@mail.mail">Dirk Fabisch</a> &copy; 2018 &bull; All rights reserved.</section>
+         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+    </div>
+</footer>
+
+<!-- footer end -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>

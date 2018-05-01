@@ -1,90 +1,63 @@
-title:            dbsmasher corner
-description:      Thoughts, stories and ideas
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
 
-# put your disqus here
-disqus_shortname:
-reading_time:     true # if true, shows the estimated reading time for a post
-words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
-excerpt_separator: <!--more-->
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
+# Site settings
+title: "Mediator"
+description: > # this means to ignore newlines until "email:"
+   A Jekyll theme - Medium inspired
 
-url: https://dbsmasher.com
+email: a-mail@mail.mail
+#blog logo
+logo: "/assets/images/unicorn_av.png"
+float_logo: true # true, false (default)
 
-# draw your top menu here
-# each item must have a title and a url.
-#   To list post categories. use type: 'categories'
-#   To create sub categories. add a submenu item
-# See the example
-menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Tags'
-    url: '/tags'
+# blog cover
+cover: "/assets/images/backlit-blogging-business-34153.jpg"
 
-# Owner/author information
-owner:
-  name:           Silvia Botros
-  site:           https://dbsmasher.com
-  avatar:         images/avatar.jpg
-  bio:            "Silvia is a Principal DBA at SendGrid and a mother of three active junior DBAs."
-  email:          silviamikhail@gmail.com
-  # Twitter nick for use in Twitter cards and follow button.
-  twitter: dbsmasher # if no twitter in this config, the twitter follow button will be removed
-  # GitHub nick for use in follow button in author block.
-  github: silviabotros
+name: 'Dirk Fabisch'
+author: 'Dirk Fabisch'
+author_image: "/assets/images/author.jpg"
 
-# Twitter account associated with the site if different from owner/author twitter account.
-# Used in Twitter cards.
-twitter: dbsmasher
+paginate:	5
 
-# Social networking links used in author block underneath posts. Update and remove as you like.
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
 social:
-  - title: "github"
-    url: "https://github.com/silviabotros"
-  - title: "linkedin"
-    url: "http://www.linkedin.com/in/silviabotros"
+  - icon:	twitter
+    url:	https://twitter.com/dbsmasher
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
 
-# Background image to be tiled on all pages
-background:
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+  - icon:	github
+    url:	https://github.com/silviabotros
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Los_Angeles
-locale:      en_US
-future:      true
-highlighter: rouge
-markdown:    kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Amount of post to show on home page
-paginate: 5
-
-# if true, shows the floatting share buttons
-float_share: true
-
-# Octopress
-# Default extensions
-post_ext: md
-page_ext: md
-# Found in _templates/
-post_layout: dark-post
-page_layout: page
-# Format titles with titlecase?
-titlecase: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems: [jekyll-paginate]
-theme: neo-hpstr-jekyll-theme
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
