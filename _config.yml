@@ -8,7 +8,7 @@ title: "Mediator"
 description: > # this means to ignore newlines until "email:"
    A Jekyll theme - Medium inspired
 
-email: a-mail@mail.mail
+email: silviamikhail+blog@gmail.com
 #blog logo
 logo: "/assets/images/unicorn_av.png"
 float_logo: true # true, false (default)
@@ -16,8 +16,8 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/backlit-blogging-business-34153.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Silvia Botros'
+author: 'Silvia Botros'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
@@ -25,12 +25,12 @@ paginate:	5
 url: "http://myblog.***.***" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
+twitter_handle: '@dbsmasher'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
 
-#google_analytics: UA-XXXXX-X
+google_analytics: UA-78506807-1
 
 # social icons and sharing options
 social:
