@@ -1,5 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'octopress'
-gem 'jekyll-paginate'
-gem 'neo-hpstr-jekyll-theme'
+# 'github-pages' includes 'jekyll' gem 
+gem 'github-pages'
+gem 'bourbon'
+gem 'jemoji'

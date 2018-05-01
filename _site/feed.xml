@@ -1,28 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">dbsmasher corner</title>
+<title type="text">Mediator</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2018-01-02T19:27:19-08:00</updated>
+<updated>2018-04-30T21:55:25-07:00</updated>
 <id>http://localhost:4000/</id>
 <author>
-  <name>Silvia Botros</name>
+  <name></name>
   <uri>http://localhost:4000/</uri>
-  <email>silviamikhail@gmail.com</email>
+  
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA['Remote']]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/teams/2018/04/23/remote.html" />
+  <id>http://localhost:4000/teams/2018/04/23/remote</id>
+  <published>2018-04-23T01:39:00-07:00</published>
+  <updated>2018-04-23T01:39:00-07:00</updated>
+  <author>
+    <name></name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I never liked that term ‘remote’. Whether in relation to me or to colleagues. It is exclusionary. And betrays a sense of ‘otherness’ that I feel is unhealthy for team cohesion. I understand that not everyone finds it easy or productive to work mostly apart from daily, in person, social interaction. But success is an arm in arm effort and the strategies to build successful teams work regardless of geography if we reward the right behaviors.&lt;/p&gt;
+
+&lt;p&gt;Every now and then, discussions around distributed teams, the hiring practices of a distributed team and all the details that go along with that come up whether in Twitter or in person with friends and co-workers.&lt;/p&gt;
+
+&lt;p&gt;If you follow me on twitter, it won’t be news that I work ‘remotely’ and have been for a few years since a couple of family moves. It has been a mostly successful experience that still goes on. I am not only still on the team, but I have since seen a promotion, have grown the team and am now growing it even more by hiring some level I DBAs to mentor and help grow.&lt;/p&gt;
+
+&lt;p&gt;So yes. It’s been and continues to be a success story. Even in a company that isn’t remote first.&lt;/p&gt;
+
+&lt;p&gt;What I do not talk about often is the story of when I didn’t succeed as a remote employee, resulting in being laid off years ago. And I think it’s important to talk about that as well. Because as gratifying as it may be to claim full credit at my current success, I’d be dishonest to pretend that success was all me.&lt;/p&gt;
+
+&lt;p&gt;The past few years were not the first time I’ve worked from home. However, when I’ve done it before it ended in lack of engagement and ultimately in my value being seen as dispensable, replaceable. I simply didn’t have a team around me that valued communication or the people management apparatus that understood what i did day to day besides just showing my face in meetings.&lt;/p&gt;
+
+&lt;p&gt;So what is it that makes the same person excel or fail miserably at the same thing? Let me share some of my experience around this and how I think it may matter to your organization.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-team&quot;&gt;The team&lt;/h3&gt;
+&lt;p&gt;There is never a ‘successful remote employee’. There is always a ‘team that communicates well’ and this goes beyond locality and who’s physically where. I’ve seen Engineering teams in the same office fail spectacularly at basic communication around work in progress or around setting expectations for delivering feature work while other teams with three different timezones producing results efficiently. This is all a roundabout way for me to say that my success is really my team’s success.
+There are a number of habits that make my team so good at this and they are worth calling out&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Most conversations happen in chat. Keeps everyone in the loop&lt;/li&gt;
+  &lt;li&gt;Joining stand-up from laptops even for those in the office. Everyone is on the same communication channels&lt;/li&gt;
+  &lt;li&gt;In meetings where a large portion of the group is in a big room, someone is designated as representative of those calling in. That way we can still get the group’s attention and ask questions if we want to&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are not just behaviors that are useful when not the whole team is local. Life happens, co-workers who are parents have to work from home sometimes, errands, all sorts of things. Allowing for your people to still be part of important discussions while living life is a real sign of wanting life balance for your people and not just talking about it.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-effects-of-human-laziness&quot;&gt;The effects of human laziness&lt;/h3&gt;
+&lt;p&gt;Humans are by nature lazy, we do not seek what we do not see. And we make presumptions about things we do not know for a fact. These natural shortcuts our brains take will always show themselves in the systems we design. I have seen it multiple times where teams have developed and deployed software that did not actually meet all the needs of the business only for retrospectives later to declare the ‘root cause’ a failure in communication.&lt;/p&gt;
+
+&lt;p&gt;Noting the skepticism I have towards any mention of ‘root cause’, it amazes me how often organizations will over and over again prove Conway’s law in this specific dynamic. Teams that only communicate to humans in front of them will also fail to involve all stakeholders in decisions in design, will fail to notify other teams when they are about to ratchet up customer involvement in their new beta and will  create products that ultimately are a reflection of how the team itself handles its communication. It has been my experience that teams that put the effort into being good at communication, at writing things down, at making everything explicit and as little as possible implicit, that also find the most alignment and find all their members rowing in the same direction. Having people work from wherever they live at this point becomes the cherry on top.&lt;/p&gt;
+
+&lt;h3 id=&quot;diversity-and-inclusion&quot;&gt;Diversity and inclusion&lt;/h3&gt;
+&lt;p&gt;Here’s a harsh truth: If you require hiring in a specific geographic location but pinky swear that you value diversity and inclusion, then you are at best misguided as to how to create diverse teams and how to keep underrepresented groups included.
+Intent doesn’t matter when hiring practices have the opposite impact. Let’s say you are a company in the bay. Building a new product that has to solve large scale problems ,you know you need experienced distributed systems engineers. What average number of years experience do you think you will find in the bay?&lt;/p&gt;
+
+&lt;p&gt;If you decide to open the experienced roles to ‘anywhere US’ but none of your Engineering  managers have managed people not local to them before or worse are not interested in that,  you are hiring experienced engineers to see them fail. Remember, People quit managers not companies. Engineering managers who have not in the past honed their emotional intelligence to manage people not necessarily physically near them will not retain experienced engineers who have built the experience to know all the skeletons in your infrastructure. One thing I have learned in the last few years is that backchannels are a strong force in this industry. And people will tell each other whether that ‘Anywhere US’ position company Foo just posted is really something that is setup for success in a team that uses mature communication skills or if it is a Hail Mary because that position was open for nine months in the Bay and no one is applying and now that company is desperate to fill it.&lt;/p&gt;
+
+&lt;p&gt;We are in an industry that has far more demand for talent than is available to hire. And that’s an advantage for us as workers. Somehow I see companies clearly state hiring as a potential challenge and something that’s a competitive edge, yet they hamstring those same efforts out of the gate by requiring that people relocate. Not only does this make hiring harder but it is also not inclusive.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/teams/2018/04/23/remote.html&quot;&gt;'Remote'&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on April 23, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[2017 in review]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2017-in-review/" />
-  <id>http://localhost:4000/2017-in-review</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/12/25/2017-in-review.html" />
+  <id>http://localhost:4000/2017/12/25/2017-in-review</id>
   <published>2017-12-25T20:11:42-08:00</published>
   <updated>2017-12-25T20:11:42-08:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;p&gt;In some ways it feels like this year flew by, in others like it was as long as an eternity. Looking back, it definitely surprises even &lt;em&gt;me&lt;/em&gt; how many significant events have happened in these 12 months. I know one can say that about pretty much every year but it feels more pronounced this time. Without much ado, here is a recap of how this year has been.&lt;/p&gt;
@@ -61,21 +116,21 @@
 
 &lt;p&gt;It has been a &lt;em&gt;very&lt;/em&gt; busy year indeed. I have not yet thought about any personal goals in 2018 but I sure have plenty of them professionally. If it turns out to be half as awesome as 2017 has been, it won’t be too bad. 😉&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017-in-review/&quot;&gt;2017 in review&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on December 25, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/12/25/2017-in-review.html&quot;&gt;2017 in review&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on December 25, 2017.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[On leadership vs management]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/on-leadership-vs-management/" />
-  <id>http://localhost:4000/on-leadership-vs-management</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/09/30/on-leadership-vs-management.html" />
+  <id>http://localhost:4000/2017/09/30/on-leadership-vs-management</id>
   <published>2017-09-30T05:10:59-07:00</published>
   <updated>2017-09-30T05:10:59-07:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;em&gt;This post is a flight of ideas. Blame Charity getting my brain going&lt;/em&gt;&lt;/p&gt;
@@ -106,21 +161,21 @@
 
 &lt;p&gt;Thanks to Charity and Nicole for sparking this post and to &lt;a href=&quot;https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?ie=UTF8&amp;amp;qid=1506747712&amp;amp;sr=8-1&amp;amp;keywords=the+manager%27s+path&quot;&gt;Camille Fournier’s book&lt;/a&gt; that has given me a great perspective into management.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/on-leadership-vs-management/&quot;&gt;On leadership vs management&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on September 30, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/09/30/on-leadership-vs-management.html&quot;&gt;On leadership vs management&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on September 30, 2017.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Chef audit mode]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/untitled-chef-audit-mode/" />
-  <id>http://localhost:4000/untitled-chef-audit-mode</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/05/07/untitled-chef-audit-mode.html" />
+  <id>http://localhost:4000/2017/05/07/untitled-chef-audit-mode</id>
   <published>2017-05-07T20:49:11-07:00</published>
   <updated>2017-05-07T20:49:11-07:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;p&gt;I have spoken before about how important it is for me and my team to make as many parts of the database stack match our larger infrastructure. One of the most crucial ways to do this is to make sure that not only are we deploying and managing databases using configuraton management, but that the cookbooks remain in lock step with changes our cookbooks at large move towards.&lt;/p&gt;
@@ -189,21 +244,21 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 
 &lt;p&gt;Aa I started a journey with chef &lt;a href=&quot;https://dbsmasher.com/2015/02/12/-learning-configuration-management-as-a-dba/&quot;&gt;a few years back&lt;/a&gt;, converting my knowledge on how to build our databases into repeatable cookbooks, I will be spending the next months with the rest of our data ops team converting our resources into chef audit code.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/untitled-chef-audit-mode/&quot;&gt;Chef audit mode&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on May 07, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/05/07/untitled-chef-audit-mode.html&quot;&gt;Chef audit mode&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on May 07, 2017.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[On being on call]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/on-being-on-call/" />
-  <id>http://localhost:4000/on-being-on-call</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/12/07/on-being-on-call.html" />
+  <id>http://localhost:4000/2016/12/07/on-being-on-call</id>
   <published>2016-12-07T18:38:21-08:00</published>
   <updated>2016-12-07T18:38:21-08:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;p&gt;In case you don’t follow &lt;a href=&quot;https://sysadvent.blogspot.com/&quot;&gt;SysAdvent&lt;/a&gt; (in which case, why?? you are missing out on great content every year!), the post on December 6th this year was by &lt;a href=&quot;https://sysadvent.blogspot.com/2016/12/day-6-no-more-on-call-martyrs.html&quot;&gt;Alice Goldfuss&lt;/a&gt;. I have tweeted a link to that post that day and since then my tweet has been quoted, responded to and the ensuing ‘conversation’ has been eyeopening.&lt;/p&gt;
@@ -248,21 +303,21 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 
 &lt;p&gt;What I (and I think Alice) are saying is “do not systematically make it acceptable to throw code at the production wall”….not let’s page developers at 3 AM out of spite.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/on-being-on-call/&quot;&gt;On being on call&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on December 07, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/12/07/on-being-on-call.html&quot;&gt;On being on call&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on December 07, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Capacity planning for databases]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/capacity-planning-databases/" />
-  <id>http://localhost:4000/capacity-planning-databases</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/03/25/capacity-planning-databases.html" />
+  <id>http://localhost:4000/2016/03/25/capacity-planning-databases</id>
   <published>2016-03-25T03:17:11-07:00</published>
   <updated>2016-03-25T03:17:11-07:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; This is inspired by Julia Evans’ recent post about ….&lt;a href=&quot;http://jvns.ca/blog/2016/03/20/how-do-you-do-capacity-planning/&quot;&gt;capacity planning&lt;/a&gt; 😌&lt;/p&gt;
@@ -319,21 +374,21 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 &lt;h4 id=&quot;make-a-call&quot;&gt;Make a call&lt;/h4&gt;
 &lt;p&gt;Capacity planning can be 90% science and 10% art but that 10% shouldn’t mean that we shouldn’t strive for as much of the picture as we can. As engineers we can sometimes fixate on the missing 10% and not realize that if we did the work, that 90% can get us v far into a better idea of our stack’s health, a more efficient use of our time optimizing performance and planning capacity increases carefully which eventually results in much better return on investment for our products.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/capacity-planning-databases/&quot;&gt;Capacity planning for databases&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on March 25, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/03/25/capacity-planning-databases.html&quot;&gt;Capacity planning for databases&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on March 25, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[2015 in review...2016 here I come]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2015-review/" />
-  <id>http://localhost:4000/2015-review</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/01/04/2015-review.html" />
+  <id>http://localhost:4000/2016/01/04/2015-review</id>
   <published>2016-01-04T18:22:21-08:00</published>
   <updated>2016-01-04T18:22:21-08:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;em&gt;This post is inspired by quite a few great posts like this one by &lt;a href=&quot;http://beero.ps/2016/01/01/on-to-2016/&quot;&gt;Ryn Daniels&lt;/a&gt; and &lt;a href=&quot;http://larahogan.me/blog/2014-2015/&quot;&gt;Lara Hogan&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -378,21 +433,21 @@ I cannot recommend enough how great this conference was. Hat tip to &lt;a href=&
   &lt;li&gt;Much more…&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015-review/&quot;&gt;2015 in review...2016 here I come&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/01/04/2015-review.html&quot;&gt;2015 in review...2016 here I come&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Using Sensu for DBA tasks]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/using-sensu-for-dba-tasks/" />
-  <id>http://localhost:4000/using-sensu-for-dba-tasks</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015/11/03/using-sensu-for-dba-tasks.html" />
+  <id>http://localhost:4000/2015/11/03/using-sensu-for-dba-tasks</id>
   <published>2015-11-03T21:31:47-08:00</published>
   <updated>2015-11-03T21:31:47-08:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;h3 id=&quot;sensu-for-monitoring&quot;&gt;Sensu for monitoring&lt;/h3&gt;
@@ -496,21 +551,21 @@ end
   &lt;li&gt;Now that tasks like backups are running in a first class citizen tool in our stack, I can more easily add stats and get graphs for how long backups take, how big backups are to make capacity planning and MTTR tracking easier.&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/using-sensu-for-dba-tasks/&quot;&gt;Using Sensu for DBA tasks&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on November 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/11/03/using-sensu-for-dba-tasks.html&quot;&gt;Using Sensu for DBA tasks&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on November 03, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[On Burnout]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/on-burnout/" />
-  <id>http://localhost:4000/on-burnout</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015/07/29/on-burnout.html" />
+  <id>http://localhost:4000/2015/07/29/on-burnout</id>
   <published>2015-07-29T20:23:02-07:00</published>
   <updated>2015-07-29T20:23:02-07:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;h3 id=&quot;the-not-so-merry-go-round&quot;&gt;The not-so-merry go round&lt;/h3&gt;
@@ -577,21 +632,21 @@ end
 
 &lt;p&gt;&lt;em&gt;Many thanks to Sean Kilgore, Jennifer Davis and Charity Majors for helping put these thoughts to words&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/on-burnout/&quot;&gt;On Burnout&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/07/29/on-burnout.html&quot;&gt;On Burnout&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Alfred, csshx and terminalception]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/alfred-csshx-and-terminalception/" />
-  <id>http://localhost:4000/alfred-csshx-and-terminalception</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html" />
+  <id>http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception</id>
   <published>2015-03-06T14:47:41-08:00</published>
   <updated>2015-03-06T14:47:41-08:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;h3 id=&quot;alfred-csshx-and-terminalception&quot;&gt;Alfred, csshx and terminalception&lt;/h3&gt;
@@ -643,21 +698,21 @@ end
 
 &lt;p&gt;And done :)&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/alfred-csshx-and-terminalception/&quot;&gt;Alfred, csshx and terminalception&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on March 06, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html&quot;&gt;Alfred, csshx and terminalception&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on March 06, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Learning configuration management as a DBA]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/learning-configuration-management-as-a-dba/" />
-  <id>http://localhost:4000/-learning-configuration-management-as-a-dba</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015/02/13/learning-configuration-management-as-a-dba.html" />
+  <id>http://localhost:4000/2015/02/13/-learning-configuration-management-as-a-dba</id>
   <published>2015-02-13T01:49:42-08:00</published>
   <updated>2015-02-13T01:49:42-08:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;h3 id=&quot;how-its-been&quot;&gt;How it’s been&lt;/h3&gt;
@@ -696,21 +751,21 @@ end
 
 &lt;p&gt;This rewrite is not done. I only have a few clusters left with cookbooks in progress for them already. I have learned quite a lot about being a operations engineer working on this project.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/learning-configuration-management-as-a-dba/&quot;&gt;Learning configuration management as a DBA&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on February 13, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/02/13/learning-configuration-management-as-a-dba.html&quot;&gt;Learning configuration management as a DBA&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on February 13, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Scaling MySQL at SendGrid]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/scaling-mysql-at-sendgrid/" />
-  <id>http://localhost:4000/scaling-mysql-at-sendgrid</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid.html" />
+  <id>http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid</id>
   <published>2015-02-08T20:09:47-08:00</published>
   <updated>2015-02-08T20:09:47-08:00</updated>
   <author>
-    <name>Silvia Botros</name>
+    <name></name>
     <uri>http://localhost:4000</uri>
-    <email>silviamikhail@gmail.com</email>
+    <email></email>
   </author>
   <content type="html">
     &lt;p&gt;*Note: This post first appeared at &lt;a href=&quot;https://sendgrid.com/blog/scaling-mysql-at-sendgrid/&quot;&gt;Sendgrid’s official blog&lt;/a&gt; *&lt;/p&gt;
@@ -745,7 +800,7 @@ end
 
 &lt;p&gt;Here at SendGrid, we always have a bunch of different new services in development at any given time and invariably most, if not all of them, need a datastore and a lot of times that means MySQL. What that means to the ops team is an imperative to keep our MySQL deployments automated and version controlled, and to always look ahead and design schemas and tune configurations for maximum performance and optimal use of resources.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/scaling-mysql-at-sendgrid/&quot;&gt;Scaling MySQL at SendGrid&lt;/a&gt; was originally published by Silvia Botros at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on February 08, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid.html&quot;&gt;Scaling MySQL at SendGrid&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on February 08, 2015.&lt;/p&gt;
   </content>
 </entry>
 
