@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Mediator</title>
+<title type="text">dbsmasher corner</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2018-04-30T21:55:25-07:00</updated>
+<updated>2018-04-30T22:03:26-07:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name></name>
@@ -63,7 +63,7 @@ Intent doesn’t matter when hiring practices have the opposite impact. Let’s 
 
 &lt;p&gt;We are in an industry that has far more demand for talent than is available to hire. And that’s an advantage for us as workers. Somehow I see companies clearly state hiring as a potential challenge and something that’s a competitive edge, yet they hamstring those same efforts out of the gate by requiring that people relocate. Not only does this make hiring harder but it is also not inclusive.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/teams/2018/04/23/remote.html&quot;&gt;'Remote'&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on April 23, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/teams/2018/04/23/remote.html&quot;&gt;'Remote'&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on April 23, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -116,7 +116,7 @@ Intent doesn’t matter when hiring practices have the opposite impact. Let’s 
 
 &lt;p&gt;It has been a &lt;em&gt;very&lt;/em&gt; busy year indeed. I have not yet thought about any personal goals in 2018 but I sure have plenty of them professionally. If it turns out to be half as awesome as 2017 has been, it won’t be too bad. 😉&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/12/25/2017-in-review.html&quot;&gt;2017 in review&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on December 25, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/12/25/2017-in-review.html&quot;&gt;2017 in review&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on December 25, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -161,7 +161,7 @@ Intent doesn’t matter when hiring practices have the opposite impact. Let’s 
 
 &lt;p&gt;Thanks to Charity and Nicole for sparking this post and to &lt;a href=&quot;https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?ie=UTF8&amp;amp;qid=1506747712&amp;amp;sr=8-1&amp;amp;keywords=the+manager%27s+path&quot;&gt;Camille Fournier’s book&lt;/a&gt; that has given me a great perspective into management.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/09/30/on-leadership-vs-management.html&quot;&gt;On leadership vs management&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on September 30, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/09/30/on-leadership-vs-management.html&quot;&gt;On leadership vs management&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on September 30, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -244,7 +244,7 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 
 &lt;p&gt;Aa I started a journey with chef &lt;a href=&quot;https://dbsmasher.com/2015/02/12/-learning-configuration-management-as-a-dba/&quot;&gt;a few years back&lt;/a&gt;, converting my knowledge on how to build our databases into repeatable cookbooks, I will be spending the next months with the rest of our data ops team converting our resources into chef audit code.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/05/07/untitled-chef-audit-mode.html&quot;&gt;Chef audit mode&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on May 07, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/05/07/untitled-chef-audit-mode.html&quot;&gt;Chef audit mode&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on May 07, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -303,7 +303,7 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 
 &lt;p&gt;What I (and I think Alice) are saying is “do not systematically make it acceptable to throw code at the production wall”….not let’s page developers at 3 AM out of spite.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/12/07/on-being-on-call.html&quot;&gt;On being on call&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on December 07, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/12/07/on-being-on-call.html&quot;&gt;On being on call&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on December 07, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -374,7 +374,7 @@ Under the provisioner section of your &lt;code class=&quot;highlighter-rouge&quo
 &lt;h4 id=&quot;make-a-call&quot;&gt;Make a call&lt;/h4&gt;
 &lt;p&gt;Capacity planning can be 90% science and 10% art but that 10% shouldn’t mean that we shouldn’t strive for as much of the picture as we can. As engineers we can sometimes fixate on the missing 10% and not realize that if we did the work, that 90% can get us v far into a better idea of our stack’s health, a more efficient use of our time optimizing performance and planning capacity increases carefully which eventually results in much better return on investment for our products.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/03/25/capacity-planning-databases.html&quot;&gt;Capacity planning for databases&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on March 25, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/03/25/capacity-planning-databases.html&quot;&gt;Capacity planning for databases&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on March 25, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -433,7 +433,7 @@ I cannot recommend enough how great this conference was. Hat tip to &lt;a href=&
   &lt;li&gt;Much more…&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/01/04/2015-review.html&quot;&gt;2015 in review...2016 here I come&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/01/04/2015-review.html&quot;&gt;2015 in review...2016 here I come&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on January 04, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -551,7 +551,7 @@ end
   &lt;li&gt;Now that tasks like backups are running in a first class citizen tool in our stack, I can more easily add stats and get graphs for how long backups take, how big backups are to make capacity planning and MTTR tracking easier.&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/11/03/using-sensu-for-dba-tasks.html&quot;&gt;Using Sensu for DBA tasks&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on November 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/11/03/using-sensu-for-dba-tasks.html&quot;&gt;Using Sensu for DBA tasks&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on November 03, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -632,7 +632,7 @@ end
 
 &lt;p&gt;&lt;em&gt;Many thanks to Sean Kilgore, Jennifer Davis and Charity Majors for helping put these thoughts to words&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/07/29/on-burnout.html&quot;&gt;On Burnout&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/07/29/on-burnout.html&quot;&gt;On Burnout&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on July 29, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -698,7 +698,7 @@ end
 
 &lt;p&gt;And done :)&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html&quot;&gt;Alfred, csshx and terminalception&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on March 06, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/03/06/alfred-csshx-and-terminalception.html&quot;&gt;Alfred, csshx and terminalception&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on March 06, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -751,7 +751,7 @@ end
 
 &lt;p&gt;This rewrite is not done. I only have a few clusters left with cookbooks in progress for them already. I have learned quite a lot about being a operations engineer working on this project.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/02/13/learning-configuration-management-as-a-dba.html&quot;&gt;Learning configuration management as a DBA&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on February 13, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/02/13/learning-configuration-management-as-a-dba.html&quot;&gt;Learning configuration management as a DBA&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on February 13, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -800,7 +800,7 @@ end
 
 &lt;p&gt;Here at SendGrid, we always have a bunch of different new services in development at any given time and invariably most, if not all of them, need a datastore and a lot of times that means MySQL. What that means to the ops team is an imperative to keep our MySQL deployments automated and version controlled, and to always look ahead and design schemas and tune configurations for maximum performance and optimal use of resources.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid.html&quot;&gt;Scaling MySQL at SendGrid&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mediator&lt;/a&gt; on February 08, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid.html&quot;&gt;Scaling MySQL at SendGrid&lt;/a&gt; was originally published by  at &lt;a href=&quot;http://localhost:4000&quot;&gt;dbsmasher corner&lt;/a&gt; on February 08, 2015.&lt;/p&gt;
   </content>
 </entry>
 
