@@ -1,5 +1,5 @@
 ---
-layout: dark-post
+layout: post
 title: On Burnout
 date: '2015-07-29 20:23:02'
 tags:

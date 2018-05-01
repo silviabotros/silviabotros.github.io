@@ -1,10 +1,6 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
   <meta charset="utf-8">
   <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,25 +43,39 @@
   <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
 </head>
 
-</head>
-
-<body id="post" >
-
-<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
-<!-- header start -->
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
 
 
   <a href="http://localhost:4000" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/unicorn_av.png)"></span></a>
 
 <!-- header end -->
 
-
-<div id="main" role="main">
-  <article class="hentry hentry-dark">
-    <div class="entry-content">
-      
-      <h1 class="post-title entry-title">Scaling MySQL at SendGrid</h1>
-      <p>*Note: This post first appeared at <a href="https://sendgrid.com/blog/scaling-mysql-at-sendgrid/">Sendgrid’s official blog</a> *</p>
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Scaling MySQL at SendGrid</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
+              on
+              <time datetime="2015-02-08T20:09:47-08:00">08 Feb 2015</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>*Note: This post first appeared at <a href="https://sendgrid.com/blog/scaling-mysql-at-sendgrid/">Sendgrid’s official blog</a> *</p>
 
 <p>SendGrid is the epitome of catching a tiger by the tail. Our systems were not originally designed to handle the massive scale we deal with today. Adding new features at this scale also presents challenges budding companies don’t yet need to design for. With our growth and overall traffic, we have had to come up with solutions to handle challenges related to simply scaling our datastores.</p>
 
@@ -97,93 +107,112 @@
 
 <p>Here at SendGrid, we always have a bunch of different new services in development at any given time and invariably most, if not all of them, need a datastore and a lot of times that means MySQL. What that means to the ops team is an imperative to keep our MySQL deployments automated and version controlled, and to always look ahead and design schemas and tune configurations for maximum performance and optimal use of resources.</p>
 
-      <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://localhost:4000/tags#sendgrid" title="Pages tagged sendgrid" class="tag"><span class="term">sendgrid</span></a><a href="http://localhost:4000/tags#scale" title="Pages tagged scale" class="tag"><span class="term">scale</span></a><a href="http://localhost:4000/tags#sharding" title="Pages tagged sharding" class="tag"><span class="term">sharding</span></a></span>
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Scaling+MySQL+at+SendGrid&amp;url=http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4>Silvia Botros</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2015-02-08 20:09">08 Feb 2015</time></p>
+            </section>
+          </div>
+          
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="/">Silvia Botros</a> &copy; 2018<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
         
-        <span class="author vcard"><span class="fn"></span></span>
-        <div class="social-share">
-  <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid.html" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid.html" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2015/02/08/scaling-mysql-at-sendgrid.html" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
-  </ul>
-</div><!-- /.social-share -->
-
-      </footer>
-    </div><!-- /.entry-content -->
-    <div class="read-more">
-  <div class="read-more-header">
-    <a href="" class="read-more-btn">About the Author</a>
-  </div><!-- /.read-more-header -->
-  <div class="read-more-content author-info">
-    <h3></h3>
-    <div class="author-container">
-      <img class="author-img" src="http://localhost:4000/" alt="" />
-      <div class="author-bio"></div>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/backlit-blogging-business-34153.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">dbsmasher corner</h1>
+        <h2 class="blog-description">Thoughts, stories and ideas
+</h2>
+        <a href=/ class="btn">Back to Overview</a>
+      </div>
     </div>
-    <div class="author-share">
-      <ul class="list-inline social-buttons">
-        
-          <li><a href="https://twitter.com/dbsmasher" target="_blank"><i class="fa fa- fa-fw"></i></a></li>
-        
-          <li><a href="https://github.com/silviabotros" target="_blank"><i class="fa fa- fa-fw"></i></a></li>
-        
-      </ul>
-      
-      <br>
-      
-    </div>
-  </div>
-</div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
 
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
     
-    
-  </article>
-</div><!-- /#main -->
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
-<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
 
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
 
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
 
-<!-- Asynchronous Google Analytics snippet -->
-<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  });
+}(jQuery));
+</script>
+
+<!-- Google Analytics -->
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-78506807-1', 'auto');
-  ga('require', 'linkid', 'linkid.js');
-  ga('send', 'pageview');
+ga('create', 'UA-78506807-1', 'auto');
+ga('send', 'pageview');
+
 </script>
 
 
 
-
-
-
-
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    <!-- footer start -->
-
-<footer class="site-footer">
-  <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="mailto:silviamikhail+blog@gmail.com">Silvia Botros</a> &copy; 2018 &bull; All rights reserved.</section>
-         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
-    </div>
-</footer>
-
-<!-- footer end -->
-
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-</body>
+  </body>
 </html>
