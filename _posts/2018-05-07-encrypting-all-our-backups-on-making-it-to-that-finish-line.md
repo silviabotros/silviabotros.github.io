@@ -6,7 +6,6 @@ date: 2018-05-07 20:21 -0700
 
 _Note: This is a repost of a blog post I wrote for Sendgrid's blog in September of 2017_
 
-### Encrypting All Our Backups: On Making It To That Finish Line
 
 A year ago, Sendgrid was working hard towards SOC2 certification. Everyone was involved. There were stories on nearly every delivery team board with a SOC2 tag as we were all looking to be certified by the end of the third quarter. As you can imagine, being the person in charge of databases, there was definitely some work to do for that part of the stack.
 
