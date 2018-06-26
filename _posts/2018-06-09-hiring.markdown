@@ -46,6 +46,6 @@ During the initial screenings and after a couple of initial on site interviews, 
 
 ## A team to last
 My team has grown from a team of one (me) to now four people strong. This has been great not just for sheer team velocity and being able to service a large engineering organization but has also given me a ton of room to grow in my career. I have benefitted a lot from showing my fellow senior DBA how I have been doing things for a while, he has taught me a lot and now we have 2 level 1 DBAs who are giving us the opportunity to mentor them and they are excited to do all the tasks we were ready to grow out of. The biggest lesson to me in this past 18 months of growing the team has been than the most important thing is hiring people who have empathy, humility to learn, and curiosity. A good friend and my former manager recently sent me a link this post and this line stood out to us in the email discussion.
-The most productive teams I’ve been on are the ones who are pulling each other over these walls in the battle against real-world problems.
+> The most productive teams I’ve been on are the ones who are pulling each other over these walls in the battle against real-world problems.
 Managing infrastructure, data stores or otherwise, is a team sport. And that is why the process for joining the team has to optimize for team collaboration and psychological safety.
 
