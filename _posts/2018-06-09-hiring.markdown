@@ -1,4 +1,3 @@
-@: hiring
 ---
 layout: post
 title: Hiring 
