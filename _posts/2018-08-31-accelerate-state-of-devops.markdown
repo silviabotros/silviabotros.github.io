@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State of Devops: 2018
+title: Thoughts on the new State of Devops report
 date: ‘2018-08-31 10:46:00’
 ---
 This week, the latest [State of DevOps][1] report by the team at [DORA][2] was released. There is a lot of conversations in various social media platforms on what makes an engineering team ‘successful’ and how to increase feature velocity in tech companies and the DORA report does not just rely on anecdotes but surveys the field using rigorous scientific methods and statistical constructs to back or debunk common practices with real data. Because of the strong scientific backbone of their findings, I have been following the report for the last few years. If you have not, the book [Accelerate][3] is a great way to learn the findings of the previous four years. 
