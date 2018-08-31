@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts on the new State of Devops report
+title: State of Devops: 2018
 date: ‘2018-08-31 10:46:00’
 ---
 This week, the latest [State of DevOps][1] report by the team at [DORA][2] was released. There is a lot of conversations in various social media platforms on what makes an engineering team ‘successful’ and how to increase feature velocity in tech companies and the DORA report does not just rely on anecdotes but surveys the field using rigorous scientific methods and statistical constructs to back or debunk common practices with real data. Because of the strong scientific backbone of their findings, I have been following the report for the last few years. If you have not, the book [Accelerate][3] is a great way to learn the findings of the previous four years. 
@@ -24,6 +24,17 @@ The report also makes an assertive point about the effort to outsource developme
 
 Now, I have nothing against consultants. I have worked with some of the best consultant DBAs in the field and have also learned a lot from them. My team has also in the past employed contractors from so called “DevOps for hire” companies. But I have also seen consultant engagements go very very terribly in both cost and morale hits to the in house engineers and the crucial difference has been how we incorporate these consultants into the team just as one would a new full time employee. Hiring consultants to become a new silo away from the rest of the engineering organization to solve problems in a vacuum never, ever, works and somehow executives in many companies still think that is a sane thing to do with the company resources. The Accelerate book goes into more detail into how to use external resource successfully towards team velocity and this year’s report solidifies this with more recent data showing low performing teams more likely to fall in the outsourcing trap as a supposed ‘quick fix’.
  
+### Cloud infrastructure
+> How you implement cloud matters
+A few years ago, a lot of companies still saw using platforms like AWS or Azure as a way to have more outages and spend a lot more money on operating costs of running their product. Now we seem to have swung the other way since these platforms have become a lot more stable but there still seems to be a presumption that using AWS will magically increase feature release velocity but that it is also a quick thing a company can just swing in a quarter. 
+
+It is important to internalize some important facts about running infrastructure in cloud platforms
+* Companies moving to a cloud platform these days look at it as a way to increase feature velocity. That is clearly stated as a finding from the report data and it an improvement in understanding what advantages running in the cloud provide
+* Now that we established _why_ you would move your infrastructure , you cannot, *cannot* forklift what you already built to a cloud provider and expect velocity or even cheaper costs. In fact, it will most definitely cause the opposite of both. You have to approach a move from on premise to cloud to include some thought into re-architecture of what you are moving. Yes including databases. 
+* Use the advantages in the cloud platform you are moving to. Use managed services wherever possible to refocus your engineers’ time to only focus on what makes your product better. 
+
+Does this mean that you will no longer need ops people or DBEs? Absolutely not. But the role of operations engineers and Database engineers, like everything else, change over time. This is something that needs to be a separate and longer post but if your team transforms the role of a DBE away from manually running databases and towards helping scale your data architecture, you will find that using managed datastores will actually help free those engineers to provide better value for your business and make up for more than the cost of Aurora or DynamoDB.
+
 There are so many other gems that make one go “aha!” in the report on what high performing engineering teams actually *do* vs what they *think* makes them successful. It is pretty great seeing these reports annually being supported by solid science and I very much appreciate the work [Dr. Nicole Forsgren][5], [Jez Humble][6] and [Gene Kim][7] put into it year after year. 
 
 
