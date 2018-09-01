@@ -17,6 +17,7 @@ This practice provides a track record of changes and a way to apply peer review 
 
 ### The role of outsourcing
 > Analysis shows that low-performing teams are 3.9 times more likely to use functional outsourcing (overall) than elite performance teams, and 3.2 times more likely to use outsourcing of any of the following functions: application development, IT operations work, or testing and QA. This suggests that outsourcing by function is rarely adopted by elite performers.
+
 The report also makes an assertive point about the effort to outsource development by lower performing teams. It even goes as much as calling them ‘misguided performers ’. This, to me, is directed at efforts to just ‘throw money at’ team velocity without much thought into how to use such an engagement. If you are part of a decision on whether to outsource or not, it is very important from the outset to have some internal agreement on things such as
 * What is the expected benefit 
 * What is the definition of success 
