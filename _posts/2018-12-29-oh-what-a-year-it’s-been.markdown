@@ -32,4 +32,4 @@ This year has been great but it was not without lots of help. People like [Sean 
 [5]:	https://mobile.twitter.com/tekbuddha
 [6]:	https://mobile.twitter.com/nicolefv
 [7]:	https://mobile.twitter.com/alicegoldfuss
-[8]:	https://mobile.twitter.com/clynne
+[8]:	https://mobile.twitter.com/clynnexx
