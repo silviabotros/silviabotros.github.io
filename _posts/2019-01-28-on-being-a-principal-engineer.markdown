@@ -30,5 +30,5 @@ Trick question! Once at a certain level, all problems are solved by people. Ther
 ### What’s next
 The past year and a half working as a principal engineer have been eye opening into all the work that goes into getting a large group of humans all rowing in the same direction for the business to achieve planned goals. It is no small feat that is further complicated with our ever growing, ever complex systems of scale. I do not know whether my experience as a principal engineer will some day translate into becoming an engineering manager someday. Maybe it will. I do know that if I ever made the move to managing people that my time as a principal engineer has taught me plenty that I may have missed out on when focusing only on senior engineer competencies. 
 
-_Many thanks to [Tanya Rielly](https://twitter.com/whereistanya) and [Sean Kilgore](https://twitter.com/log1kal) for both being great examples and for their excellent feedback on this. And to Camille Fournier for writing that book._
+_Many thanks to [Tanya Reilly](https://twitter.com/whereistanya) and [Sean Kilgore](https://twitter.com/log1kal) for both being great examples and for their excellent feedback on this. And to Camille Fournier for writing that book._
 
