@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Talks
-permalink: /talks/
+title: Talks/Podcasts
+permalink: /talks-podcasts/
 ---
 Here is a list of conference talks I have given and links to video where available.
 
