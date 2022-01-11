@@ -1,14 +1,19 @@
 ---
 layout: page
-title: Talks/Podcasts
+title: Talks/Podcasts/Publications
 permalink: /talks/
 ---
-Here is a list of conference talks I have given and links to video where available.
+You can buy High Performance MySQL, 4th Edition which I coauthored, [here](https://www.amazon.com/High-Performance-MySQL-Strategies-Operating/dp/1492080519/ref=sr_1_1?crid=2S4MNDOJHMQFE&keywords=high+performance+mysql&qid=1641929240&sprefix=high+performance+my%2Caps%2C170&sr=8-1)
+
+Here is a list of pubished articles, conference talks and podcasts  have given and links to video where available.
 
 * [Working with DBAs in a DevOps World][1]
 * [Become a MySQL Guru][2]
 * How to choose a datastore (AWS Summit Anaheim Dev Chats)
 * [Stories from the DBA trenches][3]
+* [The road to senior individual contributor][8]
+* [What is senior IC? Flavours of technical leadership][9]
+* [Best practice for seamless product integration][10]
 
 Podcast appearances
 * [Real world DevOps with Mike Julian][4]
@@ -23,3 +28,6 @@ Podcast appearances
 [5]:	https://player.fm/series/authority-issues/episode-21-silvia-botros-twilio-sendgrid
 [6]:	https://www.screaminginthecloud.com/episodes/company-migration-on-two-fronts-aws-and-the-career-paths-of-software-engineers
 [7]:	https://www.arresteddevops.com/principal-engineer/
+[8]:	https://leaddev.com/professional-development/road-senior-individual-contributor
+[9]:	https://leaddev.com/leaddev-live/what-senior-ic-flavours-technical-leadership
+[10]:	https://leaddev.com/technical-direction-strategy/best-practice-seamless-product-integration
