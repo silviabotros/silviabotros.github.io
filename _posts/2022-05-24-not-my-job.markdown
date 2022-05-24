@@ -1,0 +1,43 @@
+## It is not my job
+
+The job of a Staff+ IC (individual contributor) leader is murky at best. Even when I spoke about this in [the first event dedicated to Staff+ folks], I felt compelled to explain that “it is a job that can be different things at different times”. These differences can come from various sources:
+- The stage the company is at when it hires/promotes Staff+ folks
+- If you are the first or one of many 
+- It can be simply that there has not been time to put an effort in properly defining the role yet.
+Having said that, there _are_ patterns that, I think, are worth flagging as inherently toxic for most staff+ folks and should be recognized as the outlier (and when they are narrowly ok) vs “this is just how the role is”. The last thing we want is for this role to become a burnout factory.
+
+This conversation started when someone in a people leadership position tweeted this
+
+[https://twitter.com/thiagoghisi/status/1525073311369252865?s=21&t=BJtmKeShTO5OMnxp4aee7Q]
+
+![tweet screenshot](/assets/images/tweet_screenshot.png)
+
+Now, I am sure they have their experiences that make them believe this to be the right advice to give. But I would like to offer a counter to this argument and why I think it is a road to frustration, ineffectiveness and ultimately burnout. 
+
+###The difference between being glue and filling gaps
+Before I go into why I think this is not good blanket advice, I’d like to address the difference between what this tweet says and what [Tanya Reilly] has coined in her popular blog post and conference talk [“Glue work”]. Glue work is an important aspect of building software across multiple teams, making sure everyone is rowing at the same speed and in the same direction. It can be a great opportunity for building leadership skills as you grow from only focusing on a technical backlog to more abstract concepts like “is what we are building matching our strategy?”. And as Tanya says, it is essential when you are senior and potentially limiting when you are not. I would go a step further and say that a good career ladder for a growing engineering organization should recognize that glue work. It should recognize it as part of how to measure the performance of its senior team members and not let it be invisible work.
+
+### Glue work vs “gap filling”
+I liken the work that goes under “glue work” to spackling paste that ensures that all parts of the software delivery for the business is happening smoothly. 
+
+However, that is not the same as saying “as a senior leader, everything is your job”. Gaps can happen in many shapes and sizes, and you need to recognize when a gap needs more senior leadership attention instead of trying to absorb them all. In those cases, you should be working on properly communicating the gap and its risk to the business (and risk to _which part_ of the business) and NOT attempting to solve everything. Here are some examples of possible gaps that you should be _definitely _ saying “this is not my job” and instead communicating risk about:
+- A team is severely understaffed, and their manager is not advocating for them
+- You are involved in planning with a part of the organization and can see clear signs of a toxic work environment
+- A critical part of the technical stack is a recurring source of incidents and no one officially ‘owns’ it in engineering
+You might exclaim, “but I can’t stay quiet!”, and I am not suggesting you pretend you saw nothing. But be cognizant of what you can and cannot control as someone who is in leadership without explicit authority over teams. You owe it to the engineering managers of managers you work with to communicate the gap, but you should not put it on yourself to try to _resolve_ the problem without communication. 
+
+### Why this is even more dangerous for non manager leaders 
+This dynamic of “fill every gap” is specifically dangerous when you are a leader without an explicit scope of authority. When you are in a leadership position without people management authority over teams, resources to deploy to make changes you deem necessary, you run the risk of burning out trying to make changes that require authority. Authority you do not have. As we all learned in airplane safety videos, you have to put your mask on first. Taking on every gap and attempting to stretch to fix them all can become a crutch for poorly defined staff+ roles.
+
+### Why one is healthy and needed and the other is not
+It may seem that the difference between the two is nuanced and likely also contextual to the org you are in. And I would agree! Which is why trying to encapsulate it in a tweet is glossing over a ton of critical nuance that can mean the difference between a highly fulfilling job and one that leaves burnout and trauma. 
+
+### “Your job is to make the org successful”…..with fine print
+The original tweet also claims that “your job is to make the org successful” and I would like to point out what a dangerous sentiment that is if you are a staff+ IC in a large, sprawling, org. Carrying the burden of “making the org successful” is what executives are paid to do. Your job, while strategic and larger scoped and more nuanced, still needs far more concrete boundaries than a very non-specific “fix it”. And it needs to come with clear mechanisms to help make you successful within the scope of things you _can_ affect. 
+Let me say this part bluntly, hiring staff+ is becoming trendy right now. And like all past trends in recruiting, some companies have a good idea what it means to have highly senior/experienced ICs, some just happened to grow some accidentally and some think they _desperately_ require some without a clear idea of why or how to define success for those new levels. 
+
+### What do I do?
+So what do you do if you are in a staff+ role, and you suspect this is what is happening? Start by assessing all the projects/initiatives/conversations you are involved in and having regular conversations about. Do all of them align with longer-term goals you have with your manager? Does your manager even know about all the gaps you are ‘filling in’? (here is a major red flag for you). Assessing whether what you are doing day to day needs to be an intentional process, something you and your manager re-assess routinely and compare to your goals and the organization goals. Be very aware of being pulled into projects with no measurable milestones. Beware of signs of inaction if you escalate a gap you are not responsible for (such as poor product planning or severe understaffing). 
+
+You should use your experience and influence to shed a light on gaps and risks. But you cannot fix them all. 
+
