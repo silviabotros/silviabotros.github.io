@@ -22,7 +22,8 @@ I liken the work that goes under “glue work” to spackling paste that ensures
 However, that is not the same as saying “as a senior leader, everything is your job”. Gaps can happen in many shapes and sizes, and you need to recognize when a gap needs more senior leadership attention instead of trying to absorb them all. In those cases, you should be working on properly communicating the gap and its risk to the business (and risk to _which part_ of the business) and NOT attempting to solve everything. Here are some examples of possible gaps that you should be _definitely _ saying “this is not my job” and instead communicating risk about:
 - A team is severely understaffed, and their manager is not advocating for them
 - You are involved in planning with a part of the organization and can see clear signs of a toxic work environment
-- A critical part of the technical stack is a recurring source of incidents and no one officially ‘owns’ it in engineering
+- A critical part of the technical stack is a recurring source of incidents and no one officially ‘owns’ it in engineering.
+  
 You might exclaim, “but I can’t stay quiet!”, and I am not suggesting you pretend you saw nothing. But be cognizant of what you can and cannot control as someone who is in leadership without explicit authority over teams. You owe it to the engineering managers of managers you work with to communicate the gap, but you should not put it on yourself to try to _resolve_ the problem without communication. 
 
 ### Why this is even more dangerous for non manager leaders 
