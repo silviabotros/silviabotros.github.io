@@ -32,9 +32,6 @@ baseurl: ""
 
 google_analytics: UA-78506807-1
 
-# Resume:
-logo: "assets/pdf/sbotros_resume_2023.pdf"
-
 # social icons and sharing options
 # social:
 #   - icon:	twitter
