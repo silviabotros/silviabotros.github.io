@@ -34,4 +34,4 @@ Podcast appearances
 [8]:	https://leaddev.com/professional-development/road-senior-individual-contributor
 [9]:	https://leaddev.com/leaddev-live/what-senior-ic-flavours-technical-leadership
 [10]:	https://leaddev.com/technical-direction-strategy/best-practice-seamless-product-integration
-[11]:   https://blog.dbsmasher.com/assets/pdf/sbotros_resume_2023.pdf
+[11]:   images/sbotros_resume_2023.pdf
