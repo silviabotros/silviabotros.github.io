@@ -3,6 +3,7 @@ layout: page
 title: Talks/Podcasts/Publications
 permalink: /talks/
 ---
+For the most recent version of my resume, look [here][11]
 You can buy High Performance MySQL, 4th Edition which I coauthored, [here](https://www.amazon.com/High-Performance-MySQL-Strategies-Operating/dp/1492080519/ref=sr_1_1?crid=2S4MNDOJHMQFE&keywords=high+performance+mysql&qid=1641929240&sprefix=high+performance+my%2Caps%2C170&sr=8-1)
 
 Here is a list of pubished articles, conference talks and podcasts  have given and links to video where available.
@@ -31,3 +32,4 @@ Podcast appearances
 [8]:	https://leaddev.com/professional-development/road-senior-individual-contributor
 [9]:	https://leaddev.com/leaddev-live/what-senior-ic-flavours-technical-leadership
 [10]:	https://leaddev.com/technical-direction-strategy/best-practice-seamless-product-integration
+[11]:   assets/pdf/sbotros_resume_2023.pdf
