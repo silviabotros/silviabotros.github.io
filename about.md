@@ -4,6 +4,8 @@ title: Talks/Podcasts/Publications
 permalink: /talks/
 ---
 For the most recent version of my resume, look [here][11]
+
+
 You can buy High Performance MySQL, 4th Edition which I coauthored, [here](https://www.amazon.com/High-Performance-MySQL-Strategies-Operating/dp/1492080519/ref=sr_1_1?crid=2S4MNDOJHMQFE&keywords=high+performance+mysql&qid=1641929240&sprefix=high+performance+my%2Caps%2C170&sr=8-1)
 
 Here is a list of pubished articles, conference talks and podcasts  have given and links to video where available.

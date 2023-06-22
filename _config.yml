@@ -32,14 +32,17 @@ baseurl: ""
 
 google_analytics: UA-78506807-1
 
+# Resume:
+logo: "assets/pdf/sbotros_resume_2023.pdf"
+
 # social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/dbsmasher
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+# social:
+#   - icon:	twitter
+#     url:	https://twitter.com/dbsmasher
+#     desc: Follow me on twitter
+#     share_url: http://twitter.com/share
+#     share_title: ?text=
+#     share_link: "&amp;url="
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
